@@ -1,0 +1,1465 @@
+ [
+    {
+      "category": "android",
+      "question": "Which company developed the Android operating system?",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "Samsung"
+      ],
+      "answer": "Google"
+    },
+    {
+      "category": "android",
+      "question": "What does API stand for in Android development?",
+      "options": [
+        "Application Programming Interface",
+        "Android Programming Interface",
+        "Application Protocol Interface",
+        "Android Protocol Interface"
+      ],
+      "answer": "Application Programming Interface"
+    },
+    {
+      "category": "android",
+      "question": "Which language is primarily used for Android app development?",
+      "options": [
+        "Swift",
+        "Java",
+        "Python",
+        "Ruby"
+      ],
+      "answer": "Java"
+    },
+    {
+      "category": "android",
+      "question": "What is the package file format used by Android?",
+      "options": [
+        ".exe",
+        ".apk",
+        ".ipa",
+        ".zip"
+      ],
+      "answer": ".apk"
+    },
+    {
+      "category": "android",
+      "question": "What is Android Studio?",
+      "options": [
+        "An operating system",
+        "A database management system",
+        "An integrated development environment",
+        "A programming language"
+      ],
+      "answer": "An integrated development environment"
+    },
+    {
+      "category": "android",
+      "question": "What is the primary language used to write Android apps?",
+      "options": [
+        "C++",
+        "Java",
+        "Kotlin",
+        "JavaScript"
+      ],
+      "answer": "Java"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is responsible for starting and managing the user interface?",
+      "options": [
+        "Service",
+        "Content Provider",
+        "Broadcast Receiver",
+        "Activity"
+      ],
+      "answer": "Activity"
+    },
+    {
+      "category": "android",
+      "question": "Which method is called when an Activity is first created?",
+      "options": [
+        "onCreate()",
+        "onStart()",
+        "onResume()",
+        "onPause()"
+      ],
+      "answer": "onCreate()"
+    },
+    {
+      "category": "android",
+      "question": "Which of the following is not a component of the Android application architecture?",
+      "options": [
+        "Activities",
+        "Services",
+        "Adapters",
+        "Broadcast Receivers"
+      ],
+      "answer": "Adapters"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of an Intent in Android?",
+      "options": [
+        "To display a message",
+        "To request data from the web",
+        "To navigate between activities",
+        "To store data locally"
+      ],
+      "answer": "To navigate between activities"
+    },
+    {
+      "category": "android",
+      "question": "Which tool is used for debugging Android applications?",
+      "options": [
+        "Android Debug Bridge (ADB)",
+        "Android Studio",
+        "Gradle",
+        "JUnit"
+      ],
+      "answer": "Android Debug Bridge (ADB)"
+    },
+    {
+      "category": "android",
+      "question": "What is a Content Provider in Android?",
+      "options": [
+        "A component to provide UI",
+        "A component to manage application data",
+        "A component to handle background tasks",
+        "A component to receive broadcasts"
+      ],
+      "answer": "A component to manage application data"
+    },
+    {
+      "category": "android",
+      "question": "What is the name of the file where the Android application manifest is defined?",
+      "options": [
+        "AndroidManifest.xml",
+        "Manifest.xml",
+        "AppManifest.xml",
+        "AndroidAppManifest.xml"
+      ],
+      "answer": "AndroidManifest.xml"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to handle background processing?",
+      "options": [
+        "Activity",
+        "Service",
+        "Broadcast Receiver",
+        "Content Provider"
+      ],
+      "answer": "Service"
+    },
+    {
+      "category": "android",
+      "question": "Which XML file is used to define the user interface layout in Android?",
+      "options": [
+        "layout.xml",
+        "ui.xml",
+        "interface.xml",
+        "activity_main.xml"
+      ],
+      "answer": "activity_main.xml"
+    },
+    {
+      "category": "android",
+      "question": "What is the minimum Android API level required to use the Camera2 API?",
+      "options": [
+        "16",
+        "21",
+        "23",
+        "24"
+      ],
+      "answer": "21"
+    },
+    {
+      "category": "android",
+      "question": "What is the lifecycle method used to pause an Activity in Android?",
+      "options": [
+        "onPause()",
+        "onStop()",
+        "onDestroy()",
+        "onRestart()"
+      ],
+      "answer": "onPause()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android UI component is used to display a scrollable list?",
+      "options": [
+        "RecyclerView",
+        "LinearLayout",
+        "TextView",
+        "Button"
+      ],
+      "answer": "RecyclerView"
+    },
+    {
+      "category": "android",
+      "question": "Which file is used to store the Gradle build configuration?",
+      "options": [
+        "build.gradle",
+        "gradle.build",
+        "build.xml",
+        "gradle.xml"
+      ],
+      "answer": "build.gradle"
+    },
+    {
+      "category": "android",
+      "question": "What is the role of the Gradle in Android development?",
+      "options": [
+        "To manage UI layouts",
+        "To build and compile the project",
+        "To handle user input",
+        "To manage database operations"
+      ],
+      "answer": "To build and compile the project"
+    },
+    {
+      "category": "android",
+      "question": "What is an Android Fragment?",
+      "options": [
+        "A small part of the UI",
+        "A standalone application",
+        "A background service",
+        "A type of Intent"
+      ],
+      "answer": "A small part of the UI"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to send broadcasts?",
+      "options": [
+        "Service",
+        "Content Provider",
+        "Broadcast Receiver",
+        "Intent"
+      ],
+      "answer": "Broadcast Receiver"
+    },
+    {
+      "category": "android",
+      "question": "Which method is called when an Activity is about to become visible?",
+      "options": [
+        "onCreate()",
+        "onStart()",
+        "onResume()",
+        "onPause()"
+      ],
+      "answer": "onStart()"
+    },
+    {
+      "category": "android",
+      "question": "What is the use of the 'res' directory in an Android project?",
+      "options": [
+        "To store Java source files",
+        "To store resource files like layouts and strings",
+        "To store configuration files",
+        "To store compiled classes"
+      ],
+      "answer": "To store resource files like layouts and strings"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to handle long-running operations?",
+      "options": [
+        "Activity",
+        "Service",
+        "Broadcast Receiver",
+        "Content Provider"
+      ],
+      "answer": "Service"
+    },
+    {
+      "category": "android",
+      "question": "What is an Android View?",
+      "options": [
+        "A type of layout",
+        "A UI component",
+        "A background process",
+        "A network operation"
+      ],
+      "answer": "A UI component"
+    },
+    {
+      "category": "android",
+      "question": "Which Android layout arranges its children in a single column or row?",
+      "options": [
+        "FrameLayout",
+        "RelativeLayout",
+        "LinearLayout",
+        "GridLayout"
+      ],
+      "answer": "LinearLayout"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to access SQLite databases?",
+      "options": [
+        "Content Provider",
+        "SharedPreferences",
+        "Broadcast Receiver",
+        "SQLiteOpenHelper"
+      ],
+      "answer": "SQLiteOpenHelper"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of a 'ContentResolver' in Android?",
+      "options": [
+        "To resolve network conflicts",
+        "To manage application resources",
+        "To provide access to content providers",
+        "To handle user input"
+      ],
+      "answer": "To provide access to content providers"
+    },
+    {
+      "category": "android",
+      "question": "Which method is called when an Activity is no longer visible?",
+      "options": [
+        "onCreate()",
+        "onStart()",
+        "onResume()",
+        "onStop()"
+      ],
+      "answer": "onStop()"
+    },
+    {
+      "category": "android",
+      "question": "What is a BroadcastReceiver in Android?",
+      "options": [
+        "A UI component",
+        "A background service",
+        "A component that listens for system-wide broadcasts",
+        "A type of Intent"
+      ],
+      "answer": "A component that listens for system-wide broadcasts"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to start a new Activity in Android?",
+      "options": [
+        "startService()",
+        "startActivity()",
+        "startBroadcast()",
+        "startContentProvider()"
+      ],
+      "answer": "startActivity()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is responsible for managing the application lifecycle?",
+      "options": [
+        "Activity",
+        "Service",
+        "Broadcast Receiver",
+        "Content Provider"
+      ],
+      "answer": "Activity"
+    },
+    {
+      "category": "android",
+      "question": "What is the primary purpose of an Android Manifest file?",
+      "options": [
+        "To define the UI layout",
+        "To declare the application components and permissions",
+        "To store user data",
+        "To compile Java code"
+      ],
+      "answer": "To declare the application components and permissions"
+    },
+    {
+      "category": "android",
+      "question": "Which method is called when an Activity is destroyed?",
+      "options": [
+        "onCreate()",
+        "onStop()",
+        "onPause()",
+        "onDestroy()"
+      ],
+      "answer": "onDestroy()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of an Intent Filter in Android?",
+      "options": [
+        "To filter user input",
+        "To define how Intents are resolved",
+        "To manage network requests",
+        "To handle database operations"
+      ],
+      "answer": "To define how Intents are resolved"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to release a WakeLock in Android?",
+      "options": [
+        "lock()",
+        "unlock()",
+        "release()",
+        "free()"
+      ],
+      "answer": "release()"
+    },
+    {
+      "category": "android",
+      "question": "What is the default location for an Android Virtual Device (AVD) in Android Studio?",
+      "options": [
+        "C:\\Users\\<username>\\.android\\avd",
+        "C:\\Program Files\\Android\\avd",
+        "C:\\Android\\avd",
+        "C:\\Users\\<username>\\AndroidStudio\\avd"
+      ],
+      "answer": "C:\\Users\\<username>\\.android\\avd"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to manage application permissions?",
+      "options": [
+        "Activity",
+        "Service",
+        "Broadcast Receiver",
+        "Manifest"
+      ],
+      "answer": "Manifest"
+    },
+    {
+      "category": "android",
+      "question": "What is the function of the 'ProGuard' tool in Android?",
+      "options": [
+        "To optimize the app layout",
+        "To obfuscate and shrink the app code",
+        "To manage user permissions",
+        "To handle network requests"
+      ],
+      "answer": "To obfuscate and shrink the app code"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to check for permissions at runtime in Android?",
+      "options": [
+        "checkPermission()",
+        "requestPermission()",
+        "verifyPermission()",
+        "grantPermission()"
+      ],
+      "answer": "checkPermission()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'R.java' file in an Android project?",
+      "options": [
+        "To manage application resources",
+        "To handle user input",
+        "To store configuration settings",
+        "To define UI layouts"
+      ],
+      "answer": "To manage application resources"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to display web content within an app?",
+      "options": [
+        "TextView",
+        "WebView",
+        "ImageView",
+        "ListView"
+      ],
+      "answer": "WebView"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'AsyncTask' class in Android?",
+      "options": [
+        "To perform long-running operations on the main thread",
+        "To perform background operations and publish results on the UI thread",
+        "To manage application permissions",
+        "To handle user input"
+      ],
+      "answer": "To perform background operations and publish results on the UI thread"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to register a BroadcastReceiver in Android?",
+      "options": [
+        "registerReceiver()",
+        "registerBroadcast()",
+        "registerService()",
+        "registerContentProvider()"
+      ],
+      "answer": "registerReceiver()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'RecyclerView.Adapter' class in Android?",
+      "options": [
+        "To bind data to UI components",
+        "To handle user input",
+        "To manage application permissions",
+        "To perform network operations"
+      ],
+      "answer": "To bind data to UI components"
+    },
+    {
+      "category": "android",
+      "question": "Which Android layout arranges its children relative to each other?",
+      "options": [
+        "FrameLayout",
+        "RelativeLayout",
+        "LinearLayout",
+        "GridLayout"
+      ],
+      "answer": "RelativeLayout"
+    },
+    {
+      "category": "android",
+      "question": "Which of the following is a valid way to start a Service in Android?",
+      "options": [
+        "startService()",
+        "startActivity()",
+        "startBroadcast()",
+        "startContentProvider()"
+      ],
+      "answer": "startService()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'setContentView()' method in Android?",
+      "options": [
+        "To set the layout resource for the activity",
+        "To start a new activity",
+        "To manage user permissions",
+        "To perform background operations"
+      ],
+      "answer": "To set the layout resource for the activity"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to provide a flexible and efficient way to display a large data set?",
+      "options": [
+        "RecyclerView",
+        "GridView",
+        "ListView",
+        "ScrollView"
+      ],
+      "answer": "RecyclerView"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to unregister a BroadcastReceiver in Android?",
+      "options": [
+        "unregisterReceiver()",
+        "unregisterBroadcast()",
+        "unregisterService()",
+        "unregisterContentProvider()"
+      ],
+      "answer": "unregisterReceiver()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android class is used to display a dialog box on the screen?",
+      "options": [
+        "Dialog",
+        "Toast",
+        "Snackbar",
+        "AlertDialog"
+      ],
+      "answer": "AlertDialog"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'Parcelable' interface in Android?",
+      "options": [
+        "To perform network operations",
+        "To manage application permissions",
+        "To serialize an object for inter-process communication",
+        "To handle user input"
+      ],
+      "answer": "To serialize an object for inter-process communication"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to display a Toast message in Android?",
+      "options": [
+        "showToast()",
+        "displayToast()",
+        "makeText()",
+        "createToast()"
+      ],
+      "answer": "makeText()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a floating action button?",
+      "options": [
+        "FloatingButton",
+        "ActionButton",
+        "FloatingActionButton",
+        "ActionFloatButton"
+      ],
+      "answer": "FloatingActionButton"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'on optionsItemSelected()' method in Android?",
+      "options": [
+        "To handle options menu item clicks",
+        "To manage user permissions",
+        "To perform background operations",
+        "To start a new activity"
+      ],
+      "answer": "To handle options menu item clicks"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a bottom navigation bar?",
+      "options": [
+        "BottomNavigationBar",
+        "NavigationView",
+        "BottomNavigationView",
+        "BottomBar"
+      ],
+      "answer": "BottomNavigationView"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to inflate a menu resource in Android?",
+      "options": [
+        "inflateMenu()",
+        "createMenu()",
+        "getMenuInflater()",
+        "menuInflater()"
+      ],
+      "answer": "getMenuInflater()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to display a popup menu?",
+      "options": [
+        "PopupMenu",
+        "MenuPopup",
+        "PopupWindow",
+        "Popup"
+      ],
+      "answer": "PopupMenu"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'FragmentManager' class in Android?",
+      "options": [
+        "To manage fragments",
+        "To handle user input",
+        "To manage application permissions",
+        "To perform network operations"
+      ],
+      "answer": "To manage fragments"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to create a new instance of a Fragment in Android?",
+      "options": [
+        "newInstance()",
+        "createInstance()",
+        "getInstance()",
+        "makeInstance()"
+      ],
+      "answer": "newInstance()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a ViewPager?",
+      "options": [
+        "ViewPager",
+        "PagerView",
+        "ViewPage",
+        "PageView"
+      ],
+      "answer": "ViewPager"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'Context' class in Android?",
+      "options": [
+        "To perform network operations",
+        "To provide information about the application environment",
+        "To manage application permissions",
+        "To handle user input"
+      ],
+      "answer": "To provide information about the application environment"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to start an Activity for a result in Android?",
+      "options": [
+        "startActivity()",
+        "startActivityForResult()",
+        "startResultActivity()",
+        "startActivityWithResult()"
+      ],
+      "answer": "startActivityForResult()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a Snackbar?",
+      "options": [
+        "Snackbar",
+        "SnackBar",
+        "SnackView",
+        "Snack"
+      ],
+      "answer": "Snackbar"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to dismiss a Snackbar in Android?",
+      "options": [
+        "dismiss()",
+        "hide()",
+        "remove()",
+        "cancel()"
+      ],
+      "answer": "dismiss()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'SharedPreferences' class in Android?",
+      "options": [
+        "To manage application permissions",
+        "To store private primitive data in key-value pairs",
+        "To perform network operations",
+        "To handle user input"
+      ],
+      "answer": "To store private primitive data in key-value pairs"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to save data to SharedPreferences in Android?",
+      "options": [
+        "save()",
+        "put()",
+        "store()",
+        "commit()"
+      ],
+      "answer": "commit()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a TabLayout?",
+      "options": [
+        "TabView",
+        "TabLayout",
+        "TabBar",
+        "Tab"
+      ],
+      "answer": "TabLayout"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to set the title of an Activity in Android?",
+      "options": [
+        "setTitle()",
+        "setActivityTitle()",
+        "setName()",
+        "setHeading()"
+      ],
+      "answer": "setTitle()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'LayoutInflater' class in Android?",
+      "options": [
+        "To inflate layout XML files into View objects",
+        "To manage application permissions",
+        "To perform network operations",
+        "To handle user input"
+      ],
+      "answer": "To inflate layout XML files into View objects"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to inflate a layout resource in Android?",
+      "options": [
+        "inflate()",
+        "create()",
+        "getLayoutInflater()",
+        "makeLayout()"
+      ],
+      "answer": "inflate()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a Navigation Drawer?",
+      "options": [
+        "NavigationDrawer",
+        "DrawerLayout",
+        "DrawerView",
+        "NavDrawer"
+      ],
+      "answer": "DrawerLayout"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to close a Navigation Drawer in Android?",
+      "options": [
+        "closeDrawer()",
+        "hideDrawer()",
+        "dismissDrawer()",
+        "removeDrawer()"
+      ],
+      "answer": "closeDrawer()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'IntentService' class in Android?",
+      "options": [
+        "To manage application permissions",
+        "To perform network operations",
+        "To handle asynchronous tasks on a background thread",
+        "To handle user input"
+      ],
+      "answer": "To handle asynchronous tasks on a background thread"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to start an IntentService in Android?",
+      "options": [
+        "startService()",
+        "startIntentService()",
+        "startAsyncService()",
+        "startBackgroundService()"
+      ],
+      "answer": "startService()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a CoordinatorLayout?",
+      "options": [
+        "CoordinatorLayout",
+        "CoordinationLayout",
+        "LayoutCoordinator",
+        "Coordinator"
+      ],
+      "answer": "CoordinatorLayout"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to anchor a FloatingActionButton in a CoordinatorLayout in Android?",
+      "options": [
+        "setAnchor()",
+        "setFloatingActionButtonAnchor()",
+        "setAnchorView()",
+        "setFloatingButtonAnchor()"
+      ],
+      "answer": "setAnchorView()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'AppCompatActivity' class in Android?",
+      "options": [
+        "To manage application permissions",
+        "To provide backward-compatible features to older Android versions",
+        "To perform network operations",
+        "To handle user input"
+      ],
+      "answer": "To provide backward-compatible features to older Android versions"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to start an AsyncTask in Android?",
+      "options": [
+        "execute()",
+        "start()",
+        "run()",
+        "begin()"
+      ],
+      "answer": "execute()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a CollapsingToolbarLayout?",
+      "options": [
+        "CollapsingToolbarLayout",
+        "ToolbarLayout",
+        "CollapsibleToolbar",
+        "CollapsibleLayout"
+      ],
+      "answer": "CollapsingToolbarLayout"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to set a Toolbar as the ActionBar in Android?",
+      "options": [
+        "setSupportActionBar()",
+        "setActionBar()",
+        "setToolbar()",
+        "setSupportToolbar()"
+      ],
+      "answer": "setSupportActionBar()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'ViewModel' class in Android?",
+      "options": [
+        "To manage application permissions",
+        "To store UI-related data in a lifecycle-conscious way",
+        "To perform network operations",
+        "To handle user input"
+      ],
+      "answer": "To store UI-related data in a lifecycle-conscious way"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to obtain a ViewModel in Android?",
+      "options": [
+        "getViewModel()",
+        "obtainViewModel()",
+        "createViewModel()",
+        "ViewModelProviders.of()"
+      ],
+      "answer": "ViewModelProviders.of()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a ViewModelProvider?",
+      "options": [
+        "ViewModelProvider",
+        "ProviderViewModel",
+        "ViewModelFactory",
+        "FactoryViewModel"
+      ],
+      "answer": "ViewModelProvider"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to observe LiveData in Android?",
+      "options": [
+        "observe()",
+        "watch()",
+        "listen()",
+        "monitor()"
+      ],
+      "answer": "observe()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'LiveData' class in Android?",
+      "options": [
+        "To manage application permissions",
+        "To handle network operations",
+        "To provide observable data holders for lifecycle-aware components",
+        "To handle user input"
+      ],
+      "answer": "To provide observable data holders for lifecycle-aware components"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a LiveData?",
+      "options": [
+        "LiveData",
+        "DataLive",
+        "DataObservable",
+        "ObservableData"
+      ],
+      "answer": "LiveData"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to set the value of LiveData in Android?",
+      "options": [
+        "setValue()",
+        "setData()",
+        "update()",
+        "setLiveData()"
+      ],
+      "answer": "setValue()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a Room Database?",
+      "options": [
+        "RoomDatabase",
+        "DatabaseRoom",
+        "DatabaseBuilder",
+        "RoomBuilder"
+      ],
+      "answer": "RoomDatabase"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to build a Room Database in Android?",
+      "options": [
+        "build()",
+        "create()",
+        "databaseBuilder()",
+        "roomBuilder()"
+      ],
+      "answer": "databaseBuilder()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'Entity' annotation in Room?",
+      "options": [
+        "To define a database table",
+        "To manage application permissions",
+        "To handle network operations",
+        "To handle user input"
+      ],
+      "answer": "To define a database table"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to insert data into a Room Database in Android?",
+      "options": [
+        "insert()",
+        "add()",
+        "put()",
+        "save()"
+      ],
+      "answer": "insert()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a ViewModel with saved state?",
+      "options": [
+        "SavedStateViewModel",
+        "ViewModelWithState",
+        "SavedStateHandle",
+        "StatefulViewModel"
+      ],
+      "answer": "SavedStateViewModel"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to retrieve saved state in a ViewModel in Android?",
+      "options": [
+        "getSavedState()",
+        "getState()",
+        "getStateHandle()",
+        "getSavedStateHandle()"
+      ],
+      "answer": "getSavedStateHandle()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'WorkManager' class in Android?",
+      "options": [
+        "To manage application permissions",
+        "To perform network operations",
+        "To schedule and manage background tasks",
+        "To handle user input"
+      ],
+      "answer": "To schedule and manage background tasks"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to enqueue a work request in WorkManager in Android?",
+      "options": [
+        "enqueue()",
+        "start()",
+        "begin()",
+        "schedule()"
+      ],
+      "answer": "enqueue()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a Notification Channel?",
+      "options": [
+        "NotificationChannel",
+        "ChannelNotification",
+        "Channel",
+        "NotifyChannel"
+      ],
+      "answer": "NotificationChannel"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to create a Notification Channel in Android?",
+      "options": [
+        "createChannel()",
+        "createNotificationChannel()",
+        "makeNotificationChannel()",
+        "buildChannel()"
+      ],
+      "answer": "createNotificationChannel()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a BottomSheetDialog?",
+      "options": [
+        "BottomSheetDialog",
+        "BottomDialog",
+        "DialogBottomSheet",
+        "SheetDialog"
+      ],
+      "answer": "BottomSheetDialog"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to show a BottomSheetDialog in Android?",
+      "options": [
+        "show()",
+        "display()",
+        "present()",
+        "reveal()"
+      ],
+      "answer": "show()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'Navigation Component' in Android?",
+      "options": [
+        "To manage application permissions",
+        "To handle network operations",
+        "To facilitate navigation between app destinations",
+        "To handle user input"
+      ],
+      "answer": "To facilitate navigation between app destinations"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to navigate to a destination in the Navigation Component in Android?",
+      "options": [
+        "navigate()",
+        "goTo()",
+        "moveTo()",
+        "changeDestination()"
+      ],
+      "answer": "navigate()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a Navigation Graph?",
+      "options": [
+        "NavigationGraph",
+        "GraphNavigation",
+        "NavGraph",
+        "GraphNav"
+      ],
+      "answer": "NavGraph"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to add an OnClickListener to a Button in Android?",
+      "options": [
+        "setOnClickListener()",
+        "setClickListener()",
+        "addClickListener()",
+        "setListener()"
+      ],
+      "answer": "setOnClickListener()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a ProgressBar?",
+      "options": [
+        "ProgressBar",
+        "BarProgress",
+        "ProgressIndicator",
+        "IndicatorProgress"
+      ],
+      "answer": "ProgressBar"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to set the progress of a ProgressBar in Android?",
+      "options": [
+        "setProgress()",
+        "updateProgress()",
+        "changeProgress()",
+        "setBarProgress()"
+      ],
+      "answer": "setProgress()"
+    },
+    {
+      "category": "android",
+      "question": "What is the purpose of the 'ConstraintLayout' in Android?",
+      "options": [
+        "To manage application permissions",
+        "To perform network operations",
+        "To create complex layouts with a flat view hierarchy",
+        "To handle user input"
+      ],
+      "answer": "To create complex layouts with a flat view hierarchy"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to add constraints to a ConstraintLayout in Android?",
+      "options": [
+        "addConstraint()",
+        "setConstraint()",
+        "connect()",
+        "setConnection()"
+      ],
+      "answer": "connect()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a ChipGroup?",
+      "options": [
+        "ChipGroup",
+        "GroupChip",
+        "Chip",
+        "Group"
+      ],
+      "answer": "ChipGroup"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to add a Chip to a ChipGroup in Android?",
+      "options": [
+        "addChip()",
+        "addView()",
+        "addChild()",
+        "addComponent()"
+      ],
+      "answer": "addView()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a SwipeRefreshLayout?",
+      "options": [
+        "SwipeRefreshLayout",
+        "RefreshLayout",
+        "SwipeLayout",
+        "LayoutSwipe"
+      ],
+      "answer": "SwipeRefreshLayout"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to set the refresh listener for a SwipeRefreshLayout in Android?",
+      "options": [
+        "setOnRefreshListener()",
+        "setRefreshListener()",
+        "addRefreshListener()",
+        "setOnSwipeRefreshListener()"
+      ],
+      "answer": "setOnRefreshListener()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a MotionLayout?",
+      "options": [
+        "MotionLayout",
+        "LayoutMotion",
+        "MotionView",
+        "ViewMotion"
+      ],
+      "answer": "MotionLayout"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to set a transition for a MotionLayout in Android?",
+      "options": [
+        "setTransition()",
+        "setMotionTransition()",
+        "setLayoutTransition()",
+        "setViewTransition()"
+      ],
+      "answer": "setTransition()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a TabHost?",
+      "options": [
+        "TabHost",
+        "HostTab",
+        "Tab",
+        "Host"
+      ],
+      "answer": "TabHost"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to add a tab to a TabHost in Android?",
+      "options": [
+        "addTab()",
+        "addView()",
+        "addChild()",
+        "addComponent()"
+      ],
+      "answer": "addTab()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a GestureDetector?",
+      "options": [
+        "GestureDetector",
+        "DetectorGesture",
+        "Gesture",
+        "Detector"
+      ],
+      "answer": "GestureDetector"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to set a gesture listener for a GestureDetector in Android?",
+      "options": [
+        "setOnGestureListener()",
+        "setGestureListener()",
+        "addGestureListener()",
+        "setOnGestureDetectorListener()"
+      ],
+      "answer": "setOnGestureListener()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a ScaleGestureDetector?",
+      "options": [
+        "ScaleGestureDetector",
+        "DetectorScaleGesture",
+        "ScaleGesture",
+        "GestureDetectorScale"
+      ],
+      "answer": "ScaleGestureDetector"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to set a scale gesture listener for a ScaleGestureDetector in Android?",
+      "options": [
+        "setOnScaleGestureListener()",
+        "setScaleGestureListener()",
+        "addScaleGestureListener()",
+        "setOnGestureScaleListener()"
+      ],
+      "answer": "setOnScaleGestureListener()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a LocationManager?",
+      "options": [
+        "LocationManager",
+        "ManagerLocation",
+        "LocationService",
+        "ServiceLocation"
+      ],
+      "answer": "LocationManager"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to request location updates in Android?",
+      "options": [
+        "requestLocationUpdates()",
+        "getLocationUpdates()",
+        "startLocationUpdates()",
+        "updateLocation()"
+      ],
+      "answer": "requestLocationUpdates()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a SensorManager?",
+      "options": [
+        "SensorManager",
+        "ManagerSensor",
+        "SensorService",
+        "ServiceSensor"
+      ],
+      "answer": "SensorManager"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to register a sensor listener in Android?",
+      "options": [
+        "registerListener()",
+        "addSensorListener()",
+        "setSensorListener()",
+        "startSensorListener()"
+      ],
+      "answer": "registerListener()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a BluetoothAdapter?",
+      "options": [
+        "BluetoothAdapter",
+        "AdapterBluetooth",
+        "BluetoothManager",
+        "ManagerBluetooth"
+      ],
+      "answer": "BluetoothAdapter"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to enable Bluetooth in Android?",
+      "options": [
+        "enable()",
+        "turnOn()",
+        "activate()",
+        "start()"
+      ],
+      "answer": "enable()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a WifiManager?",
+      "options": [
+        "WifiManager",
+        "ManagerWifi",
+        "WifiService",
+        "ServiceWifi"
+      ],
+      "answer": "WifiManager"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to enable Wi-Fi in Android?",
+      "options": [
+        "setWifiEnabled()",
+        "enableWifi()",
+        "turnOnWifi()",
+        "startWifi()"
+      ],
+      "answer": "setWifiEnabled()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a PowerManager?",
+      "options": [
+        "PowerManager",
+        "ManagerPower",
+        "PowerService",
+        "ServicePower"
+      ],
+      "answer": "PowerManager"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to acquire a wake lock in Android?",
+      "options": [
+        "acquire()",
+        "getLock()",
+        "lock()",
+        "start()"
+      ],
+      "answer": "acquire()"
+    },
+    {
+      "category": "android",
+      "question": "Which Android component is used to create a PackageManager?",
+      "options": [
+        "PackageManager",
+        "ManagerPackage",
+        "PackageService",
+        "ServicePackage"
+      ],
+      "answer": "PackageManager"
+    },
+    {
+      "category": "android",
+      "question": "Which method is used to get a list of installed packages in Android?",
+      "options": [
+        "getInstalledPackages()",
+        "getPackages()",
+        "listPackages()",
+        "getInstalledApps()"
+      ],
+      "answer": "getInstalledPackages()"
+    }
+  ]
