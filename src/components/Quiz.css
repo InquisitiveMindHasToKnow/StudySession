@@ -1,53 +1,79 @@
+/* src/Quiz.css */
 .quiz-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #018786; /* Set the main page background color */
-    padding: 20px; /* Add padding to the container */
-  }
-  
-  .quiz-box {
-    background-color: white;
-    padding: 50px; /* Increase padding for more space inside the box */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 900px; /* Increase max-width for a wider box */
-    width: 100%;
-    height: auto; /* Ensure the height adjusts based on content */
-  }
-  
-  h2 {
-    font-size: 28px; /* Increase font size for the question */
-    margin-bottom: 50px; /* Increase space below the question */
-    line-height: 1.5;
-  }
-  
-  .options {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Increase gap between buttons */
-    justify-content: center; /* Center align the options */
-  }
-  
-  .option-button {
-    padding: 20px; /* Increase padding for larger buttons */
-    font-size: 18px; /* Increase font size */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    flex: 1 0 calc(50% - 20px); /* Make buttons take up 50% width, minus gap */
-    max-width: 400px; /* Optional: Set a max-width for buttons */
-    box-sizing: border-box; /* Ensure padding and border are included in width */
-  }
-  
-  .option-button:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .selected {
-    background-color: #d0d0d0;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #018786;
+  padding: 20px;
+}
 
+.quiz-box {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.option-button {
+  flex: 1 1 45%;
+  padding: 20px; /* Increased padding for larger buttons */
+  margin: 10px 10px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.option-button:hover {
+  background-color: #e0e0e0;
+}
+
+.option-button.selected {
+  background-color: #018786;
+  color: white;
+  border-color: #015f5b;
+}
+
+.navigation-buttons {
+  margin-top: 40px; /* Added more space above the buttons */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px; /* Added padding at the top of the buttons */
+}
+
+.navigation-buttons button {
+  padding: 15px 30px; /* Increased padding for bigger buttons */
+  font-size: 18px; /* Increased font size for bigger buttons */
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #018786;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.navigation-buttons button:hover {
+  background-color: #015f5b;
+}
+
+.navigation-buttons button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
