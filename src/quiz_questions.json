@@ -3826,6 +3826,1226 @@
       "animation-timing-function"
     ],
     "answer": "animation-play-state"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(2 ** 3)`?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "7"
+    ],
+    "answer": "8"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct syntax to output 'Hello World' in Python?",
+    "options": [
+      "echo 'Hello World'",
+      "print('Hello World')",
+      "p('Hello World')",
+      "printf('Hello World')"
+    ],
+    "answer": "print('Hello World')"
+  },
+  {
+    "category": "python",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "def",
+      "define",
+      "func"
+    ],
+    "answer": "def"
+  },
+  {
+    "category": "python",
+    "question": "How do you insert COMMENTS in Python code?",
+    "options": [
+      "// This is a comment",
+      "# This is a comment",
+      "/* This is a comment */",
+      "<!-- This is a comment -->"
+    ],
+    "answer": "# This is a comment"
+  },
+  {
+    "category": "python",
+    "question": "Which data type is immutable in Python?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "answer": "tuple"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct file extension for Python files?",
+    "options": [
+      ".pt",
+      ".pyt",
+      ".py",
+      ".python"
+    ],
+    "answer": ".py"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(type('Hello'))`?",
+    "options": [
+      "<class 'str'>",
+      "<class 'int'>",
+      "<class 'list'>",
+      "<class 'tuple'>"
+    ],
+    "answer": "<class 'str'>"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print('Python'[1])`?",
+    "options": [
+      "P",
+      "y",
+      "t",
+      "h"
+    ],
+    "answer": "y"
+  },
+  {
+    "category": "python",
+    "question": "What does the `len()` function do?",
+    "options": [
+      "Returns the number of items in an object",
+      "Calculates the sum of a list",
+      "Counts the number of characters in a string",
+      "Returns the type of an object"
+    ],
+    "answer": "Returns the number of items in an object"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is a mutable data type?",
+    "options": [
+      "tuple",
+      "int",
+      "list",
+      "str"
+    ],
+    "answer": "list"
+  },
+  {
+    "category": "python",
+    "question": "What is the result of `3 + 2 * 2`?",
+    "options": [
+      "10",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "7"
+  },
+  {
+    "category": "python",
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": [
+      "**",
+      "//",
+      "^",
+      "%"
+    ],
+    "answer": "**"
+  },
+  {
+    "category": "python",
+    "question": "How do you start a block of code in Python?",
+    "options": [
+      "With curly braces {}",
+      "With a colon and indentation",
+      "With parentheses ()",
+      "With square brackets []"
+    ],
+    "answer": "With a colon and indentation"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print('Python'.lower())`?",
+    "options": [
+      "PYTHON",
+      "Python",
+      "python",
+      "PythoN"
+    ],
+    "answer": "python"
+  },
+  {
+    "category": "python",
+    "question": "What is the purpose of the `break` statement?",
+    "options": [
+      "To end a function",
+      "To end a loop",
+      "To pause the program",
+      "To continue to the next iteration"
+    ],
+    "answer": "To end a loop"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following can be a variable name in Python?",
+    "options": [
+      "1variable",
+      "variable_name",
+      "variable-name",
+      "variable name"
+    ],
+    "answer": "variable_name"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(10 / 2)`?",
+    "options": [
+      "5",
+      "5.0",
+      "0.5",
+      "Error"
+    ],
+    "answer": "5.0"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct syntax for a conditional statement in Python?",
+    "options": [
+      "if (x > 10) { ... }",
+      "if x > 10: ...",
+      "if x > 10 then ...",
+      "if x > 10 { ... }"
+    ],
+    "answer": "if x > 10: ..."
+  },
+  {
+    "category": "python",
+    "question": "What does the `append()` method do?",
+    "options": [
+      "Adds a new element to the beginning of a list",
+      "Removes the last element from a list",
+      "Adds a new element to the end of a list",
+      "Returns a list with elements in reverse order"
+    ],
+    "answer": "Adds a new element to the end of a list"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(len([1, 2, 3]))`?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3"
+  },
+  {
+    "category": "python",
+    "question": "Which method is used to remove whitespace from both ends of a string?",
+    "options": [
+      "strip()",
+      "trim()",
+      "remove()",
+      "cut()"
+    ],
+    "answer": "strip()"
+  },
+  {
+    "category": "python",
+    "question": "Which function is used to convert a string to an integer in Python?",
+    "options": [
+      "float()",
+      "str()",
+      "int()",
+      "bool()"
+    ],
+    "answer": "int()"
+  },
+  {
+    "category": "python",
+    "question": "What does `list.index(x)` do?",
+    "options": [
+      "Returns the index of the first occurrence of x in the list",
+      "Removes the first occurrence of x from the list",
+      "Adds x at the end of the list",
+      "Returns a list of all indices of x"
+    ],
+    "answer": "Returns the index of the first occurrence of x in the list"
+  },
+  {
+    "category": "python",
+    "question": "How do you create a dictionary in Python?",
+    "options": [
+      "[]",
+      "{}",
+      "()",
+      "{} with key-value pairs"
+    ],
+    "answer": "{} with key-value pairs"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is used to create an empty set?",
+    "options": [
+      "{}",
+      "[]",
+      "set()",
+      "set([])"
+    ],
+    "answer": "set()"
+  },
+  {
+    "category": "python",
+    "question": "Which method is used to remove an element from a set?",
+    "options": [
+      "remove()",
+      "delete()",
+      "discard()",
+      "pop()"
+    ],
+    "answer": "remove()"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is not a valid Python data type?",
+    "options": [
+      "int",
+      "str",
+      "char",
+      "list"
+    ],
+    "answer": "char"
+  },
+  {
+    "category": "python",
+    "question": "What does the `continue` statement do?",
+    "options": [
+      "Exits the loop",
+      "Skips the rest of the code inside the loop for the current iteration",
+      "Pauses the loop",
+      "Restarts the loop"
+    ],
+    "answer": "Skips the rest of the code inside the loop for the current iteration"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(10 // 3)`?",
+    "options": [
+      "3.3333",
+      "3",
+      "3.0",
+      "3.333"
+    ],
+    "answer": "3"
+  },
+  {
+    "category": "python",
+    "question": "How do you define an inline comment in Python?",
+    "options": [
+      "# This is a comment",
+      "// This is a comment",
+      "/* This is a comment */",
+      "<!-- This is a comment -->"
+    ],
+    "answer": "# This is a comment"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(5 % 2)`?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "2.5"
+    ],
+    "answer": "1"
+  },
+  {
+    "category": "python",
+    "question": "Which method would you use to convert all characters in a string to lowercase?",
+    "options": [
+      "lower()",
+      "capitalize()",
+      "casefold()",
+      "down()"
+    ],
+    "answer": "lower()"
+  },
+  {
+    "category": "python",
+    "question": "Which keyword is used to create a class in Python?",
+    "options": [
+      "function",
+      "class",
+      "method",
+      "def"
+    ],
+    "answer": "class"
+  },
+  {
+    "category": "python",
+    "question": "How can you retrieve the value of a dictionary key?",
+    "options": [
+      "dict.key",
+      "dict[key]",
+      "dict->key",
+      "dict[key] or dict.get(key)"
+    ],
+    "answer": "dict[key] or dict.get(key)"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `bool('False')`?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "answer": "True"
+  },
+  {
+    "category": "python",
+    "question": "How do you check the length of a list in Python?",
+    "options": [
+      "len()",
+      "length()",
+      "count()",
+      "size()"
+    ],
+    "answer": "len()"
+  },
+  {
+    "category": "python",
+    "question": "Which built-in function can be used to find the maximum value in a list?",
+    "options": [
+      "max()",
+      "highest()",
+      "biggest()",
+      "maximum()"
+    ],
+    "answer": "max()"
+  },
+  {
+    "category": "python",
+    "question": "What will be the output of `print('hello'.capitalize())`?",
+    "options": [
+      "Hello",
+      "HELLO",
+      "hello",
+      "Error"
+    ],
+    "answer": "Hello"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following methods can be used to create a copy of a list?",
+    "options": [
+      "list.copy()",
+      "list.duplicate()",
+      "list.new()",
+      "list.clone()"
+    ],
+    "answer": "list.copy()"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is not a valid Python operator?",
+    "options": [
+      "//",
+      "&&",
+      "**",
+      "=="
+    ],
+    "answer": "&&"
+  },
+  {
+    "category": "python",
+    "question": "How do you start a multiline comment in Python?",
+    "options": [
+      "/*",
+      "<!--",
+      "\"\"\" or '''",
+      "//"
+    ],
+    "answer": "\"\"\" or '''"
+  },
+  {
+    "category": "python",
+    "question": "Which keyword is used to handle exceptions in Python?",
+    "options": [
+      "try",
+      "catch",
+      "except",
+      "finally"
+    ],
+    "answer": "except"
+  },
+  {
+    "category": "python",
+    "question": "How do you create a tuple in Python?",
+    "options": [
+      "[]",
+      "{}",
+      "()",
+      "[()]"
+    ],
+    "answer": "()"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(list('abc'))`?",
+    "options": [
+      "['abc']",
+      "['a', 'b', 'c']",
+      "['a b c']",
+      "['a b c ']"
+    ],
+    "answer": "['a', 'b', 'c']"
+  },
+  {
+    "category": "python",
+    "question": "Which function is used to convert an integer to a string in Python?",
+    "options": [
+      "str()",
+      "int()",
+      "float()",
+      "repr()"
+    ],
+    "answer": "str()"
+  },
+  {
+    "category": "python",
+    "question": "What is the result of `print([1, 2] + [3, 4])`?",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[1, 2, 3, 4, 5]",
+      "4",
+      "[1, 2]"
+    ],
+    "answer": "[1, 2, 3, 4]"
+  },
+  {
+    "category": "python",
+    "question": "How do you check if an element is in a list in Python?",
+    "options": [
+      "in",
+      "exists",
+      "contains",
+      "has"
+    ],
+    "answer": "in"
+  },
+  {
+    "category": "python",
+    "question": "Which method removes the last element from a list?",
+    "options": [
+      "remove()",
+      "pop()",
+      "delete()",
+      "end()"
+    ],
+    "answer": "pop()"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(2 ** 2 ** 3)`?",
+    "options": [
+      "64",
+      "256",
+      "512",
+      "1024"
+    ],
+    "answer": "256"
+  },
+  {
+    "category": "python",
+    "question": "Which function is used to round a number to the nearest integer?",
+    "options": [
+      "round()",
+      "ceil()",
+      "floor()",
+      "int()"
+    ],
+    "answer": "round()"
+  },
+  {
+    "category": "python",
+    "question": "How do you create a set in Python?",
+    "options": [
+      "[]",
+      "{}",
+      "set()",
+      "{,}"
+    ],
+    "answer": "set()"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is not a Python keyword?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "null"
+    ],
+    "answer": "null"
+  },
+  {
+    "category": "python",
+    "question": "Which method can be used to remove an element from a dictionary?",
+    "options": [
+      "del",
+      "pop()",
+      "remove()",
+      "delete()"
+    ],
+    "answer": "pop()"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct way to create a new list containing the numbers 1, 2, and 3?",
+    "options": [
+      "[1, 2, 3]",
+      "(1, 2, 3)",
+      "{1, 2, 3}",
+      "list(1, 2, 3)"
+    ],
+    "answer": "[1, 2, 3]"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct way to write a function named 'myFunction' in Python?",
+    "options": [
+      "def myFunction:",
+      "def myFunction():",
+      "function myFunction():",
+      "function myFunction:"
+    ],
+    "answer": "def myFunction():"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct syntax for an if statement in Python?",
+    "options": [
+      "if x > 10 { ... }",
+      "if (x > 10) { ... }",
+      "if x > 10: ...",
+      "if (x > 10): ... "
+    ],
+    "answer": "if x > 10: ..."
+  },
+  {
+    "category": "python",
+    "question": "How do you access the first element of a list named 'myList'?",
+    "options": [
+      "myList[0]",
+      "myList[1]",
+      "myList.get(0)",
+      "myList.get(1)"
+    ],
+    "answer": "myList[0]"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is a Python tuple?",
+    "options": [
+      "[1, 2, 3]",
+      "(1, 2, 3)",
+      "{1, 2, 3}",
+      "<1, 2, 3>"
+    ],
+    "answer": "(1, 2, 3)"
+  },
+  {
+    "category": "python",
+    "question": "What will be the output of `print('Python'.upper())`?",
+    "options": [
+      "Python",
+      "PYTHON",
+      "python",
+      "PythoN"
+    ],
+    "answer": "PYTHON"
+  },
+  {
+    "category": "python",
+    "question": "How do you handle exceptions in Python?",
+    "options": [
+      "try-except",
+      "try-catch",
+      "try-catch-finally",
+      "try-except-finally"
+    ],
+    "answer": "try-except"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print('3' + '4')`?",
+    "options": [
+      "7",
+      "34",
+      "12",
+      "Error"
+    ],
+    "answer": "34"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is a valid Python function name?",
+    "options": [
+      "1func",
+      "func_name",
+      "func-name",
+      "func name"
+    ],
+    "answer": "func_name"
+  },
+  {
+    "category": "python",
+    "question": "What will be the output of `print([1, 2, 3] * 2)`?",
+    "options": [
+      "[1, 2, 3, 1, 2, 3]",
+      "[1, 2, 3]",
+      "[1, 2, 3, 3, 2, 1]",
+      "[2, 4, 6]"
+    ],
+    "answer": "[1, 2, 3, 1, 2, 3]"
+  },
+  {
+    "category": "python",
+    "question": "Which function is used to find the smallest item in an iterable?",
+    "options": [
+      "min()",
+      "small()",
+      "least()",
+      "tiny()"
+    ],
+    "answer": "min()"
+  },
+  {
+    "category": "python",
+    "question": "How do you define a list comprehension in Python?",
+    "options": [
+      "[expression for item in iterable]",
+      "(expression for item in iterable)",
+      "{expression for item in iterable}",
+      "list(expression for item in iterable)"
+    ],
+    "answer": "[expression for item in iterable]"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(2 == 2.0)`?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "answer": "True"
+  },
+  {
+    "category": "python",
+    "question": "How do you delete an item from a list at a specific index?",
+    "options": [
+      "del list[index]",
+      "list.remove(index)",
+      "list.delete(index)",
+      "list.pop(index)"
+    ],
+    "answer": "del list[index]"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print('Hello'[-1])`?",
+    "options": [
+      "H",
+      "e",
+      "o",
+      "l"
+    ],
+    "answer": "o"
+  },
+  {
+    "category": "python",
+    "question": "Which function is used to convert a number to a string in Python?",
+    "options": [
+      "str()",
+      "int()",
+      "float()",
+      "chr()"
+    ],
+    "answer": "str()"
+  },
+  {
+    "category": "python",
+    "question": "What will be the output of `print(2 in [1, 2, 3])`?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "answer": "True"
+  },
+  {
+    "category": "python",
+    "question": "How do you define a multi-line string in Python?",
+    "options": [
+      "Using triple quotes ''' or \"\"\"",
+      "Using double quotes \"\"",
+      "Using single quotes ''",
+      "Using parentheses ()"
+    ],
+    "answer": "Using triple quotes ''' or \"\"\""
+  },
+  {
+    "category": "python",
+    "question": "What is the correct way to open a file for reading in Python?",
+    "options": [
+      "open('file.txt')",
+      "open('file.txt', 'r')",
+      "open('file.txt', 'w')",
+      "open('file.txt', 'rw')"
+    ],
+    "answer": "open('file.txt', 'r')"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is a keyword in Python?",
+    "options": [
+      "function",
+      "variable",
+      "global",
+      "constant"
+    ],
+    "answer": "global"
+  },
+  {
+    "category": "python",
+    "question": "What will be the output of `print(bool(''))`?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "answer": "False"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct way to import a module in Python?",
+    "options": [
+      "include module_name",
+      "import module_name",
+      "using module_name",
+      "require module_name"
+    ],
+    "answer": "import module_name"
+  },
+  {
+    "category": "python",
+    "question": "Which function is used to find the number of elements in a list?",
+    "options": [
+      "len()",
+      "size()",
+      "count()",
+      "num()"
+    ],
+    "answer": "len()"
+  },
+  {
+    "category": "python",
+    "question": "What will be the output of `print(list(range(5)))`?",
+    "options": [
+      "[0, 1, 2, 3, 4]",
+      "[1, 2, 3, 4, 5]",
+      "[1, 2, 3, 4]",
+      "[0, 1, 2, 3, 4, 5]"
+    ],
+    "answer": "[0, 1, 2, 3, 4]"
+  },
+  {
+    "category": "python",
+    "question": "How do you check if a string starts with a specific prefix?",
+    "options": [
+      "startswith()",
+      "startsWith()",
+      "beginswith()",
+      "beginsWith()"
+    ],
+    "answer": "startswith()"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is used to iterate over a sequence in Python?",
+    "options": [
+      "for loop",
+      "while loop",
+      "do-while loop",
+      "repeat loop"
+    ],
+    "answer": "for loop"
+  },
+  {
+    "category": "python",
+    "question": "How do you create a lambda function in Python?",
+    "options": [
+      "lambda x: x + 1",
+      "lambda(x) => x + 1",
+      "function(x) x + 1",
+      "def lambda x: x + 1"
+    ],
+    "answer": "lambda x: x + 1"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is not a data type in Python?",
+    "options": [
+      "list",
+      "tuple",
+      "stack",
+      "dictionary"
+    ],
+    "answer": "stack"
+  },
+  {
+    "category": "python",
+    "question": "What is the output of `print(type(3.14))`?",
+    "options": [
+      "<class 'float'>",
+      "<class 'int'>",
+      "<class 'complex'>",
+      "<class 'double'>"
+    ],
+    "answer": "<class 'float'>"
+  },
+  {
+    "category": "python",
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": [
+      "^",
+      "**",
+      "^^",
+      "*"
+    ],
+    "answer": "**"
+  },
+  {
+    "category": "python",
+    "question": "How do you convert a string to a float in Python?",
+    "options": [
+      "str()",
+      "float()",
+      "int()",
+      "cast()"
+    ],
+    "answer": "float()"
+  },
+  {
+    "category": "python",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "def",
+      "method",
+      "func"
+    ],
+    "answer": "def"
+  },
+  {
+    "category": "python",
+    "question": "What does `len()` function do in Python?",
+    "options": [
+      "Returns the number of characters in a string",
+      "Returns the number of items in an object",
+      "Returns the number of bytes in an object",
+      "Returns the length of a variable"
+    ],
+    "answer": "Returns the number of items in an object"
+  },
+  {
+    "category": "python",
+    "question": "Which function is used to read all lines of a file in Python?",
+    "options": [
+      "readlines()",
+      "read()",
+      "readall()",
+      "readfile()"
+    ],
+    "answer": "readlines()"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct syntax to create a set in Python?",
+    "options": [
+      "{1, 2, 3}",
+      "[1, 2, 3]",
+      "(1, 2, 3)",
+      "set{1, 2, 3}"
+    ],
+    "answer": "{1, 2, 3}"
+  },
+  {
+    "category": "python",
+    "question": "Which method returns the smallest item in a list?",
+    "options": [
+      "min()",
+      "smallest()",
+      "least()",
+      "tiny()"
+    ],
+    "answer": "min()"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following statements is used to stop a loop in Python?",
+    "options": [
+      "stop",
+      "end",
+      "break",
+      "exit"
+    ],
+    "answer": "break"
+  },
+  {
+    "category": "python",
+    "question": "What does the `continue` statement do in a loop?",
+    "options": [
+      "Skips the rest of the code inside the loop for the current iteration",
+      "Exits the loop",
+      "Returns to the beginning of the loop",
+      "Continues to the next loop iteration without executing any more code in the current loop body"
+    ],
+    "answer": "Skips the rest of the code inside the loop for the current iteration"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is a correct way to import the 'math' module?",
+    "options": [
+      "import math",
+      "include math",
+      "require math",
+      "use math"
+    ],
+    "answer": "import math"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is not a valid Python identifier?",
+    "options": [
+      "_my_var",
+      "2cool4school",
+      "my_var",
+      "MY_VAR"
+    ],
+    "answer": "2cool4school"
+  },
+  {
+    "category": "python",
+    "question": "How do you create a new list with elements of another list?",
+    "options": [
+      "list.copy()",
+      "list[:] or list.copy()",
+      "list.duplicate()",
+      "list.extend()"
+    ],
+    "answer": "list[:] or list.copy()"
+  },
+  {
+    "category": "python",
+    "question": "How can you concatenate two lists in Python?",
+    "options": [
+      "list1 + list2",
+      "list1 & list2",
+      "list1.concat(list2)",
+      "list1.merge(list2)"
+    ],
+    "answer": "list1 + list2"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct syntax to access a value for the key 'name' in a dictionary named 'person'?",
+    "options": [
+      "person['name']",
+      "person.name",
+      "person[name]",
+      "person.get(name)"
+    ],
+    "answer": "person['name']"
+  },
+  {
+    "category": "python",
+    "question": "What does the `is` operator do in Python?",
+    "options": [
+      "Tests for object identity",
+      "Tests for object equality",
+      "Checks if a value is in a list",
+      "Checks if a key exists in a dictionary"
+    ],
+    "answer": "Tests for object identity"
+  },
+  {
+    "category": "python",
+    "question": "What is the result of `5 + 3 * 2` in Python?",
+    "options": [
+      "16",
+      "11",
+      "13",
+      "10"
+    ],
+    "answer": "11"
+  },
+  {
+    "category": "python",
+    "question": "What does the `//` operator do in Python?",
+    "options": [
+      "Performs floor division",
+      "Performs division and returns a float",
+      "Performs integer division",
+      "Performs modulo operation"
+    ],
+    "answer": "Performs floor division"
+  },
+  {
+    "category": "python",
+    "question": "How do you open a file for writing in Python?",
+    "options": [
+      "open('file.txt', 'w')",
+      "open('file.txt', 'r')",
+      "open('file.txt', 'a')",
+      "open('file.txt', 'x')"
+    ],
+    "answer": "open('file.txt', 'w')"
+  },
+  {
+    "category": "python",
+    "question": "How do you create a new empty dictionary?",
+    "options": [
+      "{}",
+      "[]",
+      "dict()",
+      "None of the above"
+    ],
+    "answer": "dict()"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following methods is used to add an element to the end of a list?",
+    "options": [
+      "append()",
+      "insert()",
+      "extend()",
+      "add()"
+    ],
+    "answer": "append()"
+  },
+  {
+    "category": "python",
+    "question": "What does the `str()` function do?",
+    "options": [
+      "Converts a value to a string",
+      "Converts a string to an integer",
+      "Converts a string to a float",
+      "Converts a value to a boolean"
+    ],
+    "answer": "Converts a value to a string"
+  },
+  {
+    "category": "python",
+    "question": "What will be the output of `print('Hello' + 'World')`?",
+    "options": [
+      "HelloWorld",
+      "Hello World",
+      "Hello",
+      "World"
+    ],
+    "answer": "HelloWorld"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following statements is true for Python?",
+    "options": [
+      "Python is case-sensitive",
+      "Python is not case-sensitive",
+      "Python is a compiled language",
+      "Python does not support object-oriented programming"
+    ],
+    "answer": "Python is case-sensitive"
+  },
+  {
+    "category": "python",
+    "question": "What is the correct syntax to declare a list with elements 1, 2, 3?",
+    "options": [
+      "[1, 2, 3]",
+      "{1, 2, 3}",
+      "(1, 2, 3)",
+      "<1, 2, 3>"
+    ],
+    "answer": "[1, 2, 3]"
+  },
+  {
+    "category": "python",
+    "question": "How do you define a comment in Python?",
+    "options": [
+      "# This is a comment",
+      "// This is a comment",
+      "/* This is a comment */",
+      "-- This is a comment"
+    ],
+    "answer": "# This is a comment"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following is not a valid keyword in Python?",
+    "options": [
+      "lambda",
+      "global",
+      "async",
+      "const"
+    ],
+    "answer": "const"
+  },
+  {
+    "category": "python",
+    "question": "What will be the output of `print('Hello'[-2])`?",
+    "options": [
+      "l",
+      "e",
+      "o",
+      "H"
+    ],
+    "answer": "l"
+  },
+  {
+    "category": "python",
+    "question": "How do you create a tuple in Python?",
+    "options": [
+      "(1, 2, 3)",
+      "[1, 2, 3]",
+      "{1, 2, 3}",
+      "<1, 2, 3>"
+    ],
+    "answer": "(1, 2, 3)"
+  },
+  {
+    "category": "python",
+    "question": "Which of the following methods can be used to remove whitespaces from the beginning and end of a string?",
+    "options": [
+      "strip()",
+      "trim()",
+      "prune()",
+      "clean()"
+    ],
+    "answer": "strip()"
   }
-  
   ]
