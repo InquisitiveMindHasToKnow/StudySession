@@ -2418,5 +2418,1414 @@
       "match"
     ],
     "answer": "pattern"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to change the background color of an element?",
+    "options": [
+      "background-color",
+      "color",
+      "background",
+      "bgcolor"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "foreground-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to change the font size of an element?",
+    "options": [
+      "font-size",
+      "text-size",
+      "size",
+      "font"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to make the text bold?",
+    "options": [
+      "font-weight",
+      "font-style",
+      "text-decoration",
+      "font-bold"
+    ],
+    "answer": "font-weight"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to italicize text?",
+    "options": [
+      "font-style",
+      "font-weight",
+      "text-decoration",
+      "font-variant"
+    ],
+    "answer": "font-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to underline text?",
+    "options": [
+      "text-decoration",
+      "text-style",
+      "text-underline",
+      "text-transform"
+    ],
+    "answer": "text-decoration"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to capitalize the first letter of each word in a text?",
+    "options": [
+      "text-transform",
+      "text-decoration",
+      "font-variant",
+      "letter-spacing"
+    ],
+    "answer": "text-transform"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to change the font family of an element?",
+    "options": [
+      "font-family",
+      "font-style",
+      "font-type",
+      "text-family"
+    ],
+    "answer": "font-family"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the spacing between lines of text?",
+    "options": [
+      "line-height",
+      "letter-spacing",
+      "word-spacing",
+      "text-indent"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to add space between the border and the content of an element?",
+    "options": [
+      "padding",
+      "margin",
+      "border-spacing",
+      "border-width"
+    ],
+    "answer": "padding"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to add space around an element's border?",
+    "options": [
+      "margin",
+      "padding",
+      "border-spacing",
+      "border-width"
+    ],
+    "answer": "margin"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the width of an element's border?",
+    "options": [
+      "border-width",
+      "border-style",
+      "border-color",
+      "border-radius"
+    ],
+    "answer": "border-width"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the color of an element's border?",
+    "options": [
+      "border-color",
+      "border-style",
+      "border-width",
+      "outline-color"
+    ],
+    "answer": "border-color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the style of an element's border?",
+    "options": [
+      "border-style",
+      "border-color",
+      "border-width",
+      "outline-style"
+    ],
+    "answer": "border-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to create rounded corners for an element?",
+    "options": [
+      "border-radius",
+      "border-round",
+      "corner-radius",
+      "border-style"
+    ],
+    "answer": "border-radius"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the opacity of an element?",
+    "options": [
+      "opacity",
+      "transparent",
+      "visibility",
+      "filter"
+    ],
+    "answer": "opacity"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to make text appear in uppercase?",
+    "options": [
+      "text-transform",
+      "text-decoration",
+      "text-style",
+      "font-variant"
+    ],
+    "answer": "text-transform"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to align text to the left, right, center, or justify?",
+    "options": [
+      "text-align",
+      "text-decoration",
+      "text-style",
+      "text-transform"
+    ],
+    "answer": "text-align"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the distance between words?",
+    "options": [
+      "word-spacing",
+      "letter-spacing",
+      "line-height",
+      "text-indent"
+    ],
+    "answer": "word-spacing"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the distance between characters?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "line-height",
+      "text-indent"
+    ],
+    "answer": "letter-spacing"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to indent the first line of a paragraph?",
+    "options": [
+      "text-indent",
+      "margin-left",
+      "padding-left",
+      "line-height"
+    ],
+    "answer": "text-indent"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the visibility of an element?",
+    "options": [
+      "visibility",
+      "display",
+      "opacity",
+      "overflow"
+    ],
+    "answer": "visibility"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the display of an element (block, inline, etc.)?",
+    "options": [
+      "display",
+      "visibility",
+      "overflow",
+      "position"
+    ],
+    "answer": "display"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the positioning of an element?",
+    "options": [
+      "position",
+      "display",
+      "overflow",
+      "visibility"
+    ],
+    "answer": "position"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the background image of an element?",
+    "options": [
+      "background-image",
+      "background",
+      "background-url",
+      "image"
+    ],
+    "answer": "background-image"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the position of a background image?",
+    "options": [
+      "background-position",
+      "background-align",
+      "background-placement",
+      "position"
+    ],
+    "answer": "background-position"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify whether a background image should repeat?",
+    "options": [
+      "background-repeat",
+      "background-image",
+      "background-loop",
+      "background-pattern"
+    ],
+    "answer": "background-repeat"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the attachment of a background image?",
+    "options": [
+      "background-attachment",
+      "background-scroll",
+      "background-fixed",
+      "background-position"
+    ],
+    "answer": "background-attachment"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the size of a background image?",
+    "options": [
+      "background-size",
+      "background-dimension",
+      "background-scale",
+      "size"
+    ],
+    "answer": "background-size"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the horizontal overflow of an element's content?",
+    "options": [
+      "overflow-x",
+      "overflow",
+      "overflow-y",
+      "overflow-horizontal"
+    ],
+    "answer": "overflow-x"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the vertical overflow of an element's content?",
+    "options": [
+      "overflow-y",
+      "overflow",
+      "overflow-x",
+      "overflow-vertical"
+    ],
+    "answer": "overflow-y"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the stacking order of elements?",
+    "options": [
+      "z-index",
+      "order",
+      "stack",
+      "position"
+    ],
+    "answer": "z-index"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the type of cursor to be displayed?",
+    "options": [
+      "cursor",
+      "pointer",
+      "icon",
+      "mouse"
+    ],
+    "answer": "cursor"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to create space between the border and outline of an element?",
+    "options": [
+      "outline-offset",
+      "outline-width",
+      "outline-spacing",
+      "outline-margin"
+    ],
+    "answer": "outline-offset"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the width of an element?",
+    "options": [
+      "width",
+      "height",
+      "size",
+      "dimension"
+    ],
+    "answer": "width"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the height of an element?",
+    "options": [
+      "height",
+      "width",
+      "size",
+      "dimension"
+    ],
+    "answer": "height"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to apply a shadow to text?",
+    "options": [
+      "text-shadow",
+      "box-shadow",
+      "shadow",
+      "filter-shadow"
+    ],
+    "answer": "text-shadow"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to apply a shadow to an element's box?",
+    "options": [
+      "box-shadow",
+      "text-shadow",
+      "shadow",
+      "filter-shadow"
+    ],
+    "answer": "box-shadow"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the alignment of flex items?",
+    "options": [
+      "align-items",
+      "justify-content",
+      "align-content",
+      "align-self"
+    ],
+    "answer": "align-items"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the alignment of grid items?",
+    "options": [
+      "align-items",
+      "justify-content",
+      "align-content",
+      "align-self"
+    ],
+    "answer": "align-items"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the space between flex items?",
+    "options": [
+      "justify-content",
+      "align-items",
+      "flex-gap",
+      "align-content"
+    ],
+    "answer": "justify-content"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the space between grid items?",
+    "options": [
+      "grid-gap",
+      "align-items",
+      "justify-content",
+      "align-content"
+    ],
+    "answer": "grid-gap"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the minimum width of an element?",
+    "options": [
+      "min-width",
+      "width",
+      "max-width",
+      "dimension"
+    ],
+    "answer": "min-width"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the maximum width of an element?",
+    "options": [
+      "max-width",
+      "width",
+      "min-width",
+      "dimension"
+    ],
+    "answer": "max-width"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the minimum height of an element?",
+    "options": [
+      "min-height",
+      "height",
+      "max-height",
+      "dimension"
+    ],
+    "answer": "min-height"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the maximum height of an element?",
+    "options": [
+      "max-height",
+      "height",
+      "min-height",
+      "dimension"
+    ],
+    "answer": "max-height"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the flow of text around a floated element?",
+    "options": [
+      "clear",
+      "float",
+      "overflow",
+      "display"
+    ],
+    "answer": "clear"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the layout direction of flex items?",
+    "options": [
+      "flex-direction",
+      "flex-wrap",
+      "flex-flow",
+      "justify-content"
+    ],
+    "answer": "flex-direction"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control whether flex items wrap or not?",
+    "options": [
+      "flex-wrap",
+      "flex-direction",
+      "flex-flow",
+      "align-items"
+    ],
+    "answer": "flex-wrap"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the number of columns in a grid container?",
+    "options": [
+      "grid-template-columns",
+      "grid-template-rows",
+      "grid-gap",
+      "grid-area"
+    ],
+    "answer": "grid-template-columns"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the number of rows in a grid container?",
+    "options": [
+      "grid-template-rows",
+      "grid-template-columns",
+      "grid-gap",
+      "grid-area"
+    ],
+    "answer": "grid-template-rows"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation timing function?",
+    "options": [
+      "animation-timing-function",
+      "animation-duration",
+      "animation-delay",
+      "animation-iteration-count"
+    ],
+    "answer": "animation-timing-function"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation duration?",
+    "options": [
+      "animation-duration",
+      "animation-timing-function",
+      "animation-delay",
+      "animation-iteration-count"
+    ],
+    "answer": "animation-duration"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation delay?",
+    "options": [
+      "animation-delay",
+      "animation-duration",
+      "animation-timing-function",
+      "animation-iteration-count"
+    ],
+    "answer": "animation-delay"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the number of times an animation is played?",
+    "options": [
+      "animation-iteration-count",
+      "animation-duration",
+      "animation-delay",
+      "animation-timing-function"
+    ],
+    "answer": "animation-iteration-count"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to apply a linear gradient as a background?",
+    "options": [
+      "background-image",
+      "background-color",
+      "background-gradient",
+      "gradient"
+    ],
+    "answer": "background-image"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to apply a radial gradient as a background?",
+    "options": [
+      "background-image",
+      "background-color",
+      "background-gradient",
+      "gradient"
+    ],
+    "answer": "background-image"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the style of a list item marker?",
+    "options": [
+      "list-style-type",
+      "list-style",
+      "list-type",
+      "list-marker"
+    ],
+    "answer": "list-style-type"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the position of a list item marker?",
+    "options": [
+      "list-style-position",
+      "list-style",
+      "list-position",
+      "list-marker"
+    ],
+    "answer": "list-style-position"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the image used as a list item marker?",
+    "options": [
+      "list-style-image",
+      "list-style",
+      "list-image",
+      "list-marker"
+    ],
+    "answer": "list-style-image"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the position of an element's background image?",
+    "options": [
+      "background-position",
+      "background-image",
+      "background-attachment",
+      "background-repeat"
+    ],
+    "answer": "background-position"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the size of an element's background image?",
+    "options": [
+      "background-size",
+      "background-image",
+      "background-attachment",
+      "background-repeat"
+    ],
+    "answer": "background-size"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the repetition of an element's background image?",
+    "options": [
+      "background-repeat",
+      "background-image",
+      "background-attachment",
+      "background-position"
+    ],
+    "answer": "background-repeat"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the clipping path of an element?",
+    "options": [
+      "clip-path",
+      "clip",
+      "path",
+      "mask"
+    ],
+    "answer": "clip-path"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the appearance of a list item marker?",
+    "options": [
+      "list-style",
+      "list-style-type",
+      "list-style-position",
+      "list-style-image"
+    ],
+    "answer": "list-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the direction of text?",
+    "options": [
+      "direction",
+      "text-direction",
+      "writing-mode",
+      "text-align"
+    ],
+    "answer": "direction"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the writing mode of text?",
+    "options": [
+      "writing-mode",
+      "text-direction",
+      "direction",
+      "text-align"
+    ],
+    "answer": "writing-mode"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the text alignment within a flex container?",
+    "options": [
+      "justify-content",
+      "align-items",
+      "align-content",
+      "align-self"
+    ],
+    "answer": "justify-content"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the alignment of items along the cross axis in flexbox?",
+    "options": [
+      "align-items",
+      "justify-content",
+      "align-content",
+      "align-self"
+    ],
+    "answer": "align-items"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the layout of grid items?",
+    "options": [
+      "grid-template-areas",
+      "grid-template-rows",
+      "grid-template-columns",
+      "grid-auto-flow"
+    ],
+    "answer": "grid-template-areas"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the grid area of a grid item?",
+    "options": [
+      "grid-area",
+      "grid-column",
+      "grid-row",
+      "grid-template"
+    ],
+    "answer": "grid-area"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the grid row of a grid item?",
+    "options": [
+      "grid-row",
+      "grid-column",
+      "grid-area",
+      "grid-template"
+    ],
+    "answer": "grid-row"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the grid column of a grid item?",
+    "options": [
+      "grid-column",
+      "grid-row",
+      "grid-area",
+      "grid-template"
+    ],
+    "answer": "grid-column"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the flow of grid items?",
+    "options": [
+      "grid-auto-flow",
+      "grid-template-areas",
+      "grid-template-rows",
+      "grid-template-columns"
+    ],
+    "answer": "grid-auto-flow"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the size of grid items?",
+    "options": [
+      "grid-auto-columns",
+      "grid-auto-rows",
+      "grid-template-areas",
+      "grid-template-columns"
+    ],
+    "answer": "grid-auto-columns"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the size of grid rows?",
+    "options": [
+      "grid-auto-rows",
+      "grid-auto-columns",
+      "grid-template-areas",
+      "grid-template-rows"
+    ],
+    "answer": "grid-auto-rows"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the alignment of grid items along the block axis?",
+    "options": [
+      "align-content",
+      "align-items",
+      "justify-content",
+      "align-self"
+    ],
+    "answer": "align-content"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the alignment of grid items along the inline axis?",
+    "options": [
+      "justify-content",
+      "align-items",
+      "align-content",
+      "align-self"
+    ],
+    "answer": "justify-content"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the size of an element's content area?",
+    "options": [
+      "box-sizing",
+      "content-size",
+      "size",
+      "dimension"
+    ],
+    "answer": "box-sizing"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the appearance of an element's border?",
+    "options": [
+      "border-style",
+      "border-width",
+      "border-color",
+      "outline-style"
+    ],
+    "answer": "border-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the appearance of an element's outline?",
+    "options": [
+      "outline-style",
+      "border-style",
+      "outline-width",
+      "outline-color"
+    ],
+    "answer": "outline-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the width of an element's outline?",
+    "options": [
+      "outline-width",
+      "border-width",
+      "outline-style",
+      "outline-color"
+    ],
+    "answer": "outline-width"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the color of an element's outline?",
+    "options": [
+      "outline-color",
+      "border-color",
+      "outline-width",
+      "outline-style"
+    ],
+    "answer": "outline-color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the style of an element's text?",
+    "options": [
+      "font-style",
+      "font-weight",
+      "font-family",
+      "text-style"
+    ],
+    "answer": "font-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the weight of an element's text?",
+    "options": [
+      "font-weight",
+      "font-style",
+      "font-family",
+      "text-weight"
+    ],
+    "answer": "font-weight"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the family of an element's text?",
+    "options": [
+      "font-family",
+      "font-weight",
+      "font-style",
+      "text-family"
+    ],
+    "answer": "font-family"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the size of an element's text?",
+    "options": [
+      "font-size",
+      "font-weight",
+      "font-family",
+      "text-size"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the line height of an element's text?",
+    "options": [
+      "line-height",
+      "font-size",
+      "text-height",
+      "line-size"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the alignment of an element's text?",
+    "options": [
+      "text-align",
+      "text-decoration",
+      "text-style",
+      "text-transform"
+    ],
+    "answer": "text-align"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the decoration of an element's text?",
+    "options": [
+      "text-decoration",
+      "text-align",
+      "text-style",
+      "text-transform"
+    ],
+    "answer": "text-decoration"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transformation of an element's text?",
+    "options": [
+      "text-transform",
+      "text-decoration",
+      "text-align",
+      "text-style"
+    ],
+    "answer": "text-transform"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the indentation of an element's text?",
+    "options": [
+      "text-indent",
+      "text-align",
+      "text-decoration",
+      "text-transform"
+    ],
+    "answer": "text-indent"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the overflow of an element's text?",
+    "options": [
+      "text-overflow",
+      "overflow",
+      "overflow-x",
+      "overflow-y"
+    ],
+    "answer": "text-overflow"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the spacing between characters in an element's text?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "line-height",
+      "text-spacing"
+    ],
+    "answer": "letter-spacing"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the spacing between words in an element's text?",
+    "options": [
+      "word-spacing",
+      "letter-spacing",
+      "line-height",
+      "text-spacing"
+    ],
+    "answer": "word-spacing"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the color of an element's text?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "background-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the opacity of an element?",
+    "options": [
+      "opacity",
+      "visibility",
+      "display",
+      "background-opacity"
+    ],
+    "answer": "opacity"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the visibility of an element?",
+    "options": [
+      "visibility",
+      "opacity",
+      "display",
+      "background-visibility"
+    ],
+    "answer": "visibility"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the display of an element?",
+    "options": [
+      "display",
+      "visibility",
+      "opacity",
+      "background-display"
+    ],
+    "answer": "display"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the background color of an element?",
+    "options": [
+      "background-color",
+      "color",
+      "background-image",
+      "background-attachment"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the background image of an element?",
+    "options": [
+      "background-image",
+      "background-color",
+      "color",
+      "background-attachment"
+    ],
+    "answer": "background-image"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the attachment of a background image?",
+    "options": [
+      "background-attachment",
+      "background-color",
+      "color",
+      "background-image"
+    ],
+    "answer": "background-attachment"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the clip of a background image?",
+    "options": [
+      "background-clip",
+      "background-color",
+      "color",
+      "background-image"
+    ],
+    "answer": "background-clip"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the origin of a background image?",
+    "options": [
+      "background-origin",
+      "background-color",
+      "color",
+      "background-image"
+    ],
+    "answer": "background-origin"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the blend mode of a background image?",
+    "options": [
+      "background-blend-mode",
+      "background-color",
+      "color",
+      "background-image"
+    ],
+    "answer": "background-blend-mode"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the repeat of a background image?",
+    "options": [
+      "background-repeat",
+      "background-color",
+      "color",
+      "background-image"
+    ],
+    "answer": "background-repeat"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the position of a background image?",
+    "options": [
+      "background-position",
+      "background-color",
+      "color",
+      "background-image"
+    ],
+    "answer": "background-position"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the size of a background image?",
+    "options": [
+      "background-size",
+      "background-color",
+      "color",
+      "background-image"
+    ],
+    "answer": "background-size"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the filter of an element?",
+    "options": [
+      "filter",
+      "opacity",
+      "visibility",
+      "display"
+    ],
+    "answer": "filter"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transform of an element?",
+    "options": [
+      "transform",
+      "opacity",
+      "visibility",
+      "display"
+    ],
+    "answer": "transform"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the perspective of an element?",
+    "options": [
+      "perspective",
+      "transform",
+      "opacity",
+      "visibility"
+    ],
+    "answer": "perspective"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transform origin of an element?",
+    "options": [
+      "transform-origin",
+      "transform",
+      "opacity",
+      "visibility"
+    ],
+    "answer": "transform-origin"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transform style of an element?",
+    "options": [
+      "transform-style",
+      "transform",
+      "opacity",
+      "visibility"
+    ],
+    "answer": "transform-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the backface visibility of an element?",
+    "options": [
+      "backface-visibility",
+      "transform",
+      "opacity",
+      "visibility"
+    ],
+    "answer": "backface-visibility"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transition of an element?",
+    "options": [
+      "transition",
+      "animation",
+      "opacity",
+      "visibility"
+    ],
+    "answer": "transition"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transition delay of an element?",
+    "options": [
+      "transition-delay",
+      "transition-duration",
+      "transition-timing-function",
+      "transition-property"
+    ],
+    "answer": "transition-delay"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transition duration of an element?",
+    "options": [
+      "transition-duration",
+      "transition-delay",
+      "transition-timing-function",
+      "transition-property"
+    ],
+    "answer": "transition-duration"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transition timing function of an element?",
+    "options": [
+      "transition-timing-function",
+      "transition-delay",
+      "transition-duration",
+      "transition-property"
+    ],
+    "answer": "transition-timing-function"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the transition property of an element?",
+    "options": [
+      "transition-property",
+      "transition-delay",
+      "transition-duration",
+      "transition-timing-function"
+    ],
+    "answer": "transition-property"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation of an element?",
+    "options": [
+      "animation",
+      "transition",
+      "opacity",
+      "visibility"
+    ],
+    "answer": "animation"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation name of an element?",
+    "options": [
+      "animation-name",
+      "animation-duration",
+      "animation-timing-function",
+      "animation-delay"
+    ],
+    "answer": "animation-name"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation duration of an element?",
+    "options": [
+      "animation-duration",
+      "animation-name",
+      "animation-timing-function",
+      "animation-delay"
+    ],
+    "answer": "animation-duration"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation timing function of an element?",
+    "options": [
+      "animation-timing-function",
+      "animation-name",
+      "animation-duration",
+      "animation-delay"
+    ],
+    "answer": "animation-timing-function"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation delay of an element?",
+    "options": [
+      "animation-delay",
+      "animation-name",
+      "animation-duration",
+      "animation-timing-function"
+    ],
+    "answer": "animation-delay"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation iteration count of an element?",
+    "options": [
+      "animation-iteration-count",
+      "animation-name",
+      "animation-duration",
+      "animation-timing-function"
+    ],
+    "answer": "animation-iteration-count"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation direction of an element?",
+    "options": [
+      "animation-direction",
+      "animation-name",
+      "animation-duration",
+      "animation-timing-function"
+    ],
+    "answer": "animation-direction"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation fill mode of an element?",
+    "options": [
+      "animation-fill-mode",
+      "animation-name",
+      "animation-duration",
+      "animation-timing-function"
+    ],
+    "answer": "animation-fill-mode"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the animation play state of an element?",
+    "options": [
+      "animation-play-state",
+      "animation-name",
+      "animation-duration",
+      "animation-timing-function"
+    ],
+    "answer": "animation-play-state"
   }
+  
   ]
