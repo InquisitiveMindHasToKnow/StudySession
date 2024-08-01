@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Quiz.css'; 
+import '../css/Quiz.css'; 
 import quizQuestions from "../quiz_questions.json"
 
   
@@ -58,4 +58,4 @@ import quizQuestions from "../quiz_questions.json"
 };
 
   
-  export default Quiz;
+export default Quiz;
