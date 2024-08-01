@@ -1,10 +1,9 @@
-/* src/Quiz.css */
 .quiz-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #018786;
+  background-color: #018786; /* Background color matching the landing page */
   padding: 20px;
 }
 
@@ -25,14 +24,12 @@ h2 {
 
 .options {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .option-button {
-  flex: 1 1 45%;
-  padding: 20px; /* Increased padding for larger buttons */
-  margin: 10px 10px;
+  padding: 15px;
+  margin: 10px 0;
   border: 2px solid transparent;
   border-radius: 5px;
   cursor: pointer;
@@ -45,10 +42,26 @@ h2 {
   background-color: #e0e0e0;
 }
 
-.option-button.selected {
-  background-color: #018786;
+.option-button.correct {
+  background-color: #4caf50; /* Green color for correct answers */
   color: white;
-  border-color: #015f5b;
+  border-color: #388e3c; /* Darker green border */
+}
+
+.option-button.incorrect {
+  background-color: #f44336; /* Red color for selected incorrect answers */
+  color: white;
+  border-color: #d32f2f; /* Darker red border */
+}
+
+.option-button.incorrect-when-disabled {
+  background-color: #f44336; /* Red color for incorrect options even when not selected */
+  color: white;
+  border-color: #d32f2f; /* Darker red border */
+}
+
+.option-button:disabled {
+  cursor: not-allowed;
 }
 
 .navigation-buttons {
