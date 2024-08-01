@@ -6543,5 +6543,1600 @@
       "public"
     ],
     "answer": "default"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the correct way to declare a variable in Kotlin?",
+    "options": [
+      "var x: Int = 5",
+      "int x = 5",
+      "x := 5",
+      "var x = Int(5)"
+    ],
+    "answer": "var x: Int = 5"
+  },
+  {
+    "category": "kotlin",
+    "question": "What keyword is used to define a constant in Kotlin?",
+    "options": [
+      "const",
+      "final",
+      "val",
+      "var"
+    ],
+    "answer": "val"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the default visibility modifier in Kotlin?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "internal"
+    ],
+    "answer": "public"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which of the following is used to check nullability in Kotlin?",
+    "options": [
+      "!",
+      "?",
+      "??",
+      "?:"
+    ],
+    "answer": "?"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a function in Kotlin?",
+    "options": [
+      "def functionName()",
+      "fun functionName()",
+      "fn functionName()",
+      "function functionName()"
+    ],
+    "answer": "fun functionName()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the correct syntax to create a list in Kotlin?",
+    "options": [
+      "listOf(1, 2, 3)",
+      "new List(1, 2, 3)",
+      "arrayList(1, 2, 3)",
+      "[1, 2, 3]"
+    ],
+    "answer": "listOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the equivalent of Java's 'try-catch' in Kotlin?",
+    "options": [
+      "try-catch",
+      "try-except",
+      "try-handle",
+      "try-finally"
+    ],
+    "answer": "try-catch"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a data class in Kotlin?",
+    "options": [
+      "class DataClass(val x: Int, val y: Int)",
+      "data class DataClass(val x: Int, val y: Int)",
+      "data DataClass(val x: Int, val y: Int)",
+      "dataclass DataClass(val x: Int, val y: Int)"
+    ],
+    "answer": "data class DataClass(val x: Int, val y: Int)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What function is used to print a message to the console in Kotlin?",
+    "options": [
+      "println()",
+      "System.out.println()",
+      "console.log()",
+      "print()"
+    ],
+    "answer": "println()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of 'lateinit' in Kotlin?",
+    "options": [
+      "To declare a variable that will be initialized later",
+      "To create a constant",
+      "To define an abstract method",
+      "To declare a static variable"
+    ],
+    "answer": "To declare a variable that will be initialized later"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a singleton in Kotlin?",
+    "options": [
+      "object Singleton",
+      "class Singleton",
+      "data Singleton",
+      "abstract Singleton"
+    ],
+    "answer": "object Singleton"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which keyword is used to inherit a class in Kotlin?",
+    "options": [
+      "extends",
+      "inherits",
+      "derives",
+      "override"
+    ],
+    "answer": "override"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to filter elements in a collection?",
+    "options": [
+      "select()",
+      "filter()",
+      "collect()",
+      "find()"
+    ],
+    "answer": "filter()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the output of `println(2.0 / 2)`?",
+    "options": [
+      "1",
+      "1.0",
+      "2",
+      "2.0"
+    ],
+    "answer": "1.0"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define an immutable list in Kotlin?",
+    "options": [
+      "val list = mutableListOf(1, 2, 3)",
+      "var list = listOf(1, 2, 3)",
+      "val list = listOf(1, 2, 3)",
+      "list list = listOf(1, 2, 3)"
+    ],
+    "answer": "val list = listOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What does the `when` expression do in Kotlin?",
+    "options": [
+      "It replaces the 'if' statement",
+      "It replaces the 'switch' statement",
+      "It is used for looping",
+      "It declares a function"
+    ],
+    "answer": "It replaces the 'switch' statement"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a nullable variable in Kotlin?",
+    "options": [
+      "var x: Int = null",
+      "var x: Int? = null",
+      "var x: ?Int = null",
+      "var x: nullable Int = null"
+    ],
+    "answer": "var x: Int? = null"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which extension function can be used to replace each element in a list with a result of a function?",
+    "options": [
+      "map()",
+      "flatMap()",
+      "transform()",
+      "replace()"
+    ],
+    "answer": "map()"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a range from 1 to 10 in Kotlin?",
+    "options": [
+      "1-10",
+      "1..10",
+      "range(1, 10)",
+      "[1..10]"
+    ],
+    "answer": "1..10"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `3 % 2` in Kotlin?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "answer": "1"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define an array in Kotlin?",
+    "options": [
+      "arrayOf(1, 2, 3)",
+      "Array(1, 2, 3)",
+      "[1, 2, 3]",
+      "array(1, 2, 3)"
+    ],
+    "answer": "arrayOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How can you safely cast a value in Kotlin?",
+    "options": [
+      "as?",
+      "as!",
+      "is?",
+      "is!"
+    ],
+    "answer": "as?"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the equivalent of `null` in Kotlin?",
+    "options": [
+      "None",
+      "nil",
+      "null",
+      "void"
+    ],
+    "answer": "null"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to iterate through a collection in Kotlin?",
+    "options": [
+      "iterate()",
+      "forEach()",
+      "each()",
+      "forEachItem()"
+    ],
+    "answer": "forEach()"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which of the following is a higher-order function in Kotlin?",
+    "options": [
+      "fun",
+      "lambda",
+      "function",
+      "map()"
+    ],
+    "answer": "map()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What does the Elvis operator (`?:`) do in Kotlin?",
+    "options": [
+      "Checks for null and provides a default value if null",
+      "Throws an exception if null",
+      "Performs null safety checks",
+      "Concatenates strings"
+    ],
+    "answer": "Checks for null and provides a default value if null"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a lambda expression in Kotlin?",
+    "options": [
+      "{ x -> x + 1 }",
+      "lambda x: x + 1",
+      "fun(x) = x + 1",
+      "{ x => x + 1 }"
+    ],
+    "answer": "{ x -> x + 1 }"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `listOf(1, 2, 3).filter { it > 1 }`?",
+    "options": [
+      "[2, 3]",
+      "[1, 2]",
+      "[1, 3]",
+      "[1]"
+    ],
+    "answer": "[2, 3]"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you convert a string to an integer in Kotlin?",
+    "options": [
+      "\"123\".toInt()",
+      "Integer.parseInt(\"123\")",
+      "parseInt(\"123\")",
+      "int(\"123\")"
+    ],
+    "answer": "\"123\".toInt()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the use of the 'sealed' class in Kotlin?",
+    "options": [
+      "To represent a restricted class hierarchy",
+      "To create a singleton",
+      "To define an abstract class",
+      "To declare a final class"
+    ],
+    "answer": "To represent a restricted class hierarchy"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `listOf(1, 2, 3).reduce { acc, i -> acc + i }`?",
+    "options": [
+      "6",
+      "1",
+      "3",
+      "2"
+    ],
+    "answer": "6"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a mutable list in Kotlin?",
+    "options": [
+      "mutableListOf(1, 2, 3)",
+      "listOf(1, 2, 3)",
+      "arrayListOf(1, 2, 3)",
+      "arrayList(1, 2, 3)"
+    ],
+    "answer": "mutableListOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of 'lateinit' in Kotlin?",
+    "options": [
+      "To declare a variable that will be initialized later",
+      "To create a constant",
+      "To define an abstract method",
+      "To declare a static variable"
+    ],
+    "answer": "To declare a variable that will be initialized later"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a generic function in Kotlin?",
+    "options": [
+      "fun <T> genericFunc(param: T)",
+      "generic fun genericFunc<T>(param: T)",
+      "fun genericFunc<T>(param: T)",
+      "fun genericFunc<type>(param: type)"
+    ],
+    "answer": "fun <T> genericFunc(param: T)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the output of `println(5 / 2)`?",
+    "options": [
+      "2",
+      "2.5",
+      "2.0",
+      "3"
+    ],
+    "answer": "2"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a range from 1 to 10 in Kotlin?",
+    "options": [
+      "1-10",
+      "1..10",
+      "range(1, 10)",
+      "[1..10]"
+    ],
+    "answer": "1..10"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a data class in Kotlin?",
+    "options": [
+      "class DataClass(val x: Int, val y: Int)",
+      "data class DataClass(val x: Int, val y: Int)",
+      "data DataClass(val x: Int, val y: Int)",
+      "dataclass DataClass(val x: Int, val y: Int)"
+    ],
+    "answer": "data class DataClass(val x: Int, val y: Int)"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which extension function can be used to replace each element in a list with a result of a function?",
+    "options": [
+      "map()",
+      "flatMap()",
+      "transform()",
+      "replace()"
+    ],
+    "answer": "map()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `listOf(1, 2, 3).reduce { acc, i -> acc + i }`?",
+    "options": [
+      "6",
+      "1",
+      "3",
+      "2"
+    ],
+    "answer": "6"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of 'sealed' class in Kotlin?",
+    "options": [
+      "To represent a restricted class hierarchy",
+      "To create a singleton",
+      "To define an abstract class",
+      "To declare a final class"
+    ],
+    "answer": "To represent a restricted class hierarchy"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the output of `println(2.0 / 2)`?",
+    "options": [
+      "1",
+      "1.0",
+      "2",
+      "2.0"
+    ],
+    "answer": "1.0"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a mutable list in Kotlin?",
+    "options": [
+      "mutableListOf(1, 2, 3)",
+      "listOf(1, 2, 3)",
+      "arrayListOf(1, 2, 3)",
+      "arrayList(1, 2, 3)"
+    ],
+    "answer": "mutableListOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you convert a string to an integer in Kotlin?",
+    "options": [
+      "\"123\".toInt()",
+      "Integer.parseInt(\"123\")",
+      "parseInt(\"123\")",
+      "int(\"123\")"
+    ],
+    "answer": "\"123\".toInt()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the correct syntax to create a list in Kotlin?",
+    "options": [
+      "listOf(1, 2, 3)",
+      "new List(1, 2, 3)",
+      "arrayList(1, 2, 3)",
+      "[1, 2, 3]"
+    ],
+    "answer": "listOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What does the Elvis operator (`?:`) do in Kotlin?",
+    "options": [
+      "Checks for null and provides a default value if null",
+      "Throws an exception if null",
+      "Performs null safety checks",
+      "Concatenates strings"
+    ],
+    "answer": "Checks for null and provides a default value if null"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which of the following is a higher-order function in Kotlin?",
+    "options": [
+      "fun",
+      "lambda",
+      "function",
+      "map()"
+    ],
+    "answer": "map()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the output of `println(5 / 2)`?",
+    "options": [
+      "2",
+      "2.5",
+      "2.0",
+      "3"
+    ],
+    "answer": "2"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to filter elements in a collection?",
+    "options": [
+      "select()",
+      "filter()",
+      "collect()",
+      "find()"
+    ],
+    "answer": "filter()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the default visibility modifier in Kotlin?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "internal"
+    ],
+    "answer": "public"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to print a message to the console in Kotlin?",
+    "options": [
+      "println()",
+      "System.out.println()",
+      "console.log()",
+      "print()"
+    ],
+    "answer": "println()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the correct way to declare a variable in Kotlin?",
+    "options": [
+      "var x: Int = 5",
+      "int x = 5",
+      "x := 5",
+      "var x = Int(5)"
+    ],
+    "answer": "var x: Int = 5"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a comment in Kotlin?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment",
+      "-- This is a comment"
+    ],
+    "answer": "// This is a comment"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a lambda expression in Kotlin?",
+    "options": [
+      "{ x -> x + 1 }",
+      "lambda x: x + 1",
+      "fun(x) = x + 1",
+      "{ x => x + 1 }"
+    ],
+    "answer": "{ x -> x + 1 }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a generic function in Kotlin?",
+    "options": [
+      "fun <T> genericFunc(param: T)",
+      "generic fun genericFunc<T>(param: T)",
+      "fun genericFunc<T>(param: T)",
+      "fun genericFunc<type>(param: type)"
+    ],
+    "answer": "fun <T> genericFunc(param: T)"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which keyword is used to inherit a class in Kotlin?",
+    "options": [
+      "extends",
+      "inherits",
+      "derives",
+      "override"
+    ],
+    "answer": "override"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to iterate through a collection in Kotlin?",
+    "options": [
+      "iterate()",
+      "forEach()",
+      "each()",
+      "forEachItem()"
+    ],
+    "answer": "forEach()"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which keyword is used to declare a variable that can be changed?",
+    "options": [
+      "val",
+      "var",
+      "const",
+      "let"
+    ],
+    "answer": "var"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the output of `println(3 % 2)` in Kotlin?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "answer": "1"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define an array in Kotlin?",
+    "options": [
+      "arrayOf(1, 2, 3)",
+      "Array(1, 2, 3)",
+      "[1, 2, 3]",
+      "array(1, 2, 3)"
+    ],
+    "answer": "arrayOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a range from 1 to 5 in Kotlin?",
+    "options": [
+      "range(1, 5)",
+      "1 to 5",
+      "1..5",
+      "1-5"
+    ],
+    "answer": "1..5"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of the `is` keyword in Kotlin?",
+    "options": [
+      "To check if an object is of a certain type",
+      "To declare a function",
+      "To import a package",
+      "To declare a variable"
+    ],
+    "answer": "To check if an object is of a certain type"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which keyword is used to create a companion object in Kotlin?",
+    "options": [
+      "companion",
+      "object",
+      "static",
+      "final"
+    ],
+    "answer": "companion"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the use of `lateinit` in Kotlin?",
+    "options": [
+      "To declare a variable that will be initialized later",
+      "To create a constant",
+      "To define an abstract method",
+      "To declare a static variable"
+    ],
+    "answer": "To declare a variable that will be initialized later"
+  },
+  {
+    "category": "kotlin",
+    "question": "What does `?:` mean in Kotlin?",
+    "options": [
+      "Elvis operator for null safety",
+      "Range operator",
+      "Lambda declaration",
+      "Array creation"
+    ],
+    "answer": "Elvis operator for null safety"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a singleton in Kotlin?",
+    "options": [
+      "object Singleton",
+      "class Singleton",
+      "data Singleton",
+      "singleton Singleton"
+    ],
+    "answer": "object Singleton"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the default visibility modifier in Kotlin?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "internal"
+    ],
+    "answer": "public"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you check if a variable is null in Kotlin?",
+    "options": [
+      "if (x == null)",
+      "if (x is null)",
+      "if (x == nil)",
+      "if (x.equals(null))"
+    ],
+    "answer": "if (x == null)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What does the `when` expression do in Kotlin?",
+    "options": [
+      "It replaces the 'if' statement",
+      "It replaces the 'switch' statement",
+      "It is used for looping",
+      "It declares a function"
+    ],
+    "answer": "It replaces the 'switch' statement"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a list in Kotlin?",
+    "options": [
+      "listOf(1, 2, 3)",
+      "new List(1, 2, 3)",
+      "arrayList(1, 2, 3)",
+      "[1, 2, 3]"
+    ],
+    "answer": "listOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a data class in Kotlin?",
+    "options": [
+      "class DataClass(val x: Int, val y: Int)",
+      "data class DataClass(val x: Int, val y: Int)",
+      "data DataClass(val x: Int, val y: Int)",
+      "dataclass DataClass(val x: Int, val y: Int)"
+    ],
+    "answer": "data class DataClass(val x: Int, val y: Int)"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which keyword is used to define a constant in Kotlin?",
+    "options": [
+      "const",
+      "final",
+      "val",
+      "var"
+    ],
+    "answer": "val"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which extension function can be used to replace each element in a list with a result of a function?",
+    "options": [
+      "map()",
+      "flatMap()",
+      "transform()",
+      "replace()"
+    ],
+    "answer": "map()"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a nullable variable in Kotlin?",
+    "options": [
+      "var x: String? = null",
+      "var x: String = null",
+      "var x: ?String = null",
+      "var x: Nullable<String> = null"
+    ],
+    "answer": "var x: String? = null"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the primary constructor in Kotlin?",
+    "options": [
+      "It is declared in the class header",
+      "It is a function inside the class",
+      "It is a special method called init",
+      "It is a secondary constructor"
+    ],
+    "answer": "It is declared in the class header"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a mutable map in Kotlin?",
+    "options": [
+      "mutableMapOf(1 to 'a', 2 to 'b')",
+      "mapOf(1 to 'a', 2 to 'b')",
+      "mutableMap(1 to 'a', 2 to 'b')",
+      "Map(1 to 'a', 2 to 'b')"
+    ],
+    "answer": "mutableMapOf(1 to 'a', 2 to 'b')"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a companion object in Kotlin?",
+    "options": [
+      "class MyClass { companion object {} }",
+      "class MyClass { static object {} }",
+      "class MyClass { object {} }",
+      "companion class MyClass {}"
+    ],
+    "answer": "class MyClass { companion object {} }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a function with a default parameter value in Kotlin?",
+    "options": [
+      "fun greet(message: String = \"Hello\")",
+      "fun greet(message: String) { if (message == null) message = \"Hello\" }",
+      "fun greet(message: String) = \"Hello\"",
+      "fun greet(message: String: String = \"Hello\")"
+    ],
+    "answer": "fun greet(message: String = \"Hello\")"
+  },
+  {
+    "category": "kotlin",
+    "question": "What does the `inline` keyword do in Kotlin?",
+    "options": [
+      "It makes a function more efficient by reducing overhead",
+      "It defines a constant value",
+      "It creates a new thread",
+      "It prevents inheritance"
+    ],
+    "answer": "It makes a function more efficient by reducing overhead"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create an immutable list in Kotlin?",
+    "options": [
+      "listOf(1, 2, 3)",
+      "mutableListOf(1, 2, 3)",
+      "arrayListOf(1, 2, 3)",
+      "List(1, 2, 3)"
+    ],
+    "answer": "listOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare an abstract class in Kotlin?",
+    "options": [
+      "abstract class MyClass",
+      "class MyClass abstract",
+      "class MyClass : Abstract",
+      "abstract MyClass"
+    ],
+    "answer": "abstract class MyClass"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `println(\"Kotlin\".length)`?",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "answer": "6"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a set in Kotlin?",
+    "options": [
+      "setOf(1, 2, 3)",
+      "new Set(1, 2, 3)",
+      "arraySet(1, 2, 3)",
+      "Set(1, 2, 3)"
+    ],
+    "answer": "setOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to convert a string to an integer in Kotlin?",
+    "options": [
+      "toInt()",
+      "parseInt()",
+      "convertToInt()",
+      "intValue()"
+    ],
+    "answer": "toInt()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What does the `!!` operator do in Kotlin?",
+    "options": [
+      "Throws a NullPointerException if the value is null",
+      "Converts a value to a non-null type",
+      "Checks if a value is not null",
+      "Makes a variable nullable"
+    ],
+    "answer": "Throws a NullPointerException if the value is null"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you handle exceptions in Kotlin?",
+    "options": [
+      "try { ... } catch { ... }",
+      "catch { ... } finally { ... }",
+      "exception { ... }",
+      "try { ... } finally { ... }"
+    ],
+    "answer": "try { ... } catch { ... }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a variable in Kotlin with a type inferred from its initializer?",
+    "options": [
+      "val x = 5",
+      "var x: Int = 5",
+      "var x = Int(5)",
+      "let x = 5"
+    ],
+    "answer": "val x = 5"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a Kotlin thread?",
+    "options": [
+      "Thread { ... }.start()",
+      "createThread { ... }",
+      "new Thread { ... }.run()",
+      "startThread { ... }"
+    ],
+    "answer": "Thread { ... }.start()"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to get the length of a string in Kotlin?",
+    "options": [
+      "length()",
+      "size()",
+      "count()",
+      "size"
+    ],
+    "answer": "length"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of the `data` keyword in Kotlin?",
+    "options": [
+      "To define a class that holds data",
+      "To declare a constant",
+      "To create an interface",
+      "To define a function"
+    ],
+    "answer": "To define a class that holds data"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which keyword is used to define a function that cannot be overridden?",
+    "options": [
+      "final",
+      "sealed",
+      "override",
+      "const"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a variable with a fixed value in Kotlin?",
+    "options": [
+      "val",
+      "var",
+      "const",
+      "final"
+    ],
+    "answer": "val"
+  },
+  {
+    "category": "kotlin",
+    "question": "What does `null` mean in Kotlin?",
+    "options": [
+      "It represents the absence of a value",
+      "It represents a number",
+      "It is a placeholder for a value",
+      "It is an error state"
+    ],
+    "answer": "It represents the absence of a value"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to convert a string to a double in Kotlin?",
+    "options": [
+      "toDouble()",
+      "parseDouble()",
+      "convertToDouble()",
+      "doubleValue()"
+    ],
+    "answer": "toDouble()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `println(3.14.toInt())`?",
+    "options": [
+      "3",
+      "4",
+      "3.14",
+      "0"
+    ],
+    "answer": "3"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a class with a primary constructor in Kotlin?",
+    "options": [
+      "class MyClass(val x: Int, val y: Int)",
+      "class MyClass { val x: Int; val y: Int }",
+      "class MyClass() { var x: Int; var y: Int }",
+      "class MyClass { constructor(x: Int, y: Int) }"
+    ],
+    "answer": "class MyClass(val x: Int, val y: Int)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of the `!!` operator in Kotlin?",
+    "options": [
+      "To assert that a value is not null",
+      "To check if a value is null",
+      "To convert a value to null",
+      "To cast a value to a different type"
+    ],
+    "answer": "To assert that a value is not null"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define an extension function in Kotlin?",
+    "options": [
+      "fun String.toUpperCase(): String { ... }",
+      "String.toUpperCase() { ... }",
+      "extension fun String.toUpperCase() { ... }",
+      "def String.toUpperCase(): String { ... }"
+    ],
+    "answer": "fun String.toUpperCase(): String { ... }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you perform a safe call on a nullable type in Kotlin?",
+    "options": [
+      "x?.toString()",
+      "x!!toString()",
+      "x.toString()",
+      "safeCall(x.toString())"
+    ],
+    "answer": "x?.toString()"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `println(2 * 3 + 4)`?",
+    "options": [
+      "10",
+      "14",
+      "16",
+      "12"
+    ],
+    "answer": "10"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you handle multiple exceptions in Kotlin?",
+    "options": [
+      "try { ... } catch (e: Exception1) { ... } catch (e: Exception2) { ... }",
+      "try { ... } catch (e: Exception) { ... }",
+      "try { ... } finally { ... }",
+      "try { ... } catch { ... }"
+    ],
+    "answer": "try { ... } catch (e: Exception1) { ... } catch (e: Exception2) { ... }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a sealed class in Kotlin?",
+    "options": [
+      "sealed class MyClass",
+      "class MyClass sealed",
+      "sealed MyClass",
+      "final class MyClass"
+    ],
+    "answer": "sealed class MyClass"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `println(7 % 3)`?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you convert a string to a boolean in Kotlin?",
+    "options": [
+      "toBoolean()",
+      "parseBoolean()",
+      "convertToBoolean()",
+      "booleanValue()"
+    ],
+    "answer": "toBoolean()"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you specify a type for a variable in Kotlin?",
+    "options": [
+      "var x: Int",
+      "var x = Int",
+      "var x as Int",
+      "var x: type = Int"
+    ],
+    "answer": "var x: Int"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `println(5 > 3 && 2 < 4)`?",
+    "options": [
+      "true",
+      "false",
+      "1",
+      "0"
+    ],
+    "answer": "true"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a constant in Kotlin?",
+    "options": [
+      "const val x = 10",
+      "val x = 10",
+      "const x = 10",
+      "final val x = 10"
+    ],
+    "answer": "const val x = 10"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which function is used to check if a list is empty in Kotlin?",
+    "options": [
+      "isEmpty()",
+      "empty()",
+      "size == 0",
+      "length == 0"
+    ],
+    "answer": "isEmpty()"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a lambda function in Kotlin?",
+    "options": [
+      "{ x: Int -> x * x }",
+      "lambda x: Int -> x * x",
+      "function(x: Int) { x * x }",
+      "x => x * x"
+    ],
+    "answer": "{ x: Int -> x * x }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you access a property of a data class in Kotlin?",
+    "options": [
+      "dataClass.property",
+      "dataClass.getProperty()",
+      "dataClass.property()",
+      "dataClass['property']"
+    ],
+    "answer": "dataClass.property"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of the `open` keyword in Kotlin?",
+    "options": [
+      "To allow a class or function to be overridden",
+      "To define a constant",
+      "To prevent a class from being inherited",
+      "To make a function static"
+    ],
+    "answer": "To allow a class or function to be overridden"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you perform a null check in Kotlin?",
+    "options": [
+      "if (x != null)",
+      "if (x.isNotNull())",
+      "if (x == null)",
+      "check(x)"
+    ],
+    "answer": "if (x != null)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a class that cannot be instantiated directly in Kotlin?",
+    "options": [
+      "abstract class MyClass",
+      "sealed class MyClass",
+      "open class MyClass",
+      "final class MyClass"
+    ],
+    "answer": "abstract class MyClass"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you call a method of a superclass in Kotlin?",
+    "options": [
+      "super.methodName()",
+      "callSuper.methodName()",
+      "super::methodName",
+      "parent.methodName()"
+    ],
+    "answer": "super.methodName()"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which keyword is used to define a subclass in Kotlin?",
+    "options": [
+      "class Subclass : Superclass",
+      "class Subclass extends Superclass",
+      "class Subclass < Superclass",
+      "class Subclass extends(Superclass)"
+    ],
+    "answer": "class Subclass : Superclass"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you check if a number is even in Kotlin?",
+    "options": [
+      "number % 2 == 0",
+      "number.isEven()",
+      "number % 2 = 0",
+      "number.isEven"
+    ],
+    "answer": "number % 2 == 0"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `println('a'.toUpperCase())`?",
+    "options": [
+      "A",
+      "a",
+      "error",
+      "null"
+    ],
+    "answer": "A"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you iterate over a range of numbers in Kotlin?",
+    "options": [
+      "for (i in 1..10)",
+      "for (i in 1:10)",
+      "for (i in range(1, 10))",
+      "for (i in 1 until 10)"
+    ],
+    "answer": "for (i in 1..10)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a function that returns nothing in Kotlin?",
+    "options": [
+      "fun myFunction() { }",
+      "fun myFunction() : Unit { }",
+      "fun myFunction() : Void { }",
+      "fun myFunction() = Unit"
+    ],
+    "answer": "fun myFunction() : Unit { }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you access a field from an object in Kotlin?",
+    "options": [
+      "object.field",
+      "object.getField()",
+      "object[field]",
+      "object::field"
+    ],
+    "answer": "object.field"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of the `lateinit` keyword in Kotlin?",
+    "options": [
+      "To initialize a variable later",
+      "To define a read-only variable",
+      "To declare a function",
+      "To define a constant"
+    ],
+    "answer": "To initialize a variable later"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you perform a type cast in Kotlin?",
+    "options": [
+      "x as Type",
+      "cast(x, Type)",
+      "Type(x)",
+      "convert(x, Type)"
+    ],
+    "answer": "x as Type"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `println(10 / 3)` in Kotlin?",
+    "options": [
+      "3",
+      "3.333",
+      "3.0",
+      "error"
+    ],
+    "answer": "3"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you specify a return type for a function in Kotlin?",
+    "options": [
+      "fun functionName(): ReturnType",
+      "fun functionName() -> ReturnType",
+      "fun functionName(): ReturnType { }",
+      "functionName() : ReturnType"
+    ],
+    "answer": "fun functionName(): ReturnType"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a function with a variable number of arguments in Kotlin?",
+    "options": [
+      "fun myFunction(vararg args: Int)",
+      "fun myFunction(args: Int...)",
+      "fun myFunction(args: List<Int>)",
+      "fun myFunction(args: Int[])"
+    ],
+    "answer": "fun myFunction(vararg args: Int)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a variable with a mutable type in Kotlin?",
+    "options": [
+      "var x: Int",
+      "val x: Int",
+      "var x = Int",
+      "let x: Int"
+    ],
+    "answer": "var x: Int"
+  },
+  {
+    "category": "kotlin",
+    "question": "Which keyword is used to create an anonymous object in Kotlin?",
+    "options": [
+      "object",
+      "anonymous",
+      "new",
+      "data"
+    ],
+    "answer": "object"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a coroutine in Kotlin?",
+    "options": [
+      "GlobalScope.launch { ... }",
+      "launch { ... }",
+      "Coroutine { ... }",
+      "Async { ... }"
+    ],
+    "answer": "GlobalScope.launch { ... }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a property with a custom getter in Kotlin?",
+    "options": [
+      "val x: Int get() = 5",
+      "val x: Int = 5 get()",
+      "val x: Int get() { return 5 }",
+      "var x: Int = 5 get()"
+    ],
+    "answer": "val x: Int get() = 5"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the result of `println(8..12 step 2)`?",
+    "options": [
+      "8, 10, 12",
+      "8, 9, 10, 11, 12",
+      "8, 10, 11",
+      "8, 10, 12, 14"
+    ],
+    "answer": "8, 10, 12"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a `Pair` in Kotlin?",
+    "options": [
+      "Pair(1, 'a')",
+      "new Pair(1, 'a')",
+      "Pair.create(1, 'a')",
+      "Pair(1; 'a')"
+    ],
+    "answer": "Pair(1, 'a')"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a class that implements an interface in Kotlin?",
+    "options": [
+      "class MyClass : MyInterface",
+      "class MyClass implements MyInterface",
+      "class MyClass extends MyInterface",
+      "interface MyClass : MyInterface"
+    ],
+    "answer": "class MyClass : MyInterface"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create an empty list in Kotlin?",
+    "options": [
+      "emptyList()",
+      "listOf()",
+      "new List()",
+      "ArrayList()"
+    ],
+    "answer": "emptyList()"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you check if a value is of a specific type in Kotlin?",
+    "options": [
+      "x is Type",
+      "x instanceof Type",
+      "Type(x)",
+      "x.type()"
+    ],
+    "answer": "x is Type"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a secondary constructor in Kotlin?",
+    "options": [
+      "constructor() { }",
+      "class MyClass { constructor() { } }",
+      "class MyClass() { constructor() { } }",
+      "MyClass { constructor() { } }"
+    ],
+    "answer": "class MyClass { constructor() { } }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a function that returns a `List` in Kotlin?",
+    "options": [
+      "fun myFunction(): List<Int> { }",
+      "fun myFunction() -> List<Int> { }",
+      "fun myFunction() : List<Int> { }",
+      "List<Int> myFunction() { }"
+    ],
+    "answer": "fun myFunction(): List<Int> { }"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of the `@JvmStatic` annotation in Kotlin?",
+    "options": [
+      "To make a method static in the generated Java bytecode",
+      "To indicate that a method is deprecated",
+      "To define a method that is only visible in JVM",
+      "To create a static field"
+    ],
+    "answer": "To make a method static in the generated Java bytecode"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you check if a collection contains a specific element in Kotlin?",
+    "options": [
+      "element in collection",
+      "collection.contains(element)",
+      "collection.has(element)",
+      "collection.includes(element)"
+    ],
+    "answer": "element in collection"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you handle nullable types with a default value in Kotlin?",
+    "options": [
+      "x ?: defaultValue",
+      "defaultValue(x)",
+      "x.ifNull(defaultValue)",
+      "x.getOrDefault(defaultValue)"
+    ],
+    "answer": "x ?: defaultValue"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you call a function with named arguments in Kotlin?",
+    "options": [
+      "functionName(arg1 = value1, arg2 = value2)",
+      "functionName(value1, value2, named = arg1)",
+      "functionName(arg1: value1, arg2: value2)",
+      "functionName({arg1: value1, arg2: value2})"
+    ],
+    "answer": "functionName(arg1 = value1, arg2 = value2)"
+  },
+  {
+    "category": "kotlin",
+    "question": "What is the purpose of the `@JvmOverloads` annotation in Kotlin?",
+    "options": [
+      "To generate overloads for functions with default arguments",
+      "To indicate that a function is overloaded",
+      "To override Java methods",
+      "To define static methods"
+    ],
+    "answer": "To generate overloads for functions with default arguments"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you define a function that takes a lambda as a parameter in Kotlin?",
+    "options": [
+      "fun myFunction(lambda: () -> Unit) { }",
+      "fun myFunction(lambda: Unit) { }",
+      "fun myFunction(lambda: (Unit) -> Unit) { }",
+      "fun myFunction(lambda: (Int) -> Int) { }"
+    ],
+    "answer": "fun myFunction(lambda: () -> Unit) { }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create an immutable set in Kotlin?",
+    "options": [
+      "setOf(1, 2, 3)",
+      "immutableSetOf(1, 2, 3)",
+      "new Set(1, 2, 3)",
+      "HashSet(1, 2, 3)"
+    ],
+    "answer": "setOf(1, 2, 3)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you declare a property with a custom setter in Kotlin?",
+    "options": [
+      "var x: Int = 0 set(value) { field = value }",
+      "var x: Int = 0 { field = value }",
+      "var x: Int = 0 get() { return field }",
+      "var x: Int = 0 : field = value"
+    ],
+    "answer": "var x: Int = 0 set(value) { field = value }"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you create a `Triple` in Kotlin?",
+    "options": [
+      "Triple(1, 'a', 2.0)",
+      "new Triple(1, 'a', 2.0)",
+      "Triple.create(1, 'a', 2.0)",
+      "Triple(1; 'a'; 2.0)"
+    ],
+    "answer": "Triple(1, 'a', 2.0)"
+  },
+  {
+    "category": "kotlin",
+    "question": "How do you perform a list comprehension in Kotlin?",
+    "options": [
+      "listOf(1, 2, 3).map { it * 2 }",
+      "listOf(1, 2, 3).filter { it * 2 }",
+      "listOf(1, 2, 3).forEach { it * 2 }",
+      "listOf(1, 2, 3).reduce { it * 2 }"
+    ],
+    "answer": "listOf(1, 2, 3).map { it * 2 }"
   }
-  ]
+]
