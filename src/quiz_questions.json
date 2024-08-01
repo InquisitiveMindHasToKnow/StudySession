@@ -5047,5 +5047,1501 @@
       "clean()"
     ],
     "answer": "strip()"
+  },
+  {
+    "category": "java",
+    "question": "What is the default value of a boolean variable in Java?",
+    "options": [
+      "true",
+      "false",
+      "0",
+      "null"
+    ],
+    "answer": "false"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is not a Java keyword?",
+    "options": [
+      "interface",
+      "enum",
+      "goto",
+      "extends"
+    ],
+    "answer": "goto"
+  },
+  {
+    "category": "java",
+    "question": "Which method is used to start a thread in Java?",
+    "options": [
+      "start()",
+      "run()",
+      "init()",
+      "execute()"
+    ],
+    "answer": "start()"
+  },
+  {
+    "category": "java",
+    "question": "What is the size of an int variable in Java?",
+    "options": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "answer": "32 bits"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle exceptions in Java?",
+    "options": [
+      "try-catch",
+      "if-else",
+      "for loop",
+      "switch"
+    ],
+    "answer": "try-catch"
+  },
+  {
+    "category": "java",
+    "question": "What is the parent class of all classes in Java?",
+    "options": [
+      "Object",
+      "Class",
+      "Super",
+      "Base"
+    ],
+    "answer": "Object"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to define a constant in Java?",
+    "options": [
+      "final",
+      "static",
+      "const",
+      "volatile"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is not a valid access modifier in Java?",
+    "options": [
+      "private",
+      "protected",
+      "friendly",
+      "public"
+    ],
+    "answer": "friendly"
+  },
+  {
+    "category": "java",
+    "question": "Which method is called when an object is created in Java?",
+    "options": [
+      "constructor",
+      "destructor",
+      "create()",
+      "instantiate()"
+    ],
+    "answer": "constructor"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "extends",
+      "implements",
+      "inherits",
+      "super"
+    ],
+    "answer": "extends"
+  },
+  {
+    "category": "java",
+    "question": "Which operator is used for concatenating two strings in Java?",
+    "options": [
+      "+",
+      "&",
+      "*",
+      "-"
+    ],
+    "answer": "+"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to declare an interface in Java?",
+    "options": [
+      "interface",
+      "abstract",
+      "implements",
+      "extends"
+    ],
+    "answer": "interface"
+  },
+  {
+    "category": "java",
+    "question": "What is the return type of the hashCode() method in Java?",
+    "options": [
+      "int",
+      "boolean",
+      "float",
+      "double"
+    ],
+    "answer": "int"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is not a primitive data type in Java?",
+    "options": [
+      "String",
+      "int",
+      "char",
+      "boolean"
+    ],
+    "answer": "String"
+  },
+  {
+    "category": "java",
+    "question": "Which exception is thrown when a method cannot find a file it needs?",
+    "options": [
+      "FileNotFoundException",
+      "IOException",
+      "ArrayIndexOutOfBoundsException",
+      "NullPointerException"
+    ],
+    "answer": "FileNotFoundException"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to perform a task after a thread is started in Java?",
+    "options": [
+      "run()",
+      "start()",
+      "begin()",
+      "init()"
+    ],
+    "answer": "run()"
+  },
+  {
+    "category": "java",
+    "question": "Which method in the Object class is used to clone an object in Java?",
+    "options": [
+      "clone()",
+      "copy()",
+      "duplicate()",
+      "replicate()"
+    ],
+    "answer": "clone()"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to prevent a method from being overridden in Java?",
+    "options": [
+      "final",
+      "static",
+      "abstract",
+      "synchronized"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to implement an interface in Java?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "follows"
+    ],
+    "answer": "implements"
+  },
+  {
+    "category": "java",
+    "question": "What is the size of a char variable in Java?",
+    "options": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "answer": "16 bits"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is the correct way to declare an array in Java?",
+    "options": [
+      "int[] arr;",
+      "array int arr;",
+      "int arr[] = new int[];",
+      "arr[] int;"
+    ],
+    "answer": "int[] arr;"
+  },
+  {
+    "category": "java",
+    "question": "Which method is used to check if a string contains another string in Java?",
+    "options": [
+      "contains()",
+      "includes()",
+      "has()",
+      "exists()"
+    ],
+    "answer": "contains()"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is a checked exception in Java?",
+    "options": [
+      "IOException",
+      "ArrayIndexOutOfBoundsException",
+      "NullPointerException",
+      "ArithmeticException"
+    ],
+    "answer": "IOException"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to declare a class in Java?",
+    "options": [
+      "class",
+      "object",
+      "define",
+      "create"
+    ],
+    "answer": "class"
+  },
+  {
+    "category": "java",
+    "question": "Which method is used to compare two strings in Java?",
+    "options": [
+      "compareTo()",
+      "equals()",
+      "match()",
+      "compare()"
+    ],
+    "answer": "compareTo()"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is not a valid Java identifier?",
+    "options": [
+      "1stName",
+      "_firstName",
+      "$name",
+      "name1"
+    ],
+    "answer": "1stName"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to define a method in Java?",
+    "options": [
+      "void",
+      "function",
+      "method",
+      "def"
+    ],
+    "answer": "void"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to break out of a loop in Java?",
+    "options": [
+      "break",
+      "exit",
+      "stop",
+      "end"
+    ],
+    "answer": "break"
+  },
+  {
+    "category": "java",
+    "question": "What is the default value of an int variable in Java?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "null"
+    ],
+    "answer": "0"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is a bitwise operator in Java?",
+    "options": [
+      "&",
+      "&&",
+      "||",
+      "!="
+    ],
+    "answer": "&"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a package in Java?",
+    "options": [
+      "package",
+      "namespace",
+      "module",
+      "library"
+    ],
+    "answer": "package"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to define an abstract class in Java?",
+    "options": [
+      "abstract",
+      "interface",
+      "class",
+      "final"
+    ],
+    "answer": "abstract"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to read input from the user in Java?",
+    "options": [
+      "Scanner",
+      "Reader",
+      "InputStream",
+      "BufferedReader"
+    ],
+    "answer": "Scanner"
+  },
+  {
+    "category": "java",
+    "question": "What is the default value of a double variable in Java?",
+    "options": [
+      "0.0",
+      "0.0d",
+      "0",
+      "null"
+    ],
+    "answer": "0.0"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle errors in Java?",
+    "options": [
+      "try-catch",
+      "throw",
+      "finally",
+      "catch"
+    ],
+    "answer": "try-catch"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is not a type of inheritance in Java?",
+    "options": [
+      "Multiple",
+      "Single",
+      "Hierarchical",
+      "Multilevel"
+    ],
+    "answer": "Multiple"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to access a method of the superclass in Java?",
+    "options": [
+      "super",
+      "this",
+      "base",
+      "parent"
+    ],
+    "answer": "super"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a constant variable in Java?",
+    "options": [
+      "final",
+      "static",
+      "const",
+      "permanent"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is a reserved keyword in Java?",
+    "options": [
+      "volatile",
+      "array",
+      "value",
+      "string"
+    ],
+    "answer": "volatile"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to create an object in Java?",
+    "options": [
+      "new",
+      "create",
+      "object",
+      "instantiate"
+    ],
+    "answer": "new"
+  },
+  {
+    "category": "java",
+    "question": "What is the size of a float variable in Java?",
+    "options": [
+      "32 bits",
+      "16 bits",
+      "64 bits",
+      "8 bits"
+    ],
+    "answer": "32 bits"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to compare two objects in Java?",
+    "options": [
+      "equals()",
+      "==",
+      "compare()",
+      "compareTo()"
+    ],
+    "answer": "equals()"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to iterate over a collection in Java?",
+    "options": [
+      "for-each loop",
+      "while loop",
+      "do-while loop",
+      "for loop"
+    ],
+    "answer": "for-each loop"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to declare a subclass in Java?",
+    "options": [
+      "extends",
+      "implements",
+      "inherits",
+      "subclass"
+    ],
+    "answer": "extends"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to return a value from a method in Java?",
+    "options": [
+      "return",
+      "yield",
+      "output",
+      "exit"
+    ],
+    "answer": "return"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle multiple exceptions in Java?",
+    "options": [
+      "multi-catch",
+      "multi-exception",
+      "multi-try",
+      "multi-error"
+    ],
+    "answer": "multi-catch"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to declare a method that must be implemented by a subclass in Java?",
+    "options": [
+      "abstract",
+      "final",
+      "static",
+      "synchronized"
+    ],
+    "answer": "abstract"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to create a new thread in Java?",
+    "options": [
+      "Thread",
+      "Runnable",
+      "Process",
+      "Executor"
+    ],
+    "answer": "Thread"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle runtime errors in Java?",
+    "options": [
+      "exception",
+      "error",
+      "warning",
+      "fault"
+    ],
+    "answer": "exception"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that cannot be overridden in Java?",
+    "options": [
+      "final",
+      "static",
+      "abstract",
+      "synchronized"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that must be implemented in Java?",
+    "options": [
+      "abstract",
+      "final",
+      "static",
+      "synchronized"
+    ],
+    "answer": "abstract"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle compile-time errors in Java?",
+    "options": [
+      "exception",
+      "error",
+      "warning",
+      "fault"
+    ],
+    "answer": "exception"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to access a method of the current class in Java?",
+    "options": [
+      "this",
+      "super",
+      "base",
+      "parent"
+    ],
+    "answer": "this"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to check the equality of two strings in Java?",
+    "options": [
+      "equals()",
+      "==",
+      "compare()",
+      "compareTo()"
+    ],
+    "answer": "equals()"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that cannot be accessed outside its class in Java?",
+    "options": [
+      "private",
+      "protected",
+      "public",
+      "default"
+    ],
+    "answer": "private"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by subclasses in Java?",
+    "options": [
+      "protected",
+      "private",
+      "public",
+      "default"
+    ],
+    "answer": "protected"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by any class in Java?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "default"
+    ],
+    "answer": "public"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by interfaces in Java?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "default"
+    ],
+    "answer": "public"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and subclasses in Java?",
+    "options": [
+      "protected",
+      "private",
+      "public",
+      "default"
+    ],
+    "answer": "protected"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and interfaces in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same project in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same project in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same module in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same module in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same application in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same application in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same framework in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same framework in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same platform in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same platform in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same library in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same library in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same environment in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same environment in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same system in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same system in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same architecture in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same architecture in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same technology in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same technology in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "What is the default value of a double variable in Java?",
+    "options": [
+      "0.0",
+      "0.0d",
+      "0",
+      "null"
+    ],
+    "answer": "0.0"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle errors in Java?",
+    "options": [
+      "try-catch",
+      "throw",
+      "finally",
+      "catch"
+    ],
+    "answer": "try-catch"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is not a type of inheritance in Java?",
+    "options": [
+      "Multiple",
+      "Single",
+      "Hierarchical",
+      "Multilevel"
+    ],
+    "answer": "Multiple"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to access a method of the superclass in Java?",
+    "options": [
+      "super",
+      "this",
+      "base",
+      "parent"
+    ],
+    "answer": "super"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a constant variable in Java?",
+    "options": [
+      "final",
+      "static",
+      "const",
+      "permanent"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is a reserved keyword in Java?",
+    "options": [
+      "volatile",
+      "array",
+      "value",
+      "string"
+    ],
+    "answer": "volatile"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to create an object in Java?",
+    "options": [
+      "new",
+      "create",
+      "object",
+      "instantiate"
+    ],
+    "answer": "new"
+  },
+  {
+    "category": "java",
+    "question": "What is the size of a float variable in Java?",
+    "options": [
+      "32 bits",
+      "16 bits",
+      "64 bits",
+      "8 bits"
+    ],
+    "answer": "32 bits"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to compare two objects in Java?",
+    "options": [
+      "equals()",
+      "==",
+      "compare()",
+      "compareTo()"
+    ],
+    "answer": "equals()"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to iterate over a collection in Java?",
+    "options": [
+      "for-each loop",
+      "while loop",
+      "do-while loop",
+      "for loop"
+    ],
+    "answer": "for-each loop"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to declare a subclass in Java?",
+    "options": [
+      "extends",
+      "implements",
+      "inherits",
+      "subclass"
+    ],
+    "answer": "extends"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to return a value from a method in Java?",
+    "options": [
+      "return",
+      "yield",
+      "output",
+      "exit"
+    ],
+    "answer": "return"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle multiple exceptions in Java?",
+    "options": [
+      "multi-catch",
+      "multi-exception",
+      "multi-try",
+      "multi-error"
+    ],
+    "answer": "multi-catch"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to declare a method that must be implemented by a subclass in Java?",
+    "options": [
+      "abstract",
+      "final",
+      "static",
+      "synchronized"
+    ],
+    "answer": "abstract"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to create a new thread in Java?",
+    "options": [
+      "Thread",
+      "Runnable",
+      "Process",
+      "Executor"
+    ],
+    "answer": "Thread"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle runtime errors in Java?",
+    "options": [
+      "exception",
+      "error",
+      "warning",
+      "fault"
+    ],
+    "answer": "exception"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that cannot be overridden in Java?",
+    "options": [
+      "final",
+      "static",
+      "abstract",
+      "synchronized"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that must be implemented in Java?",
+    "options": [
+      "abstract",
+      "final",
+      "static",
+      "synchronized"
+    ],
+    "answer": "abstract"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle compile-time errors in Java?",
+    "options": [
+      "exception",
+      "error",
+      "warning",
+      "fault"
+    ],
+    "answer": "exception"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to access a method of the current class in Java?",
+    "options": [
+      "this",
+      "super",
+      "base",
+      "parent"
+    ],
+    "answer": "this"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to check the equality of two strings in Java?",
+    "options": [
+      "equals()",
+      "==",
+      "compare()",
+      "compareTo()"
+    ],
+    "answer": "equals()"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that cannot be accessed outside its class in Java?",
+    "options": [
+      "private",
+      "protected",
+      "public",
+      "default"
+    ],
+    "answer": "private"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by subclasses in Java?",
+    "options": [
+      "protected",
+      "private",
+      "public",
+      "default"
+    ],
+    "answer": "protected"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by any class in Java?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "default"
+    ],
+    "answer": "public"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by interfaces in Java?",
+    "options": [
+      "public",
+      "private",
+      "protected",
+      "default"
+    ],
+    "answer": "public"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and subclasses in Java?",
+    "options": [
+      "protected",
+      "private",
+      "public",
+      "default"
+    ],
+    "answer": "protected"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and interfaces in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same project in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same project in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same module in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same module in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "extends",
+      "implements",
+      "inherits",
+      "derives"
+    ],
+    "answer": "extends"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is the correct way to declare an array in Java?",
+    "options": [
+      "int[] arr = new int[10];",
+      "int arr[] = new int(10);",
+      "int arr = new int[10];",
+      "int arr[10] = new int[];"
+    ],
+    "answer": "int[] arr = new int[10];"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to import a package in Java?",
+    "options": [
+      "import",
+      "include",
+      "using",
+      "require"
+    ],
+    "answer": "import"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a class that cannot be subclassed in Java?",
+    "options": [
+      "final",
+      "abstract",
+      "static",
+      "sealed"
+    ],
+    "answer": "final"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same system in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is the entry point of a Java program?",
+    "options": [
+      "main() method",
+      "start() method",
+      "init() method",
+      "run() method"
+    ],
+    "answer": "main() method"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same framework in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to declare a class in Java?",
+    "options": [
+      "class",
+      "interface",
+      "struct",
+      "package"
+    ],
+    "answer": "class"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a class that can only have one instance in Java?",
+    "options": [
+      "singleton",
+      "single",
+      "only",
+      "unique"
+    ],
+    "answer": "singleton"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is the correct way to declare a variable in Java?",
+    "options": [
+      "int a = 10;",
+      "int a := 10;",
+      "int a <- 10;",
+      "int a => 10;"
+    ],
+    "answer": "int a = 10;"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to declare an interface in Java?",
+    "options": [
+      "interface",
+      "class",
+      "struct",
+      "package"
+    ],
+    "answer": "interface"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same architecture in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a class that cannot be instantiated in Java?",
+    "options": [
+      "abstract",
+      "final",
+      "static",
+      "sealed"
+    ],
+    "answer": "abstract"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same technology in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same technology in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same architecture in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which keyword is used to refer to the current class instance in Java?",
+    "options": [
+      "this",
+      "self",
+      "current",
+      "instance"
+    ],
+    "answer": "this"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same system in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is the correct way to create a new instance of a class in Java?",
+    "options": [
+      "MyClass obj = new MyClass();",
+      "MyClass obj = MyClass();",
+      "MyClass obj = MyClass.new();",
+      "MyClass obj = create MyClass();"
+    ],
+    "answer": "MyClass obj = new MyClass();"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to handle asynchronous tasks in Java?",
+    "options": [
+      "ExecutorService",
+      "Thread",
+      "Process",
+      "Runnable"
+    ],
+    "answer": "ExecutorService"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to create a string in Java?",
+    "options": [
+      "String",
+      "str",
+      "text",
+      "char"
+    ],
+    "answer": "String"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same environment in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
+  },
+  {
+    "category": "java",
+    "question": "Which of the following is used to declare a method that can be accessed by classes in the same package and classes in the same environment in Java?",
+    "options": [
+      "default",
+      "private",
+      "protected",
+      "public"
+    ],
+    "answer": "default"
   }
   ]
