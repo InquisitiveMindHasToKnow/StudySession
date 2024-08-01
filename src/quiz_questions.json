@@ -2418,5 +2418,346 @@
       "match"
     ],
     "answer": "pattern"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to change the background color of an element?",
+    "options": [
+      "background-color",
+      "color",
+      "background",
+      "bgcolor"
+    ],
+    "answer": "background-color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "foreground-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to change the font size of an element?",
+    "options": [
+      "font-size",
+      "text-size",
+      "size",
+      "font"
+    ],
+    "answer": "font-size"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to make the text bold?",
+    "options": [
+      "font-weight",
+      "font-style",
+      "text-decoration",
+      "font-bold"
+    ],
+    "answer": "font-weight"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to italicize text?",
+    "options": [
+      "font-style",
+      "font-weight",
+      "text-decoration",
+      "font-variant"
+    ],
+    "answer": "font-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to underline text?",
+    "options": [
+      "text-decoration",
+      "text-style",
+      "text-underline",
+      "text-transform"
+    ],
+    "answer": "text-decoration"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to capitalize the first letter of each word in a text?",
+    "options": [
+      "text-transform",
+      "text-decoration",
+      "font-variant",
+      "letter-spacing"
+    ],
+    "answer": "text-transform"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to change the font family of an element?",
+    "options": [
+      "font-family",
+      "font-style",
+      "font-type",
+      "text-family"
+    ],
+    "answer": "font-family"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the spacing between lines of text?",
+    "options": [
+      "line-height",
+      "letter-spacing",
+      "word-spacing",
+      "text-indent"
+    ],
+    "answer": "line-height"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to add space between the border and the content of an element?",
+    "options": [
+      "padding",
+      "margin",
+      "border-spacing",
+      "border-width"
+    ],
+    "answer": "padding"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to add space around an element's border?",
+    "options": [
+      "margin",
+      "padding",
+      "border-spacing",
+      "border-width"
+    ],
+    "answer": "margin"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the width of an element's border?",
+    "options": [
+      "border-width",
+      "border-style",
+      "border-color",
+      "border-radius"
+    ],
+    "answer": "border-width"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the color of an element's border?",
+    "options": [
+      "border-color",
+      "border-style",
+      "border-width",
+      "outline-color"
+    ],
+    "answer": "border-color"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the style of an element's border?",
+    "options": [
+      "border-style",
+      "border-color",
+      "border-width",
+      "outline-style"
+    ],
+    "answer": "border-style"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to create rounded corners for an element?",
+    "options": [
+      "border-radius",
+      "border-round",
+      "corner-radius",
+      "border-style"
+    ],
+    "answer": "border-radius"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the opacity of an element?",
+    "options": [
+      "opacity",
+      "transparent",
+      "visibility",
+      "filter"
+    ],
+    "answer": "opacity"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to make text appear in uppercase?",
+    "options": [
+      "text-transform",
+      "text-decoration",
+      "text-style",
+      "font-variant"
+    ],
+    "answer": "text-transform"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to align text to the left, right, center, or justify?",
+    "options": [
+      "text-align",
+      "text-decoration",
+      "text-style",
+      "text-transform"
+    ],
+    "answer": "text-align"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the distance between words?",
+    "options": [
+      "word-spacing",
+      "letter-spacing",
+      "line-height",
+      "text-indent"
+    ],
+    "answer": "word-spacing"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the distance between characters?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "line-height",
+      "text-indent"
+    ],
+    "answer": "letter-spacing"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to indent the first line of a paragraph?",
+    "options": [
+      "text-indent",
+      "margin-left",
+      "padding-left",
+      "line-height"
+    ],
+    "answer": "text-indent"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the visibility of an element?",
+    "options": [
+      "visibility",
+      "display",
+      "opacity",
+      "overflow"
+    ],
+    "answer": "visibility"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the display of an element (block, inline, etc.)?",
+    "options": [
+      "display",
+      "visibility",
+      "overflow",
+      "position"
+    ],
+    "answer": "display"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to control the positioning of an element?",
+    "options": [
+      "position",
+      "display",
+      "overflow",
+      "visibility"
+    ],
+    "answer": "position"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the background image of an element?",
+    "options": [
+      "background-image",
+      "background",
+      "background-url",
+      "image"
+    ],
+    "answer": "background-image"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the position of a background image?",
+    "options": [
+      "background-position",
+      "background-align",
+      "background-placement",
+      "position"
+    ],
+    "answer": "background-position"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify whether a background image should repeat?",
+    "options": [
+      "background-repeat",
+      "background-image",
+      "background-loop",
+      "background-pattern"
+    ],
+    "answer": "background-repeat"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the attachment of a background image?",
+    "options": [
+      "background-attachment",
+      "background-scroll",
+      "background-fixed",
+      "background-position"
+    ],
+    "answer": "background-attachment"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to specify the size of a background image?",
+    "options": [
+      "background-size",
+      "background-dimension",
+      "background-scale",
+      "size"
+    ],
+    "answer": "background-size"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the horizontal overflow of an element's content?",
+    "options": [
+      "overflow-x",
+      "overflow",
+      "overflow-y",
+      "overflow-horizontal"
+    ],
+    "answer": "overflow-x"
+  },
+  {
+    "category": "css",
+    "question": "Which CSS property is used to set the vertical overflow of an element's content?",
+    "options": [
+      "overflow-y",
+      "overflow",
+      "overflow-x",
+      "overflow-vertical"
+    ],
+    "answer": "overflow-y"
   }
   ]
