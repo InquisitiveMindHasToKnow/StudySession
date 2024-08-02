@@ -1,10 +1,17 @@
 .quiz-container {
   display: flex;
-  align-items: center;
+  flex-direction: column; /* Stack header and quiz box vertically */
+  align-items: center; /* Center horizontally */
   justify-content: center;
   height: 100vh;
-  background-color: #018786; 
+  background-color: #018786;
   padding: 20px;
+}
+
+.quiz-header {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 20px; /* Space between header and quiz box */
 }
 
 .quiz-box {
@@ -22,14 +29,20 @@ h2 {
   margin-bottom: 40px;
 }
 
+.score {
+  margin-bottom: 20px;
+}
+
 .options {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .option-button {
-  padding: 15px;
-  margin: 10px 0;
+  flex: 1 1 45%;
+  padding: 20px; /* Increased padding for larger buttons */
+  margin: 10px 10px;
   border: 2px solid transparent;
   border-radius: 5px;
   cursor: pointer;
@@ -43,25 +56,20 @@ h2 {
 }
 
 .option-button.correct {
-  background-color: #4caf50; /* Green color for correct answers */
+  background-color: #4caf50;
   color: white;
-  border-color: #388e3c; /* Darker green border */
+  border-color: #388e3c;
 }
 
 .option-button.incorrect {
-  background-color: #f44336; /* Red color for selected incorrect answers */
+  background-color: #f44336;
   color: white;
-  border-color: #d32f2f; /* Darker red border */
+  border-color: #c62828;
 }
 
 .option-button.incorrect-when-disabled {
-  background-color: #f44336; /* Red color for incorrect options even when not selected */
+  background-color: #f44336;
   color: white;
-  border-color: #d32f2f; /* Darker red border */
-}
-
-.option-button:disabled {
-  cursor: not-allowed;
 }
 
 .navigation-buttons {
