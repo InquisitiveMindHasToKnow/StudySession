@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import '../css/AppBar.css'; // Ensure this file is created for styling
+import '../css/AppBar.css'; 
 
 const AppBar = () => {
     const [difficulty, setDifficulty] = useState('easy');
@@ -25,7 +25,7 @@ const AppBar = () => {
 
     return (
         <div className="app-bar">
-            <Link to="/" className="app-bar-link">Home</Link>
+            <Link to="/" className="app-bar-link">Study Session</Link>
             <div className="app-bar-dropdown">
                 <select
                     value={difficulty}
