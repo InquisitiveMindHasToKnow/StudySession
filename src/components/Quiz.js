@@ -18,9 +18,9 @@ const Quiz = () => {
     // Map difficulty levels to the number of questions
     const difficultyMapping = {
         easy: 12,
-        medium: 20,
+        medium: 21,
         hard: 30,
-        'very-hard': 40
+        'very-hard': 42
     };
 
     const numberOfQuestions = difficultyMapping[difficulty] || 12; // Default to 12 if difficulty is not recognized
