@@ -6,16 +6,15 @@ import quizQuestions from '../quiz_questions.json';
 const Quiz = () => {
     const { category } = useParams(); // Get category from URL
     const [questions, setQuestions] = useState([]);
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    const [selectedOption, setSelectedOption] = useState(null);
-    const [answered, setAnswered] = useState(false);
+    const [selectedOptions, setSelectedOptions] = useState({});
+    const [answeredQuestions, setAnsweredQuestions] = useState({}); // Tracks whether a question has been answered
     const [correctAnswers, setCorrectAnswers] = useState(0);
 
     useEffect(() => {
         // Filter questions by category and shuffle them to pick random ones
         const filteredQuestions = quizQuestions.filter(q => q.category === category);
         const shuffledQuestions = filteredQuestions.sort(() => 0.5 - Math.random());
-        const selectedQuestions = shuffledQuestions.slice(0, 10); // Select 10 questions
+        const selectedQuestions = shuffledQuestions.slice(0, 12); // Select 12 questions
 
         // Shuffle options for each question
         const questionsWithShuffledOptions = selectedQuestions.map(q => ({
@@ -26,85 +25,55 @@ const Quiz = () => {
         setQuestions(questionsWithShuffledOptions);
     }, [category]);
 
-    useEffect(() => {
-        if (selectedOption && questions.length) {
-            if (selectedOption === questions[currentQuestionIndex]?.answer) {
+    const handleOptionClick = (questionIndex, option) => {
+        // Prevent re-answering if already answered
+        if (!answeredQuestions[questionIndex]) {
+            setSelectedOptions(prev => ({ ...prev, [questionIndex]: option }));
+            setAnsweredQuestions(prev => ({ ...prev, [questionIndex]: true }));
+
+            // Check if the selected option is correct
+            if (questions[questionIndex].answer === option) {
                 setCorrectAnswers(prev => prev + 1);
             }
         }
-    }, [answered, questions, currentQuestionIndex, selectedOption]);
-
-    const handleOptionClick = (option) => {
-        if (!answered) {
-            setSelectedOption(option);
-            setAnswered(true); // Lock in the answer after selection
-        }
     };
-
-    const handleNextQuestion = () => {
-        if (currentQuestionIndex < questions.length - 1) {
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
-            setSelectedOption(null);
-            setAnswered(false); // Reset for the next question
-        }
-    };
-
-    const handlePreviousQuestion = () => {
-        if (currentQuestionIndex > 0) {
-            setCurrentQuestionIndex(currentQuestionIndex - 1);
-            setSelectedOption(null);
-            setAnswered(false); // Reset for the previous question
-        }
-    };
-
-    const currentQuestion = questions[currentQuestionIndex];
-
-    if (!currentQuestion) {
-        return <p>Loading questions...</p>;
-    }
 
     return (
         <div className="quiz-container">
             <h1 className="quiz-header">Study Session</h1>
-            <div className="quiz-box">
-                <h2>Question {currentQuestion.question}</h2>
-                <p className="score">Correct Answers: {correctAnswers} out of {questions.length}</p>
-                <div className="options">
-                    {currentQuestion.options.map((option, index) => {
-                        const isCorrect = option === currentQuestion.answer;
-                        const isSelected = option === selectedOption;
+            <div className="quiz-grid">
+                {questions.map((question, questionIndex) => (
+                    <div key={questionIndex} className="quiz-box">
+                        <p>{questionIndex + 1 + ') '+question.question}</p>
+                        <div className="options">
+                            {question.options.map((option, optionIndex) => {
+                                const isCorrect = option === question.answer;
+                                const isSelected = selectedOptions[questionIndex] === option;
+                                const isAnswered = answeredQuestions[questionIndex];
 
-                        let buttonClass = 'option-button';
-                        if (answered) {
-                            if (isCorrect) {
-                                buttonClass += ' correct';
-                            } else if (isSelected) {
-                                buttonClass += ' incorrect';
-                            } else if (!isSelected && !isCorrect) {
-                                buttonClass += ' incorrect-when-disabled';
-                            }
-                        }
+                                let buttonClass = 'option-button';
+                                if (isAnswered) {
+                                    if (isCorrect) {
+                                        buttonClass += ' correct';
+                                    } else if (isSelected) {
+                                        buttonClass += ' incorrect';
+                                    }
+                                }
 
-                        return (
-                            <button
-                                key={index}
-                                className={buttonClass}
-                                onClick={() => handleOptionClick(option)}
-                                disabled={answered}
-                            >
-                                {option}
-                            </button>
-                        );
-                    })}
-                </div>
-                <div className="navigation-buttons">
-                    <button onClick={handlePreviousQuestion} disabled={currentQuestionIndex === 0}>
-                        Previous
-                    </button>
-                    <button onClick={handleNextQuestion} disabled={currentQuestionIndex === questions.length - 1}>
-                        Next
-                    </button>
-                </div>
+                                return (
+                                    <button
+                                        key={optionIndex}
+                                        className={buttonClass}
+                                        onClick={() => handleOptionClick(questionIndex, option)}
+                                        disabled={isAnswered}
+                                    >
+                                        {option}
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </div>
+                ))}
             </div>
         </div>
     );
