@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation} from 'react-router-dom';
 import '../css/Quiz.css';
 import quizQuestions from '../quiz_questions.json';
 
@@ -10,12 +10,27 @@ const Quiz = () => {
     const [answeredQuestions, setAnsweredQuestions] = useState({});
     const [correctAnswers, setCorrectAnswers] = useState(0);
     const [timeLeft, setTimeLeft] = useState(300); // Set to 300 seconds (5 minutes) for example
+    const location = useLocation(); // Get the location object to parse query parameters
 
+    // Extract difficulty level from query parameters
+    const searchParams = new URLSearchParams(location.search);
+    const difficulty = searchParams.get('difficulty') || 'easy'; // Default to 'easy' if not specified
+
+    // Map difficulty levels to the number of questions
+    const difficultyMapping = {
+        easy: 12,
+        medium: 21,
+        hard: 30,
+        'very-hard': 42
+    };
+
+    const numberOfQuestions = difficultyMapping[difficulty] || 12; // Default to 12 if difficulty is not recognized
+    
     useEffect(() => {
         // Filter questions by category and shuffle them to pick random ones
         const filteredQuestions = quizQuestions.filter(q => q.category === category);
         const shuffledQuestions = filteredQuestions.sort(() => 0.5 - Math.random());
-        const selectedQuestions = shuffledQuestions.slice(0, 12); // Select 12 questions
+        const selectedQuestions = shuffledQuestions.slice(0, numberOfQuestions); // Select 12 questions
 
         // Shuffle options for each question
         const questionsWithShuffledOptions = selectedQuestions.map(q => ({
@@ -24,7 +39,7 @@ const Quiz = () => {
         }));
 
         setQuestions(questionsWithShuffledOptions);
-    }, [category]);
+     }, [category, numberOfQuestions]);
 
     useEffect(() => {
         if (timeLeft > 0) {
