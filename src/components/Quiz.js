@@ -1,52 +1,45 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useLocation } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import '../css/Quiz.css';
 import quizQuestions from '../quiz_questions.json';
 
 const Quiz = () => {
-    const { category } = useParams(); // Get category from URL
-    const location = useLocation(); // Get the location object to parse query parameters
+    const { category } = useParams();
     const [questions, setQuestions] = useState([]);
     const [selectedOptions, setSelectedOptions] = useState({});
-    const [answeredQuestions, setAnsweredQuestions] = useState({}); // Tracks whether a question has been answered
+    const [answeredQuestions, setAnsweredQuestions] = useState({});
     const [correctAnswers, setCorrectAnswers] = useState(0);
-
-    // Extract difficulty level from query parameters
-    const searchParams = new URLSearchParams(location.search);
-    const difficulty = searchParams.get('difficulty') || 'easy'; // Default to 'easy' if not specified
-
-    // Map difficulty levels to the number of questions
-    const difficultyMapping = {
-        easy: 12,
-        medium: 21,
-        hard: 30,
-        'very-hard': 42
-    };
-
-    const numberOfQuestions = difficultyMapping[difficulty] || 12; // Default to 12 if difficulty is not recognized
+    const [timeLeft, setTimeLeft] = useState(300); // Set to 300 seconds (5 minutes) for example
 
     useEffect(() => {
         // Filter questions by category and shuffle them to pick random ones
         const filteredQuestions = quizQuestions.filter(q => q.category === category);
         const shuffledQuestions = filteredQuestions.sort(() => 0.5 - Math.random());
-        const selectedQuestions = shuffledQuestions.slice(0, numberOfQuestions); // Select questions based on difficulty
+        const selectedQuestions = shuffledQuestions.slice(0, 12); // Select 12 questions
 
         // Shuffle options for each question
         const questionsWithShuffledOptions = selectedQuestions.map(q => ({
             ...q,
-            options: shuffleArray(q.options)
+            options: shuffleArray(q.options),
         }));
 
         setQuestions(questionsWithShuffledOptions);
-    }, [category, numberOfQuestions]);
+    }, [category]);
+
+    useEffect(() => {
+        if (timeLeft > 0) {
+            const timer = setInterval(() => {
+                setTimeLeft(prevTime => prevTime - 1);
+            }, 1000);
+            return () => clearInterval(timer);
+        }
+    }, [timeLeft]);
 
     const handleOptionClick = (questionIndex, option) => {
-        // Prevent re-answering if already answered
         if (!answeredQuestions[questionIndex]) {
             setSelectedOptions(prev => ({ ...prev, [questionIndex]: option }));
             setAnsweredQuestions(prev => ({ ...prev, [questionIndex]: true }));
 
-            // Check if the selected option is correct
             if (questions[questionIndex].answer === option) {
                 setCorrectAnswers(prev => prev + 1);
             }
@@ -56,6 +49,14 @@ const Quiz = () => {
     return (
         <div className="quiz-container">
             <h1 className="quiz-header">Study Session</h1>
+            <div className="quiz-info">
+                <div className="timer">
+                    <h2>Time Left: {Math.floor(timeLeft / 60)}:{timeLeft % 60 < 10 ? '0' : ''}{timeLeft % 60}</h2>
+                </div>
+                <div className="score">
+                    <h2>Score: {correctAnswers} / {questions.length}</h2>
+                </div>
+            </div>
             <div className="quiz-grid">
                 {questions.map((question, questionIndex) => (
                     <div key={questionIndex} className="quiz-box">
