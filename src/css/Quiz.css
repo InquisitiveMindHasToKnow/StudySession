@@ -76,3 +76,14 @@
       padding: 15px; /* Larger buttons for better touch target on mobile */
   }
 }
+
+.quiz-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.timer, .score {
+  font-size: 18px;
+  color: #333;
+}
