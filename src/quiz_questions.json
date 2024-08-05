@@ -11075,5 +11075,1181 @@
     "Commits changes to the repository"
   ],
   "answer": "Shows differences between files with color highlighting for words"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of accessing an element in an array by index?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of searching for an element in a sorted array using binary search?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of inserting an element at the end of a linked list?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of sorting an array using bubble sort?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n^2)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the maximum element in an unsorted array?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of appending an element to a dynamic array?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the space complexity of storing a list of n integers?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of a linear search in an unsorted list?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of accessing the first element in a stack implemented with a linked list?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of retrieving a value from a hash table?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of quicksort in the average case?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of inserting an element into a binary search tree (BST) in the average case?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of removing an element from a binary search tree (BST) in the worst case?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of performing a breadth-first search (BFS) on a graph with V vertices and E edges?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the shortest path in an unweighted graph using BFS?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of performing a depth-first search (DFS) on a graph with V vertices and E edges?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of merging two sorted arrays each of size n?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the median of an unsorted array using the median of medians algorithm?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(log n)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of heap sort?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(log n)"
+  ],
+  "answer": "O(n log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of searching for an element in an AVL tree?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of Dijkstra's algorithm for finding the shortest path in a graph with V vertices and E edges using a priority queue?",
+  "options": [
+    "O(V^2)",
+    "O(V log V + E)",
+    "O(E log V)",
+    "O(V * E)"
+  ],
+  "answer": "O(E log V)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of counting sort?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(log n)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the worst-case scenario for insertion sort?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(log n)"
+  ],
+  "answer": "O(n^2)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the shortest path using Floyd-Warshall algorithm in a graph with V vertices?",
+  "options": [
+    "O(V)",
+    "O(V^2)",
+    "O(V^3)",
+    "O(V * E)"
+  ],
+  "answer": "O(V^3)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the dynamic programming approach to the knapsack problem?",
+  "options": [
+    "O(n)",
+    "O(nW)",
+    "O(2^n)",
+    "O(n log n)"
+  ],
+  "answer": "O(nW)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the longest common subsequence (LCS) of two strings of length m and n using dynamic programming?",
+  "options": [
+    "O(m + n)",
+    "O(m * n)",
+    "O(m^2 + n^2)",
+    "O(n^2)"
+  ],
+  "answer": "O(m * n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the merge operation in merge sort?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of performing a binary search on a balanced binary search tree?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the space complexity of a recursive implementation of quicksort?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the worst-case scenario for selection sort?",
+  "options": [
+    "O(1)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(n)"
+  ],
+  "answer": "O(n^2)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the kth smallest element in an unsorted array using the Quickselect algorithm?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Floyd-Warshall algorithm for finding shortest paths between all pairs of nodes in a graph?",
+  "options": [
+    "O(V^2)",
+    "O(V^3)",
+    "O(E * V)",
+    "O(V * E)"
+  ],
+  "answer": "O(V^3)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of a balanced binary search tree (BST) for operations such as insert, delete, and find?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the A* algorithm for finding the shortest path in a graph with V vertices and E edges, assuming a priority queue implementation?",
+  "options": [
+    "O(V^2)",
+    "O(V log V + E)",
+    "O(E log V)",
+    "O(V * E)"
+  ],
+  "answer": "O(E log V)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of solving the traveling salesman problem (TSP) using a brute-force approach?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n!)",
+    "O(2^n)"
+  ],
+  "answer": "O(n!)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the fastest known algorithm for matrix multiplication?",
+  "options": [
+    "O(n^2)",
+    "O(n^3)",
+    "O(n^2.376)",
+    "O(n^4)"
+  ],
+  "answer": "O(n^2.376)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Rabin-Karp algorithm for pattern matching in the average case?",
+  "options": [
+    "O(n)",
+    "O(n * m)",
+    "O(n + m)",
+    "O(n * m^2)"
+  ],
+  "answer": "O(n + m)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of computing the shortest path using the Bellman-Ford algorithm for a graph with V vertices and E edges?",
+  "options": [
+    "O(V * E)",
+    "O(V^2)",
+    "O(E * log V)",
+    "O(V * log V)"
+  ],
+  "answer": "O(V * E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of performing a deep copy of a graph with V vertices and E edges?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the minimum spanning tree of a graph using Kruskal's algorithm with union-find?",
+  "options": [
+    "O(E log E)",
+    "O(V log V)",
+    "O(V^2)",
+    "O(V * E)"
+  ],
+  "answer": "O(E log E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the K-means clustering algorithm for k clusters and n data points?",
+  "options": [
+    "O(k * n)",
+    "O(k * n^2)",
+    "O(n^2 * k)",
+    "O(n * k^2)"
+  ],
+  "answer": "O(k * n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Ford-Fulkerson algorithm for computing the maximum flow in a flow network with V vertices and E edges?",
+  "options": [
+    "O(V * E^2)",
+    "O(V * E)",
+    "O(E * log V)",
+    "O(V^2 * E)"
+  ],
+  "answer": "O(V * E^2)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of performing a topological sort on a directed acyclic graph (DAG) with V vertices and E edges?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Knuth-Morris-Pratt (KMP) pattern matching algorithm in the worst case?",
+  "options": [
+    "O(n)",
+    "O(n + m)",
+    "O(n * m)",
+    "O(m)"
+  ],
+  "answer": "O(n + m)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of computing the convex hull of a set of n points using Graham's scan algorithm?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "answer": "O(n log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the simplex algorithm for solving linear programming problems in practice?",
+  "options": [
+    "O(n^2)",
+    "O(n * m)",
+    "O(2^n)",
+    "O(n^3)"
+  ],
+  "answer": "O(n * m)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of computing the Fourier transform using the Fast Fourier Transform (FFT) algorithm?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "answer": "O(n log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Ford-Fulkerson method for computing the maximum flow in a flow network using the Edmonds-Karp algorithm?",
+  "options": [
+    "O(V * E^2)",
+    "O(V * E)",
+    "O(E * log V)",
+    "O(V^2 * E)"
+  ],
+  "answer": "O(V * E^2)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Dinic's algorithm for finding the maximum flow in a flow network with V vertices and E edges?",
+  "options": [
+    "O(V^2 * E)",
+    "O(E * log V)",
+    "O(V * E)",
+    "O(V^3)"
+  ],
+  "answer": "O(V^2 * E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the longest path in a weighted directed acyclic graph (DAG)?",
+  "options": [
+    "O(V^2)",
+    "O(V + E)",
+    "O(V * E)",
+    "O(V * log V)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Johnson's algorithm for finding all pairs shortest paths in a graph with V vertices and E edges?",
+  "options": [
+    "O(V^2 * log V)",
+    "O(V^3)",
+    "O(E * V * log V)",
+    "O(V * E)"
+  ],
+  "answer": "O(V^3)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Hopcroft-Karp algorithm for finding the maximum matching in a bipartite graph?",
+  "options": [
+    "O(V * E)",
+    "O(E * sqrt(V))",
+    "O(V^2)",
+    "O(V * E * log V)"
+  ],
+  "answer": "O(E * sqrt(V))"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of solving the traveling salesman problem (TSP) using dynamic programming with memoization?",
+  "options": [
+    "O(n^2)",
+    "O(n^2 * 2^n)",
+    "O(n^3)",
+    "O(n^2 * n!)"
+  ],
+  "answer": "O(n^2 * 2^n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Knapsack problem using a dynamic programming approach?",
+  "options": [
+    "O(n)",
+    "O(n * W)",
+    "O(2^n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n * W)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of accessing an element in a singly linked list by index?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of appending an element to a stack implemented with an array?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of removing an element from the beginning of a queue implemented with a linked list?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of checking if a set contains an element using a hash set?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the space complexity of storing a binary tree with n nodes?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the length of a singly linked list?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of adding an element to the beginning of a linked list?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of removing an element from the end of a dynamic array?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of inserting an element into a max-heap?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of performing a linear search on a sorted array?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of deleting an element from a max-heap?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the median of an unsorted array using the Quickselect algorithm?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the depth-first search (DFS) algorithm on a graph?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the topological sort of a directed acyclic graph (DAG) using Kahn's algorithm?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the shortest path between two nodes in an unweighted graph using BFS?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "question": "What is the time complexity of finding the shortest path in a graph using the Dijkstra algorithm with a priority queue?",
+  "options": [
+    "O(V^2)",
+    "O(E + V log V)",
+    "O(V * E)",
+    "O(E * log V)"
+  ],
+  "answer": "O(E + V log V)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of merging two sorted linked lists?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of calculating the Fibonacci sequence using dynamic programming?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(2^n)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the longest common subsequence (LCS) of two strings using dynamic programming?",
+  "options": [
+    "O(n)",
+    "O(m * n)",
+    "O(n^2)",
+    "O(m + n)"
+  ],
+  "answer": "O(m * n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of sorting an array using merge sort?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(log n)"
+  ],
+  "answer": "O(n log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of inserting an element into a red-black tree?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the space complexity of a recursive implementation of quicksort?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the shortest path in a graph using the Bellman-Ford algorithm?",
+  "options": [
+    "O(V * E)",
+    "O(V^2)",
+    "O(E * log V)",
+    "O(V * log V)"
+  ],
+  "answer": "O(V * E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Knapsack problem using a dynamic programming approach?",
+  "options": [
+    "O(n)",
+    "O(n * W)",
+    "O(2^n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n * W)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of calculating the power set of a set with n elements?",
+  "options": [
+    "O(n)",
+    "O(n^2)",
+    "O(2^n)",
+    "O(n * 2^n)"
+  ],
+  "answer": "O(2^n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of inserting an element into a hash table?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of removing an element from a binary heap?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of inserting an element into a binary search tree (BST) in the average case?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of performing a depth-first search (DFS) on a tree?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V^2)"
+  ],
+  "answer": "O(V)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the median of a sorted array?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(log n)",
+    "O(n log n)"
+  ],
+  "answer": "O(1)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the breadth-first search (BFS) algorithm on a graph?",
+  "options": [
+    "O(V)",
+    "O(E)",
+    "O(V + E)",
+    "O(V * E)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the maximum value in a binary search tree (BST)?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of performing an in-order traversal of a binary tree?",
+  "options": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the shortest path in a weighted graph using Dijkstra's algorithm with a priority queue?",
+  "options": [
+    "O(V^2)",
+    "O(E log V)",
+    "O(V * E)",
+    "O(E + V log V)"
+  ],
+  "answer": "O(E log V)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of computing the longest common subsequence (LCS) of two strings using a recursive approach?",
+  "options": [
+    "O(n)",
+    "O(m * n)",
+    "O(2^n)",
+    "O(n^2)"
+  ],
+  "answer": "O(2^n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Hopcroft-Karp algorithm for finding the maximum matching in a bipartite graph?",
+  "options": [
+    "O(V * E)",
+    "O(E * sqrt(V))",
+    "O(V^2)",
+    "O(V * E * log V)"
+  ],
+  "answer": "O(E * sqrt(V))"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Edmonds-Karp algorithm for computing the maximum flow in a flow network?",
+  "options": [
+    "O(V * E^2)",
+    "O(V * E)",
+    "O(E * log V)",
+    "O(V^2 * E)"
+  ],
+  "answer": "O(V * E^2)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of solving the traveling salesman problem (TSP) using dynamic programming with memoization?",
+  "options": [
+    "O(n^2)",
+    "O(n^2 * 2^n)",
+    "O(n^3)",
+    "O(n^2 * n!)"
+  ],
+  "answer": "O(n^2 * 2^n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Bellman-Ford algorithm for finding the shortest path in a graph with negative weights?",
+  "options": [
+    "O(V^2)",
+    "O(V * E)",
+    "O(E * log V)",
+    "O(V * log V)"
+  ],
+  "answer": "O(V * E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the minimum spanning tree of a graph using Prim's algorithm with a priority queue?",
+  "options": [
+    "O(V^2)",
+    "O(V * log V + E)",
+    "O(V * E)",
+    "O(E * log E)"
+  ],
+  "answer": "O(V * log V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of computing the convex hull of a set of points using the Quickhull algorithm?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "answer": "O(n log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the strongly connected components (SCCs) of a directed graph using Kosaraju's algorithm?",
+  "options": [
+    "O(V + E)",
+    "O(V * E)",
+    "O(V^2)",
+    "O(V * log V)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of solving the knapsack problem using a dynamic programming approach with a bounded knapsack?",
+  "options": [
+    "O(n)",
+    "O(n * W)",
+    "O(2^n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n * W)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of computing the Fast Fourier Transform (FFT) for an array of size n?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "answer": "O(n log n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the longest path in a directed acyclic graph (DAG) using dynamic programming?",
+  "options": [
+    "O(V^2)",
+    "O(V + E)",
+    "O(V * E)",
+    "O(V * log V)"
+  ],
+  "answer": "O(V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the K-means clustering algorithm for k clusters and n data points?",
+  "options": [
+    "O(k * n)",
+    "O(k * n^2)",
+    "O(n^2 * k)",
+    "O(n * k^2)"
+  ],
+  "answer": "O(k * n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of computing the edit distance between two strings using dynamic programming?",
+  "options": [
+    "O(n)",
+    "O(m * n)",
+    "O(n^2)",
+    "O(m + n)"
+  ],
+  "answer": "O(m * n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of solving the maximum subarray problem using Kadane's algorithm?",
+  "options": [
+    "O(1)",
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)"
+  ],
+  "answer": "O(n)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of solving the longest increasing subsequence (LIS) problem using dynamic programming?",
+  "options": [
+    "O(n)",
+    "O(n log n)",
+    "O(n^2)",
+    "O(n^3)"
+  ],
+  "answer": "O(n^2)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the maximum flow problem using the Dinic's algorithm?",
+  "options": [
+    "O(V^2 * E)",
+    "O(V * E)",
+    "O(V * E * log V)",
+    "O(E * log V)"
+  ],
+  "answer": "O(V^2 * E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of computing the minimum spanning tree using Prim's algorithm with a Fibonacci heap?",
+  "options": [
+    "O(V^2)",
+    "O(V * log V + E)",
+    "O(V * E)",
+    "O(E * log E)"
+  ],
+  "answer": "O(V * log V + E)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of the Dijkstra algorithm for finding the shortest path in a graph using a binary heap?",
+  "options": [
+    "O(V^2)",
+    "O(E + V log V)",
+    "O(V * E)",
+    "O(E * log V)"
+  ],
+  "answer": "O(E log V)"
+},
+{
+  "category": "big_o_notation",
+  "question": "What is the time complexity of finding the minimum spanning tree using Kruskal's algorithm?",
+  "options": [
+    "O(V^2)",
+    "O(E * log V)",
+    "O(E * log E)",
+    "O(V * log E)"
+  ],
+  "answer": "O(E * log E)"
 }
 ]
