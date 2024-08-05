@@ -52,6 +52,10 @@
   background-color: #ddd;
 }
 
+.correct-answer {
+  color: #4caf50; /* Green for correct answer text */
+}
+
 /* Media Queries for Responsive Design */
 @media (max-width: 1024px) {
   .quiz-grid {

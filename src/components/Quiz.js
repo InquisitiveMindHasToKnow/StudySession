@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useLocation} from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import '../css/Quiz.css';
 import quizQuestions from '../quiz_questions.json';
 
@@ -9,14 +9,13 @@ const Quiz = () => {
     const [selectedOptions, setSelectedOptions] = useState({});
     const [answeredQuestions, setAnsweredQuestions] = useState({});
     const [correctAnswers, setCorrectAnswers] = useState(0);
-    const [timeLeft, setTimeLeft] = useState(300); // Set to 300 seconds (5 minutes) for example
-    const location = useLocation(); // Get the location object to parse query parameters
+    const [timeLeft, setTimeLeft] = useState(60); // 5 minutes
+    const location = useLocation();
+    const [quizEnded, setQuizEnded] = useState(false);
 
-    // Extract difficulty level from query parameters
     const searchParams = new URLSearchParams(location.search);
-    const difficulty = searchParams.get('difficulty') || 'easy'; // Default to 'easy' if not specified
+    const difficulty = searchParams.get('difficulty') || 'easy';
 
-    // Map difficulty levels to the number of questions
     const difficultyMapping = {
         easy: 12,
         medium: 21,
@@ -24,31 +23,29 @@ const Quiz = () => {
         'very-hard': 42
     };
 
-    const numberOfQuestions = difficultyMapping[difficulty] || 12; // Default to 12 if difficulty is not recognized
-    
+    const numberOfQuestions = difficultyMapping[difficulty] || 12;
+
     useEffect(() => {
-        // Filter questions by category and shuffle them to pick random ones
         const filteredQuestions = quizQuestions.filter(q => q.category === category);
         const shuffledQuestions = filteredQuestions.sort(() => 0.5 - Math.random());
-        const selectedQuestions = shuffledQuestions.slice(0, numberOfQuestions); // Select 12 questions
+        const selectedQuestions = shuffledQuestions.slice(0, numberOfQuestions);
 
-        // Shuffle options for each question
         const questionsWithShuffledOptions = selectedQuestions.map(q => ({
             ...q,
             options: shuffleArray(q.options),
         }));
 
         setQuestions(questionsWithShuffledOptions);
-     }, [category, numberOfQuestions]);
+    }, [category, numberOfQuestions]);
 
     useEffect(() => {
-        if (timeLeft > 0) {
-            const timer = setInterval(() => {
-                setTimeLeft(prevTime => prevTime - 1);
-            }, 1000);
-            return () => clearInterval(timer);
+        if (timeLeft > 0 && !quizEnded) {
+            const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
+            return () => clearTimeout(timer);
+        } else if (timeLeft === 0) {
+            setQuizEnded(true);
         }
-    }, [timeLeft]);
+    }, [timeLeft, quizEnded]);
 
     const handleOptionClick = (questionIndex, option) => {
         if (!answeredQuestions[questionIndex]) {
@@ -80,13 +77,13 @@ const Quiz = () => {
                             {question.options.map((option, optionIndex) => {
                                 const isCorrect = option === question.answer;
                                 const isSelected = selectedOptions[questionIndex] === option;
-                                const isAnswered = answeredQuestions[questionIndex];
+                                const isAnswered = answeredQuestions[questionIndex] || quizEnded;
 
                                 let buttonClass = 'option-button';
                                 if (isAnswered) {
                                     if (isCorrect) {
                                         buttonClass += ' correct';
-                                    } else if (isSelected) {
+                                    } else if (isSelected && !isCorrect || !isCorrect) {
                                         buttonClass += ' incorrect';
                                     }
                                 }
@@ -103,6 +100,9 @@ const Quiz = () => {
                                 );
                             })}
                         </div>
+                        {quizEnded && !answeredQuestions[questionIndex] && (
+                            <p className="correct-answer">Correct answer: {question.answer}</p>
+                        )}
                     </div>
                 ))}
             </div>
