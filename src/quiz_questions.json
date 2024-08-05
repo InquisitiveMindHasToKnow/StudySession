@@ -8138,5 +8138,940 @@
       "listOf(1, 2, 3).reduce { it * 2 }"
     ],
     "answer": "listOf(1, 2, 3).map { it * 2 }"
-  }
+  },
+  {
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of binary search in a sorted array?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is used to implement a LIFO order?",
+    "options": [
+        "Queue",
+        "Stack",
+        "Linked List",
+        "Tree"
+    ],
+    "answer": "Stack"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the best-case time complexity of quicksort?",
+    "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)",
+        "O(log n)"
+    ],
+    "answer": "O(n log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is not a stable sorting algorithm?",
+    "options": [
+        "Bubble Sort",
+        "Merge Sort",
+        "Quick Sort",
+        "Insertion Sort"
+    ],
+    "answer": "Quick Sort"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the space complexity of merge sort?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+    ],
+    "answer": "O(n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is used to implement BFS in a graph?",
+    "options": [
+        "Stack",
+        "Queue",
+        "Array",
+        "Heap"
+    ],
+    "answer": "Queue"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of inserting an element into a max heap?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is used for implementing recursion?",
+    "options": [
+        "Queue",
+        "Stack",
+        "Linked List",
+        "Graph"
+    ],
+    "answer": "Stack"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the worst-case time complexity of binary search?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is best suited for implementing a priority queue?",
+    "options": [
+        "Array",
+        "Linked List",
+        "Heap",
+        "Stack"
+    ],
+    "answer": "Heap"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of accessing an element in an array?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(1)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of deleting an element from a linked list?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a self-balancing binary search tree?",
+    "options": [
+        "AVL Tree",
+        "Binary Tree",
+        "Heap",
+        "Graph"
+    ],
+    "answer": "AVL Tree"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of searching for an element in a hash table?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(1)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+    "options": [
+        "BFS",
+        "DFS",
+        "Dijkstra's Algorithm",
+        "Prim's Algorithm"
+    ],
+    "answer": "Dijkstra's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of DFS in a graph with n vertices and m edges?",
+    "options": [
+        "O(n)",
+        "O(m)",
+        "O(n + m)",
+        "O(n^2)"
+    ],
+    "answer": "O(n + m)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a greedy algorithm?",
+    "options": [
+        "Merge Sort",
+        "Quick Sort",
+        "Kruskal's Algorithm",
+        "Binary Search"
+    ],
+    "answer": "Kruskal's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the best-case time complexity of bubble sort?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is used in the implementation of a depth-first search (DFS)?",
+    "options": [
+        "Queue",
+        "Stack",
+        "Heap",
+        "Linked List"
+    ],
+    "answer": "Stack"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of inserting an element in a binary search tree (BST) in the worst case?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the minimum spanning tree of a graph?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Kruskal's Algorithm",
+        "Floyd-Warshall Algorithm",
+        "Bellman-Ford Algorithm"
+    ],
+    "answer": "Kruskal's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the Floyd-Warshall algorithm?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^3)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is used to implement a breadth-first search (BFS)?",
+    "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Graph"
+    ],
+    "answer": "Queue"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of Prim's algorithm for finding the minimum spanning tree using an adjacency matrix?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n log n)",
+        "O(n^3)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the worst-case time complexity of quicksort?",
+    "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)",
+        "O(log n)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is used to implement a circular queue?",
+    "options": [
+        "Array",
+        "Linked List",
+        "Heap",
+        "Tree"
+    ],
+    "answer": "Array"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of finding the maximum element in a max heap?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(1)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is an in-place sorting algorithm?",
+    "options": [
+        "Merge Sort",
+        "Heap Sort",
+        "Radix Sort",
+        "Bucket Sort"
+    ],
+    "answer": "Heap Sort"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of searching for an element in an AVL tree?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the strongly connected components in a directed graph?",
+    "options": [
+        "BFS",
+        "DFS",
+        "Kosaraju's Algorithm",
+        "Kruskal's Algorithm"
+    ],
+    "answer": "Kosaraju's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of adding an element to a dynamic array when resizing is required?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is used to perform level order traversal in a binary tree?",
+    "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Graph"
+    ],
+    "answer": "Queue"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the Bellman-Ford algorithm?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^3)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following algorithms is used to detect cycles in a graph?",
+    "options": [
+        "DFS",
+        "BFS",
+        "Dijkstra's Algorithm",
+        "Kruskal's Algorithm"
+    ],
+    "answer": "DFS"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of finding the minimum element in a min heap?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(1)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the transitive closure of a directed graph?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Floyd-Warshall Algorithm",
+        "Kruskal's Algorithm",
+        "Prim's Algorithm"
+    ],
+    "answer": "Floyd-Warshall Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of bubble sort?",
+    "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)",
+        "O(log n)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which data structure is used to implement a stack?",
+    "options": [
+        "Array",
+        "Linked List",
+        "Queue",
+        "Heap"
+    ],
+    "answer": "Array"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of deleting an element from a max heap?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is not a divide-and-conquer algorithm?",
+    "options": [
+        "Merge Sort",
+        "Quick Sort",
+        "Binary Search",
+        "Dijkstra's Algorithm"
+    ],
+    "answer": "Dijkstra's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of finding the longest common subsequence (LCS) using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the shortest path in an unweighted graph?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "BFS",
+        "DFS"
+    ],
+    "answer": "BFS"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of inserting an element in a min heap?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a non-linear data structure?",
+    "options": [
+        "Array",
+        "Linked List",
+        "Graph",
+        "Stack"
+    ],
+    "answer": "Graph"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of finding the longest common prefix (LCP) using a trie?",
+    "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(n^3)"
+    ],
+    "answer": "O(n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the shortest path in a directed acyclic graph (DAG)?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Topological Sort",
+        "Prim's Algorithm"
+    ],
+    "answer": "Topological Sort"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of searching for an element in a red-black tree?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a linear data structure?",
+    "options": [
+        "Array",
+        "Tree",
+        "Graph",
+        "Heap"
+    ],
+    "answer": "Array"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of adding an element to a binary search tree (BST) in the best case?",
+    "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the maximum flow in a flow network?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Ford-Fulkerson Algorithm",
+        "Kruskal's Algorithm"
+    ],
+    "answer": "Ford-Fulkerson Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of finding the longest palindromic subsequence using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a backtracking algorithm?",
+    "options": [
+        "Merge Sort",
+        "Quick Sort",
+        "N-Queens",
+        "Binary Search"
+    ],
+    "answer": "N-Queens"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the knapsack problem using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the minimum cost spanning tree in a graph?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Prim's Algorithm",
+        "Floyd-Warshall Algorithm",
+        "Bellman-Ford Algorithm"
+    ],
+    "answer": "Prim's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the edit distance problem using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a dynamic programming algorithm?",
+    "options": [
+        "Floyd-Warshall Algorithm",
+        "Kruskal's Algorithm",
+        "DFS",
+        "BFS"
+    ],
+    "answer": "Floyd-Warshall Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the longest increasing subsequence (LIS) problem using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a greedy algorithm?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Floyd-Warshall Algorithm",
+        "Prim's Algorithm"
+    ],
+    "answer": "Prim's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of finding the minimum edit distance using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the minimum cut in a flow network?",
+    "options": [
+        "Ford-Fulkerson Algorithm",
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Kruskal's Algorithm"
+    ],
+    "answer": "Ford-Fulkerson Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the knapsack problem using dynamic programming with a 0/1 knapsack?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a graph traversal algorithm?",
+    "options": [
+        "DFS",
+        "Quick Sort",
+        "Merge Sort",
+        "Binary Search"
+    ],
+    "answer": "DFS"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the matrix chain multiplication problem using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^3)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the shortest path in a weighted undirected graph?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "BFS",
+        "DFS"
+    ],
+    "answer": "Dijkstra's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the subset sum problem using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a recursive algorithm?",
+    "options": [
+        "Quick Sort",
+        "Merge Sort",
+        "Bubble Sort",
+        "Heap Sort"
+    ],
+    "answer": "Merge Sort"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the longest common subsequence (LCS) problem using dynamic programming with memoization?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the minimum spanning tree in a graph using a priority queue?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Prim's Algorithm",
+        "Kruskal's Algorithm"
+    ],
+    "answer": "Prim's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the longest palindromic subsequence problem using dynamic programming?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a graph search algorithm?",
+    "options": [
+        "DFS",
+        "Quick Sort",
+        "Merge Sort",
+        "Binary Search"
+    ],
+    "answer": "DFS"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the longest common prefix (LCP) problem using a suffix array?",
+    "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(n^3)"
+    ],
+    "answer": "O(n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the shortest path in a weighted directed graph?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "BFS",
+        "DFS"
+    ],
+    "answer": "Dijkstra's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the longest increasing subsequence (LIS) problem using dynamic programming with binary search?",
+    "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)",
+        "O(n^3)"
+    ],
+    "answer": "O(n log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a tree traversal algorithm?",
+    "options": [
+        "DFS",
+        "Quick Sort",
+        "Merge Sort",
+        "Binary Search"
+    ],
+    "answer": "DFS"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the edit distance problem using dynamic programming with memoization?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the minimum spanning tree in a graph using a union-find data structure?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Prim's Algorithm",
+        "Kruskal's Algorithm"
+    ],
+    "answer": "Kruskal's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the subset sum problem using dynamic programming with memoization?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a breadth-first search algorithm?",
+    "options": [
+        "DFS",
+        "Quick Sort",
+        "Merge Sort",
+        "BFS"
+    ],
+    "answer": "BFS"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the longest common prefix (LCP) problem using a binary search?",
+    "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n^2)",
+        "O(n^3)"
+    ],
+    "answer": "O(log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the shortest path in a weighted graph with negative weights?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "BFS",
+        "DFS"
+    ],
+    "answer": "Bellman-Ford Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the longest increasing subsequence (LIS) problem using a segment tree?",
+    "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)",
+        "O(n^3)"
+    ],
+    "answer": "O(n log n)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which of the following is a depth-first search algorithm?",
+    "options": [
+        "DFS",
+        "Quick Sort",
+        "Merge Sort",
+        "BFS"
+    ],
+    "answer": "DFS"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the edit distance problem using dynamic programming with a memoization table?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "Which algorithm is used to find the minimum spanning tree in a graph using a minimum priority queue?",
+    "options": [
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Prim's Algorithm",
+        "Kruskal's Algorithm"
+    ],
+    "answer": "Prim's Algorithm"
+},
+{
+    "category": "data_structures_algorithms",
+    "question": "What is the time complexity of the subset sum problem using dynamic programming with a recursive approach?",
+    "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n^3)",
+        "O(n^4)"
+    ],
+    "answer": "O(n^2)"
+}
 ]
