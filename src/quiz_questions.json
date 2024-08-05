@@ -9073,5 +9073,2007 @@
         "O(n^4)"
     ],
     "answer": "O(n^2)"
+},
+{
+  "category": "git",
+  "question": "What command is used to initialize a new Git repository?",
+  "options": [
+    "git init",
+    "git start",
+    "git new",
+    "git create"
+  ],
+  "answer": "git init"
+},
+{
+  "category": "git",
+  "question": "What does 'git clone' do?",
+  "options": [
+    "Copies a repository from a remote source",
+    "Creates a new branch",
+    "Commits changes to the repository",
+    "Merges two branches"
+  ],
+  "answer": "Copies a repository from a remote source"
+},
+{
+  "category": "git",
+  "question": "How do you check the status of your working directory and staging area?",
+  "options": [
+    "git status",
+    "git check",
+    "git verify",
+    "git log"
+  ],
+  "answer": "git status"
+},
+{
+  "category": "git",
+  "question": "Which command is used to stage changes for commit?",
+  "options": [
+    "git add",
+    "git stage",
+    "git commit",
+    "git stash"
+  ],
+  "answer": "git add"
+},
+{
+  "category": "git",
+  "question": "How do you commit staged changes with a message?",
+  "options": [
+    "git commit -m 'message'",
+    "git add -m 'message'",
+    "git commit -a 'message'",
+    "git stage -m 'message'"
+  ],
+  "answer": "git commit -m 'message'"
+},
+{
+  "category": "git",
+  "question": "What command shows the commit history?",
+  "options": [
+    "git log",
+    "git history",
+    "git commits",
+    "git show"
+  ],
+  "answer": "git log"
+},
+{
+  "category": "git",
+  "question": "How do you create a new branch in Git?",
+  "options": [
+    "git branch <branch-name>",
+    "git new <branch-name>",
+    "git create <branch-name>",
+    "git start <branch-name>"
+  ],
+  "answer": "git branch <branch-name>"
+},
+{
+  "category": "git",
+  "question": "How do you switch to a different branch?",
+  "options": [
+    "git checkout <branch-name>",
+    "git switch <branch-name>",
+    "git branch <branch-name>",
+    "git change <branch-name>"
+  ],
+  "answer": "git checkout <branch-name>"
+},
+{
+  "category": "git",
+  "question": "How do you merge a branch into the current branch?",
+  "options": [
+    "git merge <branch-name>",
+    "git join <branch-name>",
+    "git integrate <branch-name>",
+    "git add <branch-name>"
+  ],
+  "answer": "git merge <branch-name>"
+},
+{
+  "category": "git",
+  "question": "How do you view the changes made in the working directory but not yet staged?",
+  "options": [
+    "git diff",
+    "git status",
+    "git log",
+    "git show"
+  ],
+  "answer": "git diff"
+},
+{
+  "category": "git",
+  "question": "How do you stash changes in Git?",
+  "options": [
+    "git stash",
+    "git save",
+    "git store",
+    "git hide"
+  ],
+  "answer": "git stash"
+},
+{
+  "category": "git",
+  "question": "How do you apply a stashed change?",
+  "options": [
+    "git stash apply",
+    "git stash use",
+    "git stash load",
+    "git stash pop"
+  ],
+  "answer": "git stash apply"
+},
+{
+  "category": "git",
+  "question": "What does 'git remote -v' show?",
+  "options": [
+    "The URLs of the remote repositories",
+    "The verbose log of commits",
+    "The list of all branches",
+    "The list of all files in the repository"
+  ],
+  "answer": "The URLs of the remote repositories"
+},
+{
+  "category": "git",
+  "question": "What command is used to display the current branch?",
+  "options": [
+    "git branch",
+    "git current",
+    "git show-branch",
+    "git status"
+  ],
+  "answer": "git branch"
+},
+{
+  "category": "git",
+  "question": "What is the purpose of 'git tag'?",
+  "options": [
+    "To create a named reference to a specific commit",
+    "To create a new branch",
+    "To commit changes",
+    "To merge branches"
+  ],
+  "answer": "To create a named reference to a specific commit"
+},
+{
+  "category": "git",
+  "question": "How do you check out a specific commit?",
+  "options": [
+    "git checkout <commit>",
+    "git switch <commit>",
+    "git move <commit>",
+    "git branch <commit>"
+  ],
+  "answer": "git checkout <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you display the last commit message?",
+  "options": [
+    "git show -s --format=%s HEAD",
+    "git log -1",
+    "git commit -m",
+    "git show -1"
+  ],
+  "answer": "git show -s --format=%s HEAD"
+},
+{
+  "category": "git",
+  "question": "How do you display the differences between the working directory and the index?",
+  "options": [
+    "git diff",
+    "git status",
+    "git log",
+    "git show"
+  ],
+  "answer": "git diff"
+},
+{
+  "category": "git",
+  "question": "What does 'git clean -f' do?",
+  "options": [
+    "Removes untracked files from the working directory",
+    "Resets the working directory to the last commit",
+    "Removes all branches",
+    "Deletes the .git directory"
+  ],
+  "answer": "Removes untracked files from the working directory"
+},
+{
+  "category": "git",
+  "question": "How do you configure the default text editor for Git?",
+  "options": [
+    "git config core.editor 'editor_name'",
+    "git set editor 'editor_name'",
+    "git editor 'editor_name'",
+    "git default-editor 'editor_name'"
+  ],
+  "answer": "git config core.editor 'editor_name'"
+},
+{
+  "category": "git",
+  "question": "How do you list all the tags in a repository?",
+  "options": [
+    "git tag",
+    "git list-tags",
+    "git show-tags",
+    "git tags"
+  ],
+  "answer": "git tag"
+},
+{
+  "category": "git",
+  "question": "What command is used to show the changes of a commit?",
+  "options": [
+    "git show <commit>",
+    "git diff <commit>",
+    "git changes <commit>",
+    "git log <commit>"
+  ],
+  "answer": "git show <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you remove a remote repository?",
+  "options": [
+    "git remote remove <name>",
+    "git remove <name>",
+    "git delete remote <name>",
+    "git remote -rm <name>"
+  ],
+  "answer": "git remote remove <name>"
+},
+{
+  "category": "git",
+  "question": "How do you amend the last commit message?",
+  "options": [
+    "git commit --amend",
+    "git edit commit",
+    "git amend commit",
+    "git change commit"
+  ],
+  "answer": "git commit --amend"
+},
+{
+  "category": "git",
+  "question": "How do you display a graph of the commit history?",
+  "options": [
+    "git log --graph",
+    "git graph",
+    "git log-graph",
+    "git show-graph"
+  ],
+  "answer": "git log --graph"
+},
+{
+  "category": "git",
+  "question": "What does the 'HEAD' reference represent in Git?",
+  "options": [
+    "The current branch",
+    "The last commit in the repository",
+    "The first commit in the repository",
+    "The most recent remote commit"
+  ],
+  "answer": "The current branch"
+},
+{
+  "category": "git",
+  "question": "How do you display the contents of a specific file in a specific commit?",
+  "options": [
+    "git show <commit>:<filename>",
+    "git cat <commit> <filename>",
+    "git view <commit> <filename>",
+    "git show-file <commit> <filename>"
+  ],
+  "answer": "git show <commit>:<filename>"
+},
+{
+  "category": "git",
+  "question": "How do you reset the index and working directory to the last commit?",
+  "options": [
+    "git reset --hard",
+    "git reset",
+    "git revert",
+    "git restore"
+  ],
+  "answer": "git reset --hard"
+},
+{
+  "category": "git",
+  "question": "How do you create a new tag?",
+  "options": [
+    "git tag <tagname>",
+    "git create-tag <tagname>",
+    "git add-tag <tagname>",
+    "git new-tag <tagname>"
+  ],
+  "answer": "git tag <tagname>"
+},
+{
+  "category": "git",
+  "question": "What is a 'bare' repository in Git?",
+  "options": [
+    "A repository without a working directory",
+    "A repository without any commits",
+    "A repository without a .git directory",
+    "A repository without a remote"
+  ],
+  "answer": "A repository without a working directory"
+},
+{
+  "category": "git",
+  "question": "How do you list all the commits by a specific author?",
+  "options": [
+    "git log --author='Author Name'",
+    "git show --author='Author Name'",
+    "git log --committer='Author Name'",
+    "git commits --author='Author Name'"
+  ],
+  "answer": "git log --author='Author Name'"
+},
+{
+  "category": "git",
+  "question": "How do you list all branches including remote branches?",
+  "options": [
+    "git branch -a",
+    "git branch -r",
+    "git list-branches -a",
+    "git branches --all"
+  ],
+  "answer": "git branch -a"
+},
+{
+  "category": "git",
+  "question": "How do you display the contents of a file from a specific commit?",
+  "options": [
+    "git show <commit>:<filename>",
+    "git cat <commit> <filename>",
+    "git show-file <commit> <filename>",
+    "git view <commit> <filename>"
+  ],
+  "answer": "git show <commit>:<filename>"
+},
+{
+  "category": "git",
+  "question": "How do you change the URL of a remote repository?",
+  "options": [
+    "git remote set-url <name> <newurl>",
+    "git remote change-url <name> <newurl>",
+    "git set-url <name> <newurl>",
+    "git update-url <name> <newurl>"
+  ],
+  "answer": "git remote set-url <name> <newurl>"
+},
+{
+  "category": "git",
+  "question": "How do you find out the hash of a specific commit?",
+  "options": [
+    "git log --format=%H -n 1 <commit>",
+    "git show <commit>",
+    "git log --hash <commit>",
+    "git hash <commit>"
+  ],
+  "answer": "git log --format=%H -n 1 <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you rename a tag?",
+  "options": [
+    "git tag <newtag> <oldtag>",
+    "git tag -d <oldtag> -m <newtag>",
+    "git tag --move <newtag> <oldtag>",
+    "git tag rename <oldtag> <newtag>"
+  ],
+  "answer": "git tag <newtag> <oldtag>"
+},
+{
+  "category": "git",
+  "question": "How do you remove a specific commit from the commit history?",
+  "options": [
+    "git rebase -i <commit>~1",
+    "git reset --hard <commit>",
+    "git revert <commit>",
+    "git commit --amend <commit>"
+  ],
+  "answer": "git rebase -i <commit>~1"
+},
+{
+  "category": "git",
+  "question": "How do you find the author of a specific line in a file?",
+  "options": [
+    "git blame <filename>",
+    "git show <filename>",
+    "git log <filename>",
+    "git author <filename>"
+  ],
+  "answer": "git blame <filename>"
+},
+{
+  "category": "git",
+  "question": "How do you squash commits into a single commit?",
+  "options": [
+    "git rebase -i",
+    "git squash <commit>",
+    "git merge --squash",
+    "git commit --squash"
+  ],
+  "answer": "git rebase -i"
+},
+{
+  "category": "git",
+  "question": "How do you set up a Git alias?",
+  "options": [
+    "git config --global alias.<alias> '<command>'",
+    "git alias <alias> <command>",
+    "git set-alias <alias> '<command>'",
+    "git create-alias <alias> <command>"
+  ],
+  "answer": "git config --global alias.<alias> '<command>'"
+},
+{
+  "category": "git",
+  "question": "How do you view the changes introduced by a specific commit?",
+  "options": [
+    "git show <commit>",
+    "git log <commit>",
+    "git diff <commit>",
+    "git changes <commit>"
+  ],
+  "answer": "git show <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you reset the current HEAD to a specific commit?",
+  "options": [
+    "git reset <commit>",
+    "git reset --hard <commit>",
+    "git revert <commit>",
+    "git rebase <commit>"
+  ],
+  "answer": "git reset <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you configure Git to ignore file mode changes?",
+  "options": [
+    "git config core.fileMode false",
+    "git config --global core.fileMode false",
+    "git set fileMode false",
+    "git ignore fileMode"
+  ],
+  "answer": "git config core.fileMode false"
+},
+{
+  "category": "git",
+  "question": "How do you ignore files that have already been committed to the repository?",
+  "options": [
+    "Add them to .gitignore and use 'git rm --cached <filename>'",
+    "Just add them to .gitignore",
+    "Use 'git rm --force <filename>'",
+    "Use 'git remove <filename>'"
+  ],
+  "answer": "Add them to .gitignore and use 'git rm --cached <filename>'"
+},
+{
+  "category": "git",
+  "question": "How do you list all the branches that contain a specific commit?",
+  "options": [
+    "git branch --contains <commit>",
+    "git log --branches=<commit>",
+    "git show-branches <commit>",
+    "git find-branches <commit>"
+  ],
+  "answer": "git branch --contains <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you view the detailed history of changes in a specific file?",
+  "options": [
+    "git log -p <filename>",
+    "git show <filename>",
+    "git diff <filename>",
+    "git history <filename>"
+  ],
+  "answer": "git log -p <filename>"
+},
+{
+  "category": "git",
+  "question": "How do you remove all local branches that are not on the remote?",
+  "options": [
+    "git remote prune origin",
+    "git prune-branches",
+    "git branch -d",
+    "git prune origin"
+  ],
+  "answer": "git remote prune origin"
+},
+{
+  "category": "git",
+  "question": "How do you view the commit message for a specific commit?",
+  "options": [
+    "git show -s --format=%B <commit>",
+    "git log <commit>",
+    "git commit -m <commit>",
+    "git log -p <commit>"
+  ],
+  "answer": "git show -s --format=%B <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you create a new branch and switch to it?",
+  "options": [
+    "git checkout -b <branch>",
+    "git branch <branch> && git checkout <branch>",
+    "git create-branch <branch>",
+    "git switch <branch>"
+  ],
+  "answer": "git checkout -b <branch>"
+},
+{
+  "category": "git",
+  "question": "How do you change the author of the most recent commit?",
+  "options": [
+    "git commit --amend --author='New Author <email>'",
+    "git change-author 'New Author <email>'",
+    "git amend-author 'New Author <email>'",
+    "git update-author 'New Author <email>'"
+  ],
+  "answer": "git commit --amend --author='New Author <email>'"
+},
+{
+  "category": "git",
+  "question": "How do you remove a file from the Git history?",
+  "options": [
+    "git filter-branch --tree-filter 'rm -f <filename>' HEAD",
+    "git delete-history <filename>",
+    "git remove-history <filename>",
+    "git purge <filename>"
+  ],
+  "answer": "git filter-branch --tree-filter 'rm -f <filename>' HEAD"
+},
+{
+  "category": "git",
+  "question": "How do you change the URL of a remote named 'origin'?",
+  "options": [
+    "git remote set-url origin <newurl>",
+    "git set-url origin <newurl>",
+    "git change-url origin <newurl>",
+    "git remote change-url origin <newurl>"
+  ],
+  "answer": "git remote set-url origin <newurl>"
+},
+{
+  "category": "git",
+  "question": "How do you create a lightweight tag?",
+  "options": [
+    "git tag <tagname>",
+    "git tag -l <tagname>",
+    "git create-tag <tagname>",
+    "git lightweight-tag <tagname>"
+  ],
+  "answer": "git tag <tagname>"
+},
+{
+  "category": "git",
+  "question": "How do you squash the last three commits into a single commit?",
+  "options": [
+    "git rebase -i HEAD~3",
+    "git squash HEAD~3",
+    "git merge --squash HEAD~3",
+    "git commit --amend HEAD~3"
+  ],
+  "answer": "git rebase -i HEAD~3"
+},
+{
+  "category": "git",
+  "question": "What does the 'git bisect' command do?",
+  "options": [
+    "Finds the commit that introduced a bug by binary search",
+    "Splits a large commit into smaller commits",
+    "Merges two branches",
+    "Removes the last commit"
+  ],
+  "answer": "Finds the commit that introduced a bug by binary search"
+},
+{
+  "category": "git",
+  "question": "How do you remove a file from the staging area without deleting it?",
+  "options": [
+    "git reset <file>",
+    "git rm --cached <file>",
+    "git unstage <file>",
+    "git remove --staged <file>"
+  ],
+  "answer": "git reset <file>"
+},
+{
+  "category": "git",
+  "question": "How do you list all branches merged into the current branch?",
+  "options": [
+    "git branch --merged",
+    "git merge-branches",
+    "git branch --list-merged",
+    "git merged-branches"
+  ],
+  "answer": "git branch --merged"
+},
+{
+  "category": "git",
+  "question": "How do you create an annotated tag?",
+  "options": [
+    "git tag -a <tagname> -m 'message'",
+    "git tag <tagname>",
+    "git tag --annotate <tagname>",
+    "git create-tag -a <tagname>"
+  ],
+  "answer": "git tag -a <tagname> -m 'message'"
+},
+{
+  "category": "git",
+  "question": "How do you find the commit that introduced a bug?",
+  "options": [
+    "git bisect",
+    "git blame",
+    "git find-bug",
+    "git bug-track"
+  ],
+  "answer": "git bisect"
+},
+{
+  "category": "git",
+  "question": "How do you revert a specific file to a previous commit?",
+  "options": [
+    "git checkout <commit> -- <file>",
+    "git revert <commit> <file>",
+    "git reset <commit> <file>",
+    "git restore <commit> <file>"
+  ],
+  "answer": "git checkout <commit> -- <file>"
+},
+{
+  "category": "git",
+  "question": "How do you compare two commits?",
+  "options": [
+    "git diff <commit1> <commit2>",
+    "git compare <commit1> <commit2>",
+    "git log <commit1> <commit2>",
+    "git show <commit1> <commit2>"
+  ],
+  "answer": "git diff <commit1> <commit2>"
+},
+{
+  "category": "git",
+  "question": "How do you rebase the current branch onto another branch?",
+  "options": [
+    "git rebase <branch>",
+    "git merge <branch>",
+    "git checkout --rebase <branch>",
+    "git pull --rebase <branch>"
+  ],
+  "answer": "git rebase <branch>"
+},
+{
+  "category": "git",
+  "question": "How do you update a remote-tracking branch?",
+  "options": [
+    "git fetch",
+    "git pull",
+    "git update <branch>",
+    "git sync <branch>"
+  ],
+  "answer": "git fetch"
+},
+{
+  "category": "git",
+  "question": "How do you push a new branch to a remote repository?",
+  "options": [
+    "git push -u origin <branch>",
+    "git push <branch>",
+    "git push --new-branch <branch>",
+    "git push --branch <branch>"
+  ],
+  "answer": "git push -u origin <branch>"
+},
+{
+  "category": "git",
+  "question": "How do you discard all changes in the working directory?",
+  "options": [
+    "git reset --hard",
+    "git revert --hard",
+    "git reset",
+    "git discard"
+  ],
+  "answer": "git reset --hard"
+},
+{
+  "category": "git",
+  "question": "How do you change the commit message of an earlier commit?",
+  "options": [
+    "git rebase -i",
+    "git commit --amend",
+    "git change-message",
+    "git edit-commit"
+  ],
+  "answer": "git rebase -i"
+},
+{
+  "category": "git",
+  "question": "How do you create a commit with changes from another branch?",
+  "options": [
+    "git cherry-pick <commit>",
+    "git merge <branch>",
+    "git rebase <branch>",
+    "git commit --include <branch>"
+  ],
+  "answer": "git cherry-pick <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you remove all local tags?",
+  "options": [
+    "git tag -d $(git tag -l)",
+    "git remove --all-tags",
+    "git tag --delete-all",
+    "git remove-all-tags"
+  ],
+  "answer": "git tag -d $(git tag -l)"
+},
+{
+  "category": "git",
+  "question": "How do you list all the branches that contain a specific commit?",
+  "options": [
+    "git branch --contains <commit>",
+    "git log --branches <commit>",
+    "git show-branches <commit>",
+    "git find-branches <commit>"
+  ],
+  "answer": "git branch --contains <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you create a branch from a specific commit?",
+  "options": [
+    "git branch <branch> <commit>",
+    "git checkout -b <branch> <commit>",
+    "git create-branch <branch> <commit>",
+    "git new-branch <branch> <commit>"
+  ],
+  "answer": "git branch <branch> <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you rename a branch locally?",
+  "options": [
+    "git branch -m <oldname> <newname>",
+    "git branch --rename <oldname> <newname>",
+    "git rename-branch <oldname> <newname>",
+    "git branch-rename <oldname> <newname>"
+  ],
+  "answer": "git branch -m <oldname> <newname>"
+},
+{
+  "category": "git",
+  "question": "How do you force push a branch?",
+  "options": [
+    "git push -f",
+    "git push --force",
+    "git force-push",
+    "git push -u"
+  ],
+  "answer": "git push --force"
+},
+{
+  "category": "git",
+  "question": "How do you display the commit graph with ASCII?",
+  "options": [
+    "git log --graph --oneline",
+    "git show --graph",
+    "git log --show-graph",
+    "git graph-log"
+  ],
+  "answer": "git log --graph --oneline"
+},
+{
+  "category": "git",
+  "question": "How do you remove all untracked files and directories?",
+  "options": [
+    "git clean -fd",
+    "git clean -f",
+    "git reset --hard",
+    "git rm -rf"
+  ],
+  "answer": "git clean -fd"
+},
+{
+  "category": "git",
+  "question": "How do you list all commits made by a specific author?",
+  "options": [
+    "git log --author='Author Name'",
+    "git log --committer='Author Name'",
+    "git show --author='Author Name'",
+    "git commits --author='Author Name'"
+  ],
+  "answer": "git log --author='Author Name'"
+},
+{
+  "category": "git",
+  "question": "How do you list all the files changed in a specific commit?",
+  "options": [
+    "git show --name-only <commit>",
+    "git log --files <commit>",
+    "git diff --name-only <commit>",
+    "git show --files <commit>"
+  ],
+  "answer": "git show --name-only <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you undo a git merge?",
+  "options": [
+    "git merge --abort",
+    "git merge --stop",
+    "git merge --undo",
+    "git revert-merge"
+  ],
+  "answer": "git merge --abort"
+},
+{
+  "category": "git",
+  "question": "How do you view the differences between two branches?",
+  "options": [
+    "git diff <branch1> <branch2>",
+    "git compare <branch1> <branch2>",
+    "git log <branch1> <branch2>",
+    "git show <branch1> <branch2>"
+  ],
+  "answer": "git diff <branch1> <branch2>"
+},
+{
+  "category": "git",
+  "question": "How do you delete a remote branch?",
+  "options": [
+    "git push origin --delete <branch>",
+    "git branch -d <branch>",
+    "git remove <branch>",
+    "git delete <branch>"
+  ],
+  "answer": "git push origin --delete <branch>"
+},
+{
+  "category": "git",
+  "question": "How do you list all commits made in a specific date range?",
+  "options": [
+    "git log --since=<date1> --until=<date2>",
+    "git log --date=<date1>..<date2>",
+    "git log --after=<date1> --before=<date2>",
+    "git show --since=<date1> --until=<date2>"
+  ],
+  "answer": "git log --since=<date1> --until=<date2>"
+},
+{
+  "category": "git",
+  "question": "How do you display the differences between two commits?",
+  "options": [
+    "git diff <commit1> <commit2>",
+    "git compare <commit1> <commit2>",
+    "git log <commit1> <commit2>",
+    "git show <commit1> <commit2>"
+  ],
+  "answer": "git diff <commit1> <commit2>"
+},
+{
+  "category": "git",
+  "question": "How do you discard changes to a specific file?",
+  "options": [
+    "git checkout -- <file>",
+    "git reset <file>",
+    "git clean <file>",
+    "git remove -- <file>"
+  ],
+  "answer": "git checkout -- <file>"
+},
+{
+  "category": "git",
+  "question": "How do you delete a tag?",
+  "options": [
+    "git tag -d <tagname>",
+    "git tag --delete <tagname>",
+    "git remove-tag <tagname>",
+    "git tag-remove <tagname>"
+  ],
+  "answer": "git tag -d <tagname>"
+},
+{
+  "category": "git",
+  "question": "How do you list all the files in the staging area?",
+  "options": [
+    "git diff --cached --name-only",
+    "git status --staged",
+    "git list --staged",
+    "git show --staged"
+  ],
+  "answer": "git diff --cached --name-only"
+},
+{
+  "category": "git",
+  "question": "How do you view the commit message for a specific commit?",
+  "options": [
+    "git show -s --format=%B <commit>",
+    "git log <commit>",
+    "git commit -m <commit>",
+    "git log -p <commit>"
+  ],
+  "answer": "git show -s --format=%B <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you discard all local changes in a file?",
+  "options": [
+    "git checkout -- <file>",
+    "git reset -- <file>",
+    "git clean <file>",
+    "git discard -- <file>"
+  ],
+  "answer": "git checkout -- <file>"
+},
+{
+  "category": "git",
+  "question": "How do you remove a file from the staging area?",
+  "options": [
+    "git reset <file>",
+    "git rm <file>",
+    "git unstage <file>",
+    "git remove <file>"
+  ],
+  "answer": "git reset <file>"
+},
+{
+  "category": "git",
+  "question": "How do you list all the branches in the local repository?",
+  "options": [
+    "git branch",
+    "git show-branches",
+    "git list-branches",
+    "git branches"
+  ],
+  "answer": "git branch"
+},
+{
+  "category": "git",
+  "question": "How do you reset a branch to a previous commit and discard all changes after it?",
+  "options": [
+    "git reset --hard <commit>",
+    "git checkout --hard <commit>",
+    "git revert --hard <commit>",
+    "git clean --hard <commit>"
+  ],
+  "answer": "git reset --hard <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you recover a lost commit that was discarded by a hard reset?",
+  "options": [
+    "git reflog",
+    "git log",
+    "git recover",
+    "git fsck"
+  ],
+  "answer": "git reflog"
+},
+{
+  "category": "git",
+  "question": "How do you rewrite history for a range of commits?",
+  "options": [
+    "git rebase -i <commit>^..HEAD",
+    "git rebase <commit>..HEAD",
+    "git filter-branch <commit>^..HEAD",
+    "git amend --range <commit>..HEAD"
+  ],
+  "answer": "git rebase -i <commit>^..HEAD"
+},
+{
+  "category": "git",
+  "question": "How do you remove all traces of a file from the entire repository history?",
+  "options": [
+    "git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch <file>' --prune-empty --tag-name-filter cat -- --all",
+    "git rebase --force <file>",
+    "git remove-history <file>",
+    "git delete --file <file>"
+  ],
+  "answer": "git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch <file>' --prune-empty --tag-name-filter cat -- --all"
+},
+{
+  "category": "git",
+  "question": "How do you cherry-pick a range of commits?",
+  "options": [
+    "git cherry-pick <commit1>..<commit2>",
+    "git cherry-pick --range <commit1>..<commit2>",
+    "git cherry-pick --since=<commit1> --until=<commit2>",
+    "git cherry-pick <commit1> <commit2>"
+  ],
+  "answer": "git cherry-pick <commit1>..<commit2>"
+},
+{
+  "category": "git",
+  "question": "How do you revert multiple commits with a single command?",
+  "options": [
+    "git revert <commit1>..<commit2>",
+    "git reset <commit1>..<commit2>",
+    "git undo <commit1>..<commit2>",
+    "git remove <commit1>..<commit2>"
+  ],
+  "answer": "git revert <commit1>..<commit2>"
+},
+{
+  "category": "git",
+  "question": "How do you split a large commit into multiple smaller commits?",
+  "options": [
+    "git rebase -i <commit>^",
+    "git commit --split",
+    "git rebase --split <commit>",
+    "git edit-commit --split <commit>"
+  ],
+  "answer": "git rebase -i <commit>^"
+},
+{
+  "category": "git",
+  "question": "How do you recover a file that was accidentally deleted and committed?",
+  "options": [
+    "git checkout <commit>^ -- <file>",
+    "git restore --source=<commit>^ <file>",
+    "git revert --delete <file>",
+    "git restore --file=<file>"
+  ],
+  "answer": "git checkout <commit>^ -- <file>"
+},
+{
+  "category": "git",
+  "question": "How do you list all commits that are in the current branch but not in another branch?",
+  "options": [
+    "git log <branch>..HEAD",
+    "git diff <branch> HEAD",
+    "git log HEAD ^ <branch>",
+    "git log HEAD --not <branch>"
+  ],
+  "answer": "git log <branch>..HEAD"
+},
+{
+  "category": "git",
+  "question": "How do you reset the index without changing the working directory?",
+  "options": [
+    "git reset --mixed",
+    "git reset --soft",
+    "git reset --hard",
+    "git reset --keep"
+  ],
+  "answer": "git reset --mixed"
+},
+{
+  "category": "git",
+  "question": "How do you remove a commit from a branch but keep its changes as uncommitted?",
+  "options": [
+    "git reset HEAD^",
+    "git revert HEAD",
+    "git checkout HEAD^",
+    "git rebase --keep <commit>"
+  ],
+  "answer": "git reset HEAD^"
+},
+{
+  "category": "git",
+  "question": "How do you squash commits across multiple branches into a single commit?",
+  "options": [
+    "git rebase -i --root",
+    "git merge --squash",
+    "git rebase -i <branch1>..<branch2>",
+    "git squash --merge"
+  ],
+  "answer": "git rebase -i --root"
+},
+{
+  "category": "git",
+  "question": "How do you reapply commits from one branch onto another branch while preserving their original commit hashes?",
+  "options": [
+    "git cherry-pick --no-commit <commit>",
+    "git rebase --onto <branch>",
+    "git rebase --preserve <branch>",
+    "git rebase --skip <branch>"
+  ],
+  "answer": "git rebase --onto <branch>"
+},
+{
+  "category": "git",
+  "question": "How do you create a Git repository from a specific subdirectory of another repository?",
+  "options": [
+    "git subtree split --prefix=<subdir>",
+    "git filter-repo --subdirectory-filter <subdir>",
+    "git subdirectory --new-repo <subdir>",
+    "git clone --subdir <repo> <new-repo>"
+  ],
+  "answer": "git filter-repo --subdirectory-filter <subdir>"
+},
+{
+  "category": "git",
+  "question": "How do you merge changes from a specific commit without including subsequent commits?",
+  "options": [
+    "git cherry-pick <commit>",
+    "git merge --no-commit <commit>",
+    "git rebase <commit>",
+    "git merge --squash <commit>"
+  ],
+  "answer": "git cherry-pick <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you resolve conflicts that occur when rebasing a branch?",
+  "options": [
+    "Resolve conflicts manually, then continue rebase with git rebase --continue",
+    "Use git rebase --abort to cancel the rebase",
+    "Commit the changes and use git rebase --skip",
+    "Run git merge --abort and start over"
+  ],
+  "answer": "Resolve conflicts manually, then continue rebase with git rebase --continue"
+},
+{
+  "category": "git",
+  "question": "How do you update a commit message in a series of commits?",
+  "options": [
+    "git rebase -i",
+    "git amend --message",
+    "git commit --fixup <commit>",
+    "git rebase --edit <commit>"
+  ],
+  "answer": "git rebase -i"
+},
+{
+  "category": "git",
+  "question": "How do you replace a commit with another commit?",
+  "options": [
+    "git rebase --onto <commit>",
+    "git replace <commit> <newcommit>",
+    "git cherry-pick <newcommit>",
+    "git reset <commit> --hard <newcommit>"
+  ],
+  "answer": "git rebase --onto <commit>"
+},
+{
+  "category": "git",
+  "question": "How do you change the base of a branch from one commit to another?",
+  "options": [
+    "git rebase --onto <new-base> <old-base>",
+    "git rebase <new-base>",
+    "git change-base <new-base>",
+    "git rebase --base <new-base>"
+  ],
+  "answer": "git rebase --onto <new-base> <old-base>"
+},
+{
+  "category": "git",
+  "question": "How do you list all objects in the Git repository's database?",
+  "options": [
+    "git rev-list --objects --all",
+    "git cat-file --batch-check",
+    "git ls-tree --all",
+    "git log --objects --all"
+  ],
+  "answer": "git rev-list --objects --all"
+},
+{
+  "category": "git",
+  "question": "How do you debug a failed Git merge?",
+  "options": [
+    "Use git status to identify conflicts and then resolve them",
+    "Use git merge --continue to retry the merge",
+    "Use git log --graph to view merge conflicts",
+    "Use git diff to check for merge issues"
+  ],
+  "answer": "Use git status to identify conflicts and then resolve them"
+},
+{
+  "category": "git",
+  "question": "How do you execute a Git command that affects multiple repositories at once?",
+  "options": [
+    "Use git command --all-repos",
+    "Write a script to execute the command in each repository",
+    "Use git multi-repo",
+    "Use git command --batch"
+  ],
+  "answer": "Write a script to execute the command in each repository"
+},
+{
+  "category": "git",
+  "question": "What does the 'git add .' command do?",
+  "options": [
+    "Stages all changes in the current directory",
+    "Commits all changes",
+    "Unstages all files",
+    "Shows the status of files"
+  ],
+  "answer": "Stages all changes in the current directory"
+},
+{
+  "category": "git",
+  "question": "What does the 'git commit -m \"message\"' command do?",
+  "options": [
+    "Commits changes with a message",
+    "Stages changes with a message",
+    "Displays the commit log",
+    "Shows the status of commits"
+  ],
+  "answer": "Commits changes with a message"
+},
+{
+  "category": "git",
+  "question": "What does the 'git status' command do?",
+  "options": [
+    "Displays the state of the working directory and staging area",
+    "Commits changes to the repository",
+    "Shows the commit history",
+    "Lists all branches"
+  ],
+  "answer": "Displays the state of the working directory and staging area"
+},
+{
+  "category": "git",
+  "question": "What does the 'git log' command do?",
+  "options": [
+    "Shows the commit history",
+    "Lists all branches",
+    "Displays the status of the working directory",
+    "Stages changes for commit"
+  ],
+  "answer": "Shows the commit history"
+},
+{
+  "category": "git",
+  "question": "What does the 'git diff' command do?",
+  "options": [
+    "Shows differences between commits, working directory, and staging area",
+    "Displays the commit history",
+    "Stages changes for commit",
+    "Commits changes to the repository"
+  ],
+  "answer": "Shows differences between commits, working directory, and staging area"
+},
+{
+  "category": "git",
+  "question": "What does the 'git branch' command do?",
+  "options": [
+    "Lists all local branches",
+    "Shows the commit history",
+    "Displays the status of the working directory",
+    "Commits changes to the repository"
+  ],
+  "answer": "Lists all local branches"
+},
+{
+  "category": "git",
+  "question": "What does the 'git checkout <branch>' command do?",
+  "options": [
+    "Switches to the specified branch",
+    "Creates a new branch",
+    "Deletes a branch",
+    "Stages changes for commit"
+  ],
+  "answer": "Switches to the specified branch"
+},
+{
+  "category": "git",
+  "question": "What does the 'git merge <branch>' command do?",
+  "options": [
+    "Merges the specified branch into the current branch",
+    "Creates a new branch",
+    "Deletes the specified branch",
+    "Displays the commit history"
+  ],
+  "answer": "Merges the specified branch into the current branch"
+},
+{
+  "category": "git",
+  "question": "What does the 'git pull' command do?",
+  "options": [
+    "Fetches and merges changes from the remote repository",
+    "Pushes changes to the remote repository",
+    "Displays the commit history",
+    "Lists all branches"
+  ],
+  "answer": "Fetches and merges changes from the remote repository"
+},
+{
+  "category": "git",
+  "question": "What does the 'git push' command do?",
+  "options": [
+    "Pushes changes to the remote repository",
+    "Fetches and merges changes from the remote repository",
+    "Displays the commit history",
+    "Switches to a different branch"
+  ],
+  "answer": "Pushes changes to the remote repository"
+},
+{
+  "category": "git",
+  "question": "What does the 'git reset --hard' command do?",
+  "options": [
+    "Resets the working directory and staging area to the last commit",
+    "Stashes changes",
+    "Commits changes with a message",
+    "Lists all branches"
+  ],
+  "answer": "Resets the working directory and staging area to the last commit"
+},
+{
+  "category": "git",
+  "question": "What does the 'git rm <file>' command do?",
+  "options": [
+    "Removes a file from the working directory and stages the removal",
+    "Commits changes to the repository",
+    "Shows differences between commits",
+    "Lists all files in the repository"
+  ],
+  "answer": "Removes a file from the working directory and stages the removal"
+},
+{
+  "category": "git",
+  "question": "What does the 'git tag <tagname>' command do?",
+  "options": [
+    "Creates a new tag pointing to the current commit",
+    "Displays the commit history",
+    "Pushes changes to the remote repository",
+    "Deletes a tag"
+  ],
+  "answer": "Creates a new tag pointing to the current commit"
+},
+{
+  "category": "git",
+  "question": "What does the 'git fetch' command do?",
+  "options": [
+    "Fetches changes from the remote repository without merging",
+    "Merges changes from the remote repository",
+    "Pushes changes to the remote repository",
+    "Displays the commit history"
+  ],
+  "answer": "Fetches changes from the remote repository without merging"
+},
+{
+  "category": "git",
+  "question": "What does the 'git rebase <branch>' command do?",
+  "options": [
+    "Re-applies commits on top of another branch",
+    "Merges the specified branch into the current branch",
+    "Resets the current branch to the specified branch",
+    "Lists all commits"
+  ],
+  "answer": "Re-applies commits on top of another branch"
+},
+{
+  "category": "git",
+  "question": "What does the 'git show <commit>' command do?",
+  "options": [
+    "Displays details about a specific commit",
+    "Shows the commit history",
+    "Displays the differences between commits",
+    "Lists all branches"
+  ],
+  "answer": "Displays details about a specific commit"
+},
+{
+  "category": "git",
+  "question": "What does the 'git revert <commit>' command do?",
+  "options": [
+    "Creates a new commit that undoes the changes of the specified commit",
+    "Resets the branch to the specified commit",
+    "Displays the commit history",
+    "Merges the specified commit into the current branch"
+  ],
+  "answer": "Creates a new commit that undoes the changes of the specified commit"
+},
+{
+  "category": "git",
+  "question": "What does the 'git stash' command do?",
+  "options": [
+    "Temporarily saves changes that are not yet committed",
+    "Displays the commit history",
+    "Pushes changes to the remote repository",
+    "Creates a new branch"
+  ],
+  "answer": "Temporarily saves changes that are not yet committed"
+},
+{
+  "category": "git",
+  "question": "What does the 'git reflog' command do?",
+  "options": [
+    "Shows a log of reference updates",
+    "Displays the commit history",
+    "Lists all tags",
+    "Shows differences between branches"
+  ],
+  "answer": "Shows a log of reference updates"
+},
+{
+  "category": "git",
+  "question": "What does the 'git config --global user.name \"name\"' command do?",
+  "options": [
+    "Sets the global username for Git commits",
+    "Configures the global repository settings",
+    "Sets the email address for Git commits",
+    "Lists all global Git configurations"
+  ],
+  "answer": "Sets the global username for Git commits"
+},
+{
+  "category": "git",
+  "question": "What does the 'git ls-tree' command do?",
+  "options": [
+    "Lists the contents of a tree object",
+    "Displays the commit history",
+    "Shows the status of the working directory",
+    "Lists all branches"
+  ],
+  "answer": "Lists the contents of a tree object"
+},
+{
+  "category": "git",
+  "question": "What does the 'git diff --cached' command do?",
+  "options": [
+    "Shows the differences between staged changes and the last commit",
+    "Displays the differences between the working directory and the last commit",
+    "Lists all branches",
+    "Commits changes to the repository"
+  ],
+  "answer": "Shows the differences between staged changes and the last commit"
+},
+{
+  "category": "git",
+  "question": "What does the 'git log --oneline' command do?",
+  "options": [
+    "Displays the commit history with one commit per line",
+    "Shows the differences between commits",
+    "Lists all branches",
+    "Stages changes for commit"
+  ],
+  "answer": "Displays the commit history with one commit per line"
+},
+{
+  "category": "git",
+  "question": "What does the 'git remote -v' command do?",
+  "options": [
+    "Lists all remote repositories and their URLs",
+    "Displays the commit history",
+    "Shows the status of the working directory",
+    "Lists all local branches"
+  ],
+  "answer": "Lists all remote repositories and their URLs"
+},
+{
+  "category": "git",
+  "question": "What does the 'git commit --amend' command do?",
+  "options": [
+    "Amends the previous commit with new changes",
+    "Commits changes with a new message",
+    "Resets the previous commit",
+    "Creates a new branch"
+  ],
+  "answer": "Amends the previous commit with new changes"
+},
+{
+  "category": "git",
+  "question": "What does the 'git grep' command do?",
+  "options": [
+    "Searches for a pattern in the files of the repository",
+    "Displays the commit history",
+    "Shows the status of the working directory",
+    "Lists all branches"
+  ],
+  "answer": "Searches for a pattern in the files of the repository"
+}, 
+{
+  "category": "git",
+  "question": "What does the 'git submodule add <repo> <path>' command do?",
+  "options": [
+    "Adds a new submodule to the repository",
+    "Creates a new branch",
+    "Adds a file to the staging area",
+    "Merges changes from another branch"
+  ],
+  "answer": "Adds a new submodule to the repository"
+},
+{
+  "category": "git",
+  "question": "What does the 'git bisect start' command do?",
+  "options": [
+    "Begins a binary search for a commit that introduced a bug",
+    "Lists all commits in the repository",
+    "Starts a new branch",
+    "Displays the status of the working directory"
+  ],
+  "answer": "Begins a binary search for a commit that introduced a bug"
+},
+{
+  "category": "git",
+  "question": "What does the 'git cherry-pick <commit>' command do?",
+  "options": [
+    "Applies the changes from a specific commit onto the current branch",
+    "Commits changes with a message",
+    "Reverts a specific commit",
+    "Deletes a branch"
+  ],
+  "answer": "Applies the changes from a specific commit onto the current branch"
+},
+{
+  "category": "git",
+  "question": "What does the 'git revert --no-commit <commit>' command do?",
+  "options": [
+    "Reverts a specific commit but does not create a new commit",
+    "Commits changes without staging them",
+    "Shows the commit history",
+    "Reverts changes made by the last commit"
+  ],
+  "answer": "Reverts a specific commit but does not create a new commit"
+},
+{
+  "category": "git",
+  "question": "What does the 'git rebase --interactive <commit>' command do?",
+  "options": [
+    "Allows you to edit, reorder, or squash commits",
+    "Resets the current branch to the specified commit",
+    "Merges the specified commit into the current branch",
+    "Displays the commit history"
+  ],
+  "answer": "Allows you to edit, reorder, or squash commits"
+},
+{
+  "category": "git",
+  "question": "What does the 'git reflog expire --expire=now --all-ref' command do?",
+  "options": [
+    "Expires all reflog entries immediately",
+    "Shows all reflog entries",
+    "Removes all tags",
+    "Resets all references"
+  ],
+  "answer": "Expires all reflog entries immediately"
+},
+{
+  "category": "git",
+  "question": "What does the 'git filter-branch --tree-filter' command do?",
+  "options": [
+    "Rewrites history by applying a filter to each tree",
+    "Lists all branches",
+    "Merges changes from another branch",
+    "Displays the status of the working directory"
+  ],
+  "answer": "Rewrites history by applying a filter to each tree"
+},
+{
+  "category": "git",
+  "question": "What does the 'git cat-file -p <object>' command do?",
+  "options": [
+    "Displays the content of an object",
+    "Pushes changes to the remote repository",
+    "Shows the commit history",
+    "Lists all tags"
+  ],
+  "answer": "Displays the content of an object"
+},
+{
+  "category": "git",
+  "question": "What does the 'git ls-files' command do?",
+  "options": [
+    "Lists all files in the working directory that are tracked by Git",
+    "Shows the commit history",
+    "Displays the status of the working directory",
+    "Lists all branches"
+  ],
+  "answer": "Lists all files in the working directory that are tracked by Git"
+},
+{
+  "category": "git",
+  "question": "What does the 'git commit --allow-empty' command do?",
+  "options": [
+    "Creates an empty commit with no changes",
+    "Allows empty files to be committed",
+    "Commits changes with a new message",
+    "Displays the commit history"
+  ],
+  "answer": "Creates an empty commit with no changes"
+},
+{
+  "category": "git",
+  "question": "What does the 'git update-index --assume-unchanged <file>' command do?",
+  "options": [
+    "Marks a file as unchanged to skip further tracking",
+    "Updates the index with changes",
+    "Displays the status of the working directory",
+    "Commits changes to the repository"
+  ],
+  "answer": "Marks a file as unchanged to skip further tracking"
+},
+{
+  "category": "git",
+  "question": "What does the 'git grep --cached' command do?",
+  "options": [
+    "Searches for a pattern in the index (staged files)",
+    "Searches for a pattern in the working directory",
+    "Lists all branches",
+    "Shows the commit history"
+  ],
+  "answer": "Searches for a pattern in the index (staged files)"
+},
+{
+  "category": "git",
+  "question": "What does the 'git stash apply' command do?",
+  "options": [
+    "Applies the most recent stash to the working directory",
+    "Creates a new stash",
+    "Lists all stashes",
+    "Deletes the most recent stash"
+  ],
+  "answer": "Applies the most recent stash to the working directory"
+},
+{
+  "category": "git",
+  "question": "What does the 'git submodule update --recursive' command do?",
+  "options": [
+    "Updates submodules and their submodules recursively",
+    "Adds a new submodule",
+    "Removes a submodule",
+    "Lists all submodules"
+  ],
+  "answer": "Updates submodules and their submodules recursively"
+},
+{
+  "category": "git",
+  "question": "What does the 'git diff --stat' command do?",
+  "options": [
+    "Displays a summary of changes with statistics",
+    "Shows detailed differences between files",
+    "Commits changes with a message",
+    "Lists all files in the repository"
+  ],
+  "answer": "Displays a summary of changes with statistics"
+},
+{
+  "category": "git",
+  "question": "What does the 'git branch -d <branch>' command do?",
+  "options": [
+    "Deletes the specified branch",
+    "Creates a new branch",
+    "Merges the specified branch",
+    "Lists all branches"
+  ],
+  "answer": "Deletes the specified branch"
+},
+{
+  "category": "git",
+  "question": "What does the 'git tag -d <tagname>' command do?",
+  "options": [
+    "Deletes the specified tag",
+    "Creates a new tag",
+    "Lists all tags",
+    "Displays the commit history"
+  ],
+  "answer": "Deletes the specified tag"
+},
+{
+  "category": "git",
+  "question": "What does the 'git clean -fd' command do?",
+  "options": [
+    "Removes untracked files and directories",
+    "Commits all changes",
+    "Lists all untracked files",
+    "Displays the status of the working directory"
+  ],
+  "answer": "Removes untracked files and directories"
+},
+{
+  "category": "git",
+  "question": "What does the 'git rev-parse --abbrev-ref HEAD' command do?",
+  "options": [
+    "Displays the name of the current branch",
+    "Shows the commit history",
+    "Lists all branches",
+    "Commits changes with a message"
+  ],
+  "answer": "Displays the name of the current branch"
+},
+{
+  "category": "git",
+  "question": "What does the 'git log --decorate' command do?",
+  "options": [
+    "Displays commit history with reference names",
+    "Shows the differences between commits",
+    "Lists all branches",
+    "Shows the status of the working directory"
+  ],
+  "answer": "Displays commit history with reference names"
+},
+{
+  "category": "git",
+  "question": "What does the 'git rebase --onto <new-base> <old-base>' command do?",
+  "options": [
+    "Re-applies commits from <old-base> to <new-base>",
+    "Merges the <old-base> branch into <new-base>",
+    "Resets the <old-base> branch to <new-base>",
+    "Lists all commits in <new-base>"
+  ],
+  "answer": "Re-applies commits from <old-base> to <new-base>"
+},
+{
+  "category": "git",
+  "question": "What does the 'git tag -a <tagname> -m \"message\"' command do?",
+  "options": [
+    "Creates an annotated tag with a message",
+    "Deletes a tag",
+    "Lists all tags",
+    "Displays the commit history"
+  ],
+  "answer": "Creates an annotated tag with a message"
+},
+{
+  "category": "git",
+  "question": "What does the 'git remote prune <remote>' command do?",
+  "options": [
+    "Removes stale references to branches in the specified remote",
+    "Adds a new remote",
+    "Fetches changes from the remote",
+    "Lists all remotes"
+  ],
+  "answer": "Removes stale references to branches in the specified remote"
+},
+{
+  "category": "git",
+  "question": "What does the 'git cherry-pick --no-commit <commit>' command do?",
+  "options": [
+    "Applies changes from a specific commit without committing them",
+    "Commits the changes from a specific commit",
+    "Reverts the changes from a specific commit",
+    "Displays the commit history"
+  ],
+  "answer": "Applies changes from a specific commit without committing them"
+},
+{
+  "category": "git",
+  "question": "What does the 'git rebase -i HEAD~n' command do?",
+  "options": [
+    "Interactively rebases the last n commits",
+    "Merges the last n commits into the current branch",
+    "Resets the branch to HEAD~n",
+    "Lists all commits in HEAD~n"
+  ],
+  "answer": "Interactively rebases the last n commits"
+},
+{
+  "category": "git",
+  "question": "What does the 'git reflog show <ref>' command do?",
+  "options": [
+    "Shows the reflog for a specific reference",
+    "Displays the commit history",
+    "Lists all branches",
+    "Shows the status of the working directory"
+  ],
+  "answer": "Shows the reflog for a specific reference"
+},
+{
+  "category": "git",
+  "question": "What does the 'git add -p' command do?",
+  "options": [
+    "Interactively stages changes in patches",
+    "Adds all changes in the current directory",
+    "Commits changes with a message",
+    "Shows the status of the working directory"
+  ],
+  "answer": "Interactively stages changes in patches"
+},
+{
+  "category": "git",
+  "question": "What does the 'git commit --no-verify' command do?",
+  "options": [
+    "Commits changes without running pre-commit hooks",
+    "Commits changes without a message",
+    "Skips the commit process",
+    "Displays the commit history"
+  ],
+  "answer": "Commits changes without running pre-commit hooks"
+},
+{
+  "category": "git",
+  "question": "What does the 'git merge --squash <branch>' command do?",
+  "options": [
+    "Squashes all changes from the specified branch into a single commit",
+    "Merges the specified branch into the current branch",
+    "Deletes the specified branch",
+    "Lists all branches"
+  ],
+  "answer": "Squashes all changes from the specified branch into a single commit"
+},
+{
+  "category": "git",
+  "question": "What does the 'git reflog expire --expire=2.weeks.ago' command do?",
+  "options": [
+    "Expires reflog entries older than 2 weeks",
+    "Shows all reflog entries",
+    "Removes all tags",
+    "Displays the commit history"
+  ],
+  "answer": "Expires reflog entries older than 2 weeks"
+},
+{
+  "category": "git",
+  "question": "What does the 'git rev-list --count HEAD' command do?",
+  "options": [
+    "Counts the number of commits in the current branch",
+    "Lists all commits in the current branch",
+    "Shows the status of the working directory",
+    "Lists all branches"
+  ],
+  "answer": "Counts the number of commits in the current branch"
+},
+{
+  "category": "git",
+  "question": "What does the 'git log --graph' command do?",
+  "options": [
+    "Displays the commit history as a graph",
+    "Shows the differences between commits",
+    "Lists all branches",
+    "Commits changes to the repository"
+  ],
+  "answer": "Displays the commit history as a graph"
+},
+{
+  "category": "git",
+  "question": "What does the 'git stash drop' command do?",
+  "options": [
+    "Removes the most recent stash",
+    "Applies the most recent stash",
+    "Lists all stashes",
+    "Creates a new stash"
+  ],
+  "answer": "Removes the most recent stash"
+},
+{
+  "category": "git",
+  "question": "What does the 'git reset --soft HEAD~1' command do?",
+  "options": [
+    "Resets the index to the previous commit but keeps changes in the working directory",
+    "Commits changes with a new message",
+    "Reverts the previous commit",
+    "Merges the previous commit into the current branch"
+  ],
+  "answer": "Resets the index to the previous commit but keeps changes in the working directory"
+},
+{
+  "category": "git",
+  "question": "What does the 'git diff --name-only' command do?",
+  "options": [
+    "Shows only the names of changed files",
+    "Displays detailed differences between files",
+    "Lists all branches",
+    "Commits changes to the repository"
+  ],
+  "answer": "Shows only the names of changed files"
+},
+{
+  "category": "git",
+  "question": "What does the 'git log --author=\"name\"' command do?",
+  "options": [
+    "Displays commits by a specific author",
+    "Shows the differences between commits",
+    "Lists all branches",
+    "Commits changes to the repository"
+  ],
+  "answer": "Displays commits by a specific author"
+},
+{
+  "category": "git",
+  "question": "What does the 'git grep -l <pattern>' command do?",
+  "options": [
+    "Lists files containing the specified pattern",
+    "Shows the commit history",
+    "Displays the status of the working directory",
+    "Lists all branches"
+  ],
+  "answer": "Lists files containing the specified pattern"
+},
+{
+  "category": "git",
+  "question": "What does the 'git diff --name-status' command do?",
+  "options": [
+    "Shows the names and status of changed files",
+    "Displays the detailed differences between files",
+    "Lists all branches",
+    "Commits changes to the repository"
+  ],
+  "answer": "Shows the names and status of changed files"
+},
+{
+  "category": "git",
+  "question": "What does the 'git rev-parse --show-toplevel' command do?",
+  "options": [
+    "Displays the top-level directory of the repository",
+    "Shows the commit history",
+    "Lists all branches",
+    "Shows the status of the working directory"
+  ],
+  "answer": "Displays the top-level directory of the repository"
+},
+{
+  "category": "git",
+  "question": "What does the 'git config --global alias.<name> <command>' command do?",
+  "options": [
+    "Creates a global alias for a Git command",
+    "Sets the global username for Git commits",
+    "Displays the global Git configuration",
+    "Lists all aliases"
+  ],
+  "answer": "Creates a global alias for a Git command"
+},
+{
+  "category": "git",
+  "question": "What does the 'git remote show <remote>' command do?",
+  "options": [
+    "Shows detailed information about the specified remote",
+    "Adds a new remote",
+    "Fetches changes from the remote",
+    "Lists all remotes"
+  ],
+  "answer": "Shows detailed information about the specified remote"
+},
+{
+  "category": "git",
+  "question": "What does the 'git config --list' command do?",
+  "options": [
+    "Lists all Git configurations",
+    "Shows the commit history",
+    "Displays the status of the working directory",
+    "Lists all branches"
+  ],
+  "answer": "Lists all Git configurations"
+},
+{
+  "category": "git",
+  "question": "What does the 'git log --pretty=format:\"%h %s\"' command do?",
+  "options": [
+    "Displays commit history with abbreviated commit hashes and commit messages",
+    "Shows the detailed differences between commits",
+    "Lists all branches",
+    "Commits changes to the repository"
+  ],
+  "answer": "Displays commit history with abbreviated commit hashes and commit messages"
+},
+{
+  "category": "git",
+  "question": "What does the 'git commit --only <file>' command do?",
+  "options": [
+    "Commits only the specified file without affecting other changes",
+    "Stages the specified file for commit",
+    "Displays the commit history",
+    "Shows the status of the working directory"
+  ],
+  "answer": "Commits only the specified file without affecting other changes"
+},
+{
+  "category": "git",
+  "question": "What does the 'git commit --no-edit' command do?",
+  "options": [
+    "Commits changes without editing the commit message",
+    "Creates a new commit without any message",
+    "Reverts the last commit",
+    "Shows the commit history"
+  ],
+  "answer": "Commits changes without editing the commit message"
+},
+{
+  "category": "git",
+  "question": "What does the 'git diff --color-words' command do?",
+  "options": [
+    "Shows differences between files with color highlighting for words",
+    "Displays detailed differences between lines",
+    "Lists all branches",
+    "Commits changes to the repository"
+  ],
+  "answer": "Shows differences between files with color highlighting for words"
 }
 ]

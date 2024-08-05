@@ -34,6 +34,9 @@ const LandingPage = () => {
                 <div className="card" onClick={() => handleCardClick('css')}>
                     <h2>CSS</h2>
                 </div>
+                <div className="card" onClick={() => handleCardClick('git')}>
+                    <h2>Git</h2>
+                </div>
             </div>
         </div>
     );
