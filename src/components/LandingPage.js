@@ -25,7 +25,7 @@ const LandingPage = () => {
                 <div className="card" onClick={() => handleCardClick('python')}>
                     <h2>Python</h2>
                 </div>
-                <div className="card" onClick={() => handleCardClick('data-structures')}>
+                <div className="card" onClick={() => handleCardClick('data_structures_algorithms')}>
                     <h2>Data Structures and Algorithms</h2>
                 </div>
                 <div className="card" onClick={() => handleCardClick('html')}>
