@@ -12251,5 +12251,1436 @@
     "O(V * log E)"
   ],
   "answer": "O(E * log E)"
+},
+{
+  "category": "javascript",
+  "question": "What is a closure in JavaScript?",
+  "options": [
+    "A function that returns a function",
+    "A block of code that executes immediately",
+    "A function that has access to its own scope, the scope of the outer function, and the global scope",
+    "A feature to automatically garbage collect unused variables"
+  ],
+  "answer": "A function that has access to its own scope, the scope of the outer function, and the global scope"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `let` and `var` in JavaScript?",
+  "options": [
+    "`let` is block-scoped, `var` is function-scoped",
+    "`var` is block-scoped, `let` is function-scoped",
+    "`let` variables can be re-declared, `var` cannot",
+    "There is no difference"
+  ],
+  "answer": "`let` is block-scoped, `var` is function-scoped"
+},
+{
+  "category": "javascript",
+  "question": "How do you declare an arrow function in JavaScript?",
+  "options": [
+    "`function => {}`",
+    "`() => {}`",
+    "`function() {}`",
+    "`=> function() {}`"
+  ],
+  "answer": "`() => {}`"
+},
+{
+  "category": "javascript",
+  "question": "What will `typeof null` return in JavaScript?",
+  "options": [
+    "`'object'`",
+    "`'null'`",
+    "`'undefined'`",
+    "`'function'`"
+  ],
+  "answer": "`'object'`"
+},
+{
+  "category": "javascript",
+  "question": "Which method converts a JSON string into a JavaScript object?",
+  "options": [
+    "JSON.parse()",
+    "JSON.stringify()",
+    "JSON.objectify()",
+    "JSON.toObject()"
+  ],
+  "answer": "JSON.parse()"
+},
+{
+  "category": "javascript",
+  "question": "How can you check if a variable `x` is an array in JavaScript?",
+  "options": [
+    "`typeof x === 'array'`",
+    "`x.isArray()`",
+    "`Array.isArray(x)`",
+    "`x.constructor === Array`"
+  ],
+  "answer": "Array.isArray(x)"
+},
+{
+  "category": "javascript",
+  "question": "What is the result of `2 + '2'` in JavaScript?",
+  "options": [
+    "`4`",
+    "`22`",
+    "`NaN`",
+    "`'22'`"
+  ],
+  "answer": "`'22'`"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `bind()` method in JavaScript?",
+  "options": [
+    "It creates a new function that, when called, has its `this` keyword set to the provided value",
+    "It binds two strings together",
+    "It immediately invokes a function",
+    "It creates a loop"
+  ],
+  "answer": "It creates a new function that, when called, has its `this` keyword set to the provided value"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.map()` method do?",
+  "options": [
+    "It modifies the original array by adding new elements",
+    "It returns a new array with the results of calling a provided function on every element in the calling array",
+    "It sorts the elements of an array",
+    "It filters the elements of an array based on a condition"
+  ],
+  "answer": "It returns a new array with the results of calling a provided function on every element in the calling array"
+},
+{
+  "category": "javascript",
+  "question": "How do you write a comment in JavaScript?",
+  "options": [
+    "`/* Comment */`",
+    "`<!-- Comment -->`",
+    "`// Comment`",
+    "`** Comment`"
+  ],
+  "answer": "`// Comment`"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.filter()` method do?",
+  "options": [
+    "It returns a new array with all elements that pass the test implemented by the provided function",
+    "It removes all undefined values from an array",
+    "It sorts the elements of an array",
+    "It concatenates two arrays"
+  ],
+  "answer": "It returns a new array with all elements that pass the test implemented by the provided function"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `this` keyword in JavaScript?",
+  "options": [
+    "It refers to the global object",
+    "It refers to the object from which the function was called",
+    "It refers to the document object",
+    "It is a reserved keyword with no functionality"
+  ],
+  "answer": "It refers to the object from which the function was called"
+},
+{
+  "category": "javascript",
+  "question": "What will `console.log(typeof NaN)` output?",
+  "options": [
+    "`'number'`",
+    "`'NaN'`",
+    "`'undefined'`",
+    "`'object'`"
+  ],
+  "answer": "`'number'`"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.reduce()` method do?",
+  "options": [
+    "It returns the sum of all elements in the array",
+    "It executes a reducer function on each element of the array, resulting in a single output value",
+    "It filters elements in an array based on a condition",
+    "It reduces the size of an array by half"
+  ],
+  "answer": "It executes a reducer function on each element of the array, resulting in a single output value"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Promise.all()` method do?",
+  "options": [
+    "It waits for all promises to resolve or any to reject",
+    "It returns the first resolved promise",
+    "It creates a new promise",
+    "It combines all promises into a single object"
+  ],
+  "answer": "It waits for all promises to resolve or any to reject"
+},
+{
+  "category": "javascript",
+  "question": "How do you define a function in JavaScript?",
+  "options": [
+    "`function myFunction() {}`",
+    "`def myFunction() {}`",
+    "`function: myFunction() {}`",
+    "`function = myFunction() {}`"
+  ],
+  "answer": "`function myFunction() {}`"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `null` and `undefined`?",
+  "options": [
+    "`null` is an assignment value that represents no value, while `undefined` means a variable has been declared but has not yet been assigned a value",
+    "`undefined` is a type of error, while `null` is a value",
+    "`null` is a data type, while `undefined` is not",
+    "There is no difference"
+  ],
+  "answer": "`null` is an assignment value that represents no value, while `undefined` means a variable has been declared but has not yet been assigned a value"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.find()` method do?",
+  "options": [
+    "It finds and returns the index of an element in an array",
+    "It returns a new array with all elements that match a provided test function",
+    "It returns the first element in the array that satisfies the provided testing function",
+    "It returns `undefined` if the element is not found"
+  ],
+  "answer": "It returns the first element in the array that satisfies the provided testing function"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log(0.1 + 0.2 === 0.3);`?",
+  "options": [
+    "`true`",
+    "`false`",
+    "`undefined`",
+    "`NaN`"
+  ],
+  "answer": "`false`"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.splice()` method do?",
+  "options": [
+    "It returns a new array with a portion of the original array",
+    "It adds/removes items to/from an array and returns the removed items",
+    "It adds new elements to the end of an array",
+    "It removes the last element from an array and returns it"
+  ],
+  "answer": "It adds/removes items to/from an array and returns the removed items"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log(typeof NaN)`?",
+  "options": [
+    "`'number'`",
+    "`'NaN'`",
+    "`'undefined'`",
+    "`'object'`"
+  ],
+  "answer": "`'number'`"
+},
+{
+  "category": "javascript",
+  "question": "What is a promise in JavaScript?",
+  "options": [
+    "An object representing the eventual completion or failure of an asynchronous operation",
+    "A callback function",
+    "A function that always returns a value",
+    "An event handler"
+  ],
+  "answer": "An object representing the eventual completion or failure of an asynchronous operation"
+},
+{
+  "category": "javascript",
+  "question": "What does the `typeof` operator do in JavaScript?",
+  "options": [
+    "It returns the type of a variable",
+    "It converts a variable to a string",
+    "It checks if a variable is defined",
+    "It creates a new variable"
+  ],
+  "answer": "It returns the type of a variable"
+},
+{
+  "category": "javascript",
+  "question": "How do you create a new object in JavaScript?",
+  "options": [
+    "`var obj = new Object();`",
+    "`var obj = Object.create();`",
+    "`var obj = {};`",
+    "`All of the above`"
+  ],
+  "answer": "`All of the above`"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `==` and `===` in JavaScript?",
+  "options": [
+    "`==` compares values and types, `===` compares only values",
+    "`===` compares values and types, `==` compares only values",
+    "`==` is for comparison, `===` is for assignment",
+    "There is no difference"
+  ],
+  "answer": "`===` compares values and types, `==` compares only values"
+},
+{
+  "category": "javascript",
+  "question": "How do you check if a number is an integer in JavaScript?",
+  "options": [
+    "`Number.isInteger(value)`",
+    "`isInteger(value)`",
+    "`Number.isInt(value)`",
+    "`value.isInteger()`"
+  ],
+  "answer": "`Number.isInteger(value)`"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log('5' - 3);`?",
+  "options": [
+    "`2`",
+    "`NaN`",
+    "`53`",
+    "`undefined`"
+  ],
+  "answer": "`2`"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.concat()` method do?",
+  "options": [
+    "It concatenates all elements of an array into a string",
+    "It merges two or more arrays",
+    "It reverses the order of elements in an array",
+    "It sorts the elements of an array"
+  ],
+  "answer": "It merges two or more arrays"
+},
+{
+  "category": "javascript",
+  "question": "What is the use of the `Array.prototype.slice()` method?",
+  "options": [
+    "To add new elements to an array",
+    "To remove elements from an array",
+    "To extract a section of an array and return a new array",
+    "To iterate over each element in an array"
+  ],
+  "answer": "To extract a section of an array and return a new array"
+},
+{
+  "category": "javascript",
+  "question": "How can you add a new property to an existing object in JavaScript?",
+  "options": [
+    "`object.newProperty = value;`",
+    "`object.addProperty('newProperty', value);`",
+    "`object.createProperty('newProperty', value);`",
+    "`object.defineProperty('newProperty', value);`"
+  ],
+  "answer": "`object.newProperty = value;`"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Object.keys()` method do?",
+  "options": [
+    "It returns an array of the object's property values",
+    "It returns an array of the object's property names",
+    "It returns an array of the object's enumerable property names",
+    "It returns a string representation of the object"
+  ],
+  "answer": "It returns an array of the object's enumerable property names"
+},
+{
+  "category": "javascript",
+  "question": "How do you create a new array with the results of calling a function for every array element?",
+  "options": [
+    "`Array.prototype.map()`",
+    "`Array.prototype.forEach()`",
+    "`Array.prototype.filter()`",
+    "`Array.prototype.reduce()`"
+  ],
+  "answer": "`Array.prototype.map()`"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `try...catch` statement in JavaScript?",
+  "options": [
+    "To execute code, handle errors, and execute cleanup code",
+    "To declare a function",
+    "To iterate over an array",
+    "To define a loop"
+  ],
+  "answer": "To execute code, handle errors, and execute cleanup code"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Object.assign()` method do?",
+  "options": [
+    "It merges objects and assigns properties from source objects to a target object",
+    "It creates a new object with the specified prototype object and properties",
+    "It returns the property names of an object as an array",
+    "It creates an object with the specified properties"
+  ],
+  "answer": "It merges objects and assigns properties from source objects to a target object"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `Array.prototype.forEach()` and `Array.prototype.map()`?",
+  "options": [
+    "`forEach()` modifies the original array, `map()` does not",
+    "`forEach()` returns a new array, `map()` does not",
+    "`map()` returns a new array, `forEach()` does not",
+    "There is no difference"
+  ],
+  "answer": "`map()` returns a new array, `forEach()` does not"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log(0.1 + 0.2 === 0.3);`?",
+  "options": [
+    "`true`",
+    "`false`",
+    "`undefined`",
+    "`NaN`"
+  ],
+  "answer": "`false`"
+},
+{
+  "category": "javascript",
+  "question": "What is the use of the `eval()` function in JavaScript?",
+  "options": [
+    "To evaluate JavaScript code represented as a string",
+    "To convert a number to a string",
+    "To parse a JSON string",
+    "To round a number to the nearest integer"
+  ],
+  "answer": "To evaluate JavaScript code represented as a string"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.push()` method do?",
+  "options": [
+    "It removes the last element of an array",
+    "It adds one or more elements to the end of an array",
+    "It adds one or more elements to the beginning of an array",
+    "It reverses the order of elements in an array"
+  ],
+  "answer": "It adds one or more elements to the end of an array"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between synchronous and asynchronous code in JavaScript?",
+  "options": [
+    "Synchronous code runs sequentially, asynchronous code does not",
+    "Asynchronous code runs sequentially, synchronous code does not",
+    "Synchronous code is non-blocking, asynchronous code is blocking",
+    "There is no difference"
+  ],
+  "answer": "Synchronous code runs sequentially, asynchronous code does not"
+},
+{
+  "category": "javascript",
+  "question": "What is a promise in JavaScript?",
+  "options": [
+    "An object representing the eventual completion or failure of an asynchronous operation",
+    "A callback function",
+    "A function that always returns a value",
+    "An event handler"
+  ],
+  "answer": "An object representing the eventual completion or failure of an asynchronous operation"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `bind()` method in JavaScript?",
+  "options": [
+    "It creates a new function that, when called, has its `this` keyword set to the provided value",
+    "It binds two strings together",
+    "It immediately invokes a function",
+    "It creates a loop"
+  ],
+  "answer": "It creates a new function that, when called, has its `this` keyword set to the provided value"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `new` keyword in JavaScript?",
+  "options": [
+    "To create a new object from a constructor function",
+    "To create a new array",
+    "To define a new function",
+    "To create a new variable"
+  ],
+  "answer": "To create a new object from a constructor function"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log(typeof NaN)`?",
+  "options": [
+    "`'number'`",
+    "`'NaN'`",
+    "`'undefined'`",
+    "`'object'`"
+  ],
+  "answer": "`'number'`"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `==` and `===` in JavaScript?",
+  "options": [
+    "`==` compares values and types, `===` compares only values",
+    "`===` compares values and types, `==` compares only values",
+    "`==` is for comparison, `===` is for assignment",
+    "There is no difference"
+  ],
+  "answer": "`===` compares values and types, `==` compares only values"
+},
+{
+  "category": "javascript",
+  "question": "What is the use of the `Array.prototype.reduce()` method?",
+  "options": [
+    "To sum all elements in an array",
+    "To execute a reducer function on each element of an array, resulting in a single output value",
+    "To filter elements in an array based on a condition",
+    "To reduce the size of an array by half"
+  ],
+  "answer": "To execute a reducer function on each element of an array, resulting in a single output value"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Promise.all()` method do?",
+  "options": [
+    "It waits for all promises to resolve or any to reject",
+    "It returns the first resolved promise",
+    "It creates a new promise",
+    "It combines all promises into a single object"
+  ],
+  "answer": "It waits for all promises to resolve or any to reject"
+},
+{
+  "category": "javascript",
+  "question": "How do you define a function in JavaScript?",
+  "options": [
+    "`function myFunction() {}`",
+    "`def myFunction() {}`",
+    "`function: myFunction() {}`",
+    "`function = myFunction() {}`"
+  ],
+  "answer": "`function myFunction() {}`"
+},
+{
+  "category": "javascript",
+  "question": "How can you add a new property to an existing object in JavaScript?",
+  "options": [
+    "`object.newProperty = value;`",
+    "`object.addProperty('newProperty', value);`",
+    "`object.createProperty('newProperty', value);`",
+    "`object.defineProperty('newProperty', value);`"
+  ],
+  "answer": "`object.newProperty = value;`"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.find()` method do?",
+  "options": [
+    "It finds and returns the index of an element in an array",
+    "It returns a new array with all elements that match a provided test function",
+    "It returns the first element in the array that satisfies the provided testing function",
+    "It returns `undefined` if the element is not found"
+  ],
+  "answer": "It returns the first element in the array that satisfies the provided testing function"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log('5' - 3);`?",
+  "options": [
+    "`2`",
+    "`NaN`",
+    "`53`",
+    "`undefined`"
+  ],
+  "answer": "`2`"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.splice()` method do?",
+  "options": [
+    "It returns a new array with a portion of the original array",
+    "It adds/removes items to/from an array and returns the removed items",
+    "It adds new elements to the end of an array",
+    "It removes the last element from an array and returns it"
+  ],
+  "answer": "It adds/removes items to/from an array and returns the removed items"
+},
+{
+  "category": "javascript",
+  "question": "How do you check if a variable `x` is an array in JavaScript?",
+  "options": [
+    "`typeof x === 'array'`",
+    "`x.isArray()`",
+    "`Array.isArray(x)`",
+    "`x.constructor === Array`"
+  ],
+  "answer": "Array.isArray(x)"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `null` and `undefined`?",
+  "options": [
+    "`null` is an assignment value that represents no value, while `undefined` means a variable has been declared but has not yet been assigned a value",
+    "`undefined` is a type of error, while `null` is a value",
+    "`null` is a data type, while `undefined` is not",
+    "There is no difference"
+  ],
+  "answer": "`null` is an assignment value that represents no value, while `undefined` means a variable has been declared but has not yet been assigned a value"
+},
+{
+  "category": "javascript",
+  "question": "What does the `typeof` operator do in JavaScript?",
+  "options": [
+    "It returns the type of a variable",
+    "It converts a variable to a string",
+    "It checks if a variable is defined",
+    "It creates a new variable"
+  ],
+  "answer": "It returns the type of a variable"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log(0.1 + 0.2 === 0.3);`?",
+  "options": [
+    "`true`",
+    "`false`",
+    "`undefined`",
+    "`NaN`"
+  ],
+  "answer": "`false`"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.concat()` method do?",
+  "options": [
+    "It concatenates all elements of an array into a string",
+    "It merges two or more arrays",
+    "It reverses the order of elements in an array",
+    "It sorts the elements of an array"
+  ],
+  "answer": "It merges two or more arrays"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `this` keyword in JavaScript?",
+  "options": [
+    "It refers to the global object",
+    "It refers to the object from which the function was called",
+    "It refers to the document object",
+    "It is a reserved keyword with no functionality"
+  ],
+  "answer": "It refers to the object from which the function was called"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.map()` method?",
+  "options": [
+    "It modifies the original array by adding new elements",
+    "It returns a new array with the results of calling a provided function on every element in the calling array",
+    "It sorts the elements of an array",
+    "It filters the elements of an array based on a condition"
+  ],
+  "answer": "It returns a new array with the results of calling a provided function on every element in the calling array"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Object.keys()` method do?",
+  "options": [
+    "It returns an array of the object's property values",
+    "It returns an array of the object's property names",
+    "It returns an array of the object's enumerable property names",
+    "It returns a string representation of the object"
+  ],
+  "answer": "It returns an array of the object's enumerable property names"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `Array.prototype.forEach()` and `Array.prototype.map()`?",
+  "options": [
+    "`forEach()` modifies the original array, `map()` does not",
+    "`forEach()` returns a new array, `map()` does not",
+    "`map()` returns a new array, `forEach()` does not",
+    "There is no difference"
+  ],
+  "answer": "`map()` returns a new array, `forEach()` does not"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `==` and `===` in JavaScript?",
+  "options": [
+    "`==` compares values and types, `===` compares only values",
+    "`===` compares values and types, `==` compares only values",
+    "`==` is for comparison, `===` is for assignment",
+    "There is no difference"
+  ],
+  "answer": "`===` compares values and types, `==` compares only values"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.reduce()` method do?",
+  "options": [
+    "It returns the sum of all elements in the array",
+    "It executes a reducer function on each element of the array, resulting in a single output value",
+    "It filters elements in an array based on a condition",
+    "It reduces the size of an array by half"
+  ],
+  "answer": "It executes a reducer function on each element of the array, resulting in a single output value"
+},
+{
+  "category": "javascript",
+  "question": "How do you create a new object in JavaScript?",
+  "options": [
+    "`var obj = new Object();`",
+    "`var obj = Object.create();`",
+    "`var obj = {};`",
+    "`All of the above`"
+  ],
+  "answer": "`All of the above`"
+},
+{
+  "category": "javascript",
+  "question": "What is the use of the `eval()` function in JavaScript?",
+  "options": [
+    "To evaluate JavaScript code represented as a string",
+    "To convert a number to a string",
+    "To parse a JSON string",
+    "To round a number to the nearest integer"
+  ],
+  "answer": "To evaluate JavaScript code represented as a string"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log(typeof NaN);`?",
+  "options": [
+    "`'number'`",
+    "`'NaN'`",
+    "`'undefined'`",
+    "`'object'`"
+  ],
+  "answer": "`'number'`"
+},
+{
+  "category": "javascript",
+  "question": "What does `NaN` stand for in JavaScript?",
+  "options": [
+    "Not a Number",
+    "Not a Node",
+    "Number as Null",
+    "Number and Null"
+  ],
+  "answer": "Not a Number"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `typeof null` in JavaScript?",
+  "options": [
+    "'object'",
+    "'null'",
+    "'undefined'",
+    "'number'"
+  ],
+  "answer": "'object'"
+},
+{
+  "category": "javascript",
+  "question": "Which company developed JavaScript?",
+  "options": [
+    "Microsoft",
+    "Netscape",
+    "Sun Microsystems",
+    "Oracle"
+  ],
+  "answer": "Netscape"
+},
+{
+  "category": "javascript",
+  "question": "What is a closure in JavaScript?",
+  "options": [
+    "A block of code that can be reused",
+    "A function having access to its own scope, the scope in which it was declared, and the global scope",
+    "A loop structure that allows for iteration",
+    "A syntax used for object-oriented programming"
+  ],
+  "answer": "A function having access to its own scope, the scope in which it was declared, and the global scope"
+},
+{
+  "category": "javascript",
+  "question": "How do you define a function in JavaScript?",
+  "options": [
+    "function myFunction() {}",
+    "def myFunction() {}",
+    "function: myFunction() {}",
+    "function = myFunction() {}"
+  ],
+  "answer": "function myFunction() {}"
+},
+{
+  "category": "javascript",
+  "question": "What is a promise in JavaScript?",
+  "options": [
+    "An object representing the eventual completion or failure of an asynchronous operation",
+    "A callback function",
+    "A function that always returns a value",
+    "An event handler"
+  ],
+  "answer": "An object representing the eventual completion or failure of an asynchronous operation"
+},
+{
+  "category": "javascript",
+  "question": "What does the `typeof` operator do in JavaScript?",
+  "options": [
+    "It returns the type of a variable",
+    "It converts a variable to a string",
+    "It checks if a variable is defined",
+    "It creates a new variable"
+  ],
+  "answer": "It returns the type of a variable"
+},
+{
+  "category": "javascript",
+  "question": "How do you create a new object in JavaScript?",
+  "options": [
+    "var obj = new Object();",
+    "var obj = Object.create();",
+    "var obj = {};",
+    "All of the above"
+  ],
+  "answer": "All of the above"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `==` and `===` in JavaScript?",
+  "options": [
+    "== compares values and types, === compares only values",
+    "=== compares values and types, == compares only values",
+    "== is for comparison, === is for assignment",
+    "There is no difference"
+  ],
+  "answer": "=== compares values and types, == compares only values"
+},
+{
+  "category": "javascript",
+  "question": "How do you check if a number is an integer in JavaScript?",
+  "options": [
+    "Number.isInteger(value)",
+    "isInteger(value)",
+    "Number.isInt(value)",
+    "value.isInteger()"
+  ],
+  "answer": "Number.isInteger(value)"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log('5' - 3);`?",
+  "options": [
+    "2",
+    "NaN",
+    "53",
+    "undefined"
+  ],
+  "answer": "2"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.concat()` method do?",
+  "options": [
+    "It concatenates all elements of an array into a string",
+    "It merges two or more arrays",
+    "It reverses the order of elements in an array",
+    "It sorts the elements of an array"
+  ],
+  "answer": "It merges two or more arrays"
+},
+{
+  "category": "javascript",
+  "question": "What is the use of the `Array.prototype.slice()` method?",
+  "options": [
+    "To add new elements to an array",
+    "To remove elements from an array",
+    "To extract a section of an array and return a new array",
+    "To iterate over each element in an array"
+  ],
+  "answer": "To extract a section of an array and return a new array"
+},
+{
+  "category": "javascript",
+  "question": "How can you add a new property to an existing object in JavaScript?",
+  "options": [
+    "object.newProperty = value;",
+    "object.addProperty('newProperty', value);",
+    "object.createProperty('newProperty', value);",
+    "object.defineProperty('newProperty', value);"
+  ],
+  "answer": "object.newProperty = value;"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Object.keys()` method do?",
+  "options": [
+    "It returns an array of the object's property values",
+    "It returns an array of the object's property names",
+    "It returns an array of the object's enumerable property names",
+    "It returns a string representation of the object"
+  ],
+  "answer": "It returns an array of the object's enumerable property names"
+},
+{
+  "category": "javascript",
+  "question": "How do you create a new array with the results of calling a function for every array element?",
+  "options": [
+    "Array.prototype.map()",
+    "Array.prototype.forEach()",
+    "Array.prototype.filter()",
+    "Array.prototype.reduce()"
+  ],
+  "answer": "Array.prototype.map()"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `try...catch` statement in JavaScript?",
+  "options": [
+    "To execute code, handle errors, and execute cleanup code",
+    "To declare a function",
+    "To iterate over an array",
+    "To define a loop"
+  ],
+  "answer": "To execute code, handle errors, and execute cleanup code"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Object.assign()` method do?",
+  "options": [
+    "It merges objects and assigns properties from source objects to a target object",
+    "It creates a new object with the specified prototype object and properties",
+    "It returns the property names of an object as an array",
+    "It creates an object with the specified properties"
+  ],
+  "answer": "It merges objects and assigns properties from source objects to a target object"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `Array.prototype.forEach()` and `Array.prototype.map()`?",
+  "options": [
+    "forEach() modifies the original array, map() does not",
+    "forEach() returns a new array, map() does not",
+    "map() returns a new array, forEach() does not",
+    "There is no difference"
+  ],
+  "answer": "map() returns a new array, forEach() does not"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log(0.1 + 0.2 === 0.3);`?",
+  "options": [
+    "true",
+    "false",
+    "undefined",
+    "NaN"
+  ],
+  "answer": "false"
+},
+{
+  "category": "javascript",
+  "question": "What is the use of the `eval()` function in JavaScript?",
+  "options": [
+    "To evaluate JavaScript code represented as a string",
+    "To convert a number to a string",
+    "To parse a JSON string",
+    "To round a number to the nearest integer"
+  ],
+  "answer": "To evaluate JavaScript code represented as a string"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.push()` method do?",
+  "options": [
+    "It removes the last element of an array",
+    "It adds one or more elements to the end of an array",
+    "It adds one or more elements to the beginning of an array",
+    "It reverses the order of elements in an array"
+  ],
+  "answer": "It adds one or more elements to the end of an array"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between synchronous and asynchronous code in JavaScript?",
+  "options": [
+    "Synchronous code runs sequentially, asynchronous code does not",
+    "Asynchronous code runs sequentially, synchronous code does not",
+    "Synchronous code is non-blocking, asynchronous code is blocking",
+    "There is no difference"
+  ],
+  "answer": "Synchronous code runs sequentially, asynchronous code does not"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.find()` method do?",
+  "options": [
+    "It finds and returns the index of an element in an array",
+    "It returns a new array with all elements that match a provided test function",
+    "It returns the first element in the array that satisfies the provided testing function",
+    "It returns `undefined` if the element is not found"
+  ],
+  "answer": "It returns the first element in the array that satisfies the provided testing function"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `this` keyword in JavaScript?",
+  "options": [
+    "It refers to the global object",
+    "It refers to the object from which the function was called",
+    "It refers to the document object",
+    "It is a reserved keyword with no functionality"
+  ],
+  "answer": "It refers to the object from which the function was called"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `null` and `undefined`?",
+  "options": [
+    "null is an assignment value that represents no value, while undefined means a variable has been declared but has not yet been assigned a value",
+    "undefined is a type of error, while null is a value",
+    "null is a data type, while undefined is not",
+    "There is no difference"
+  ],
+  "answer": "null is an assignment value that represents no value, while undefined means a variable has been declared but has not yet been assigned a value"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.reduce()` method do?",
+  "options": [
+    "It returns the sum of all elements in the array",
+    "It executes a reducer function on each element of the array, resulting in a single output value",
+    "It filters elements in an array based on a condition",
+    "It reduces the size of an array by half"
+  ],
+  "answer": "It executes a reducer function on each element of the array, resulting in a single output value"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `var`, `let`, and `const`?",
+  "options": [
+    "var is function-scoped, let and const are block-scoped",
+    "var and let are function-scoped, const is block-scoped",
+    "var is block-scoped, let and const are function-scoped",
+    "There is no difference"
+  ],
+  "answer": "var is function-scoped, let and const are block-scoped"
+},
+{
+  "category": "javascript",
+  "question": "How do you convert a JSON string into a JavaScript object?",
+  "options": [
+    "JSON.parse()",
+    "JSON.stringify()",
+    "JSON.toObject()",
+    "JSON.fromString()"
+  ],
+  "answer": "JSON.parse()"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Promise.resolve()` method do?",
+  "options": [
+    "It creates a new resolved promise with the specified value",
+    "It rejects a promise with the specified reason",
+    "It returns a new promise that resolves after a specified time",
+    "It executes a function after a promise is resolved"
+  ],
+  "answer": "It creates a new resolved promise with the specified value"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Object.freeze()` method?",
+  "options": [
+    "To prevent the modification of existing property attributes and values in an object",
+    "To prevent adding new properties to an object",
+    "To prevent the deletion of properties from an object",
+    "All of the above"
+  ],
+  "answer": "To prevent the modification of existing property attributes and values in an object"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log([] + []);`?",
+  "options": [
+    "[]",
+    "''",
+    "'[]'",
+    "undefined"
+  ],
+  "answer": "''"
+},
+{
+  "category": "javascript",
+  "question": "What is a higher-order function in JavaScript?",
+  "options": [
+    "A function that takes another function as an argument or returns a function as a result",
+    "A function that executes immediately after its definition",
+    "A function that is used to create a new object",
+    "A function that can only be defined using the `function` keyword"
+  ],
+  "answer": "A function that takes another function as an argument or returns a function as a result"
+},
+{
+  "category": "javascript",
+  "question": "What is a promise chain?",
+  "options": [
+    "A sequence of promises that are executed one after another",
+    "A function that returns a promise",
+    "A way to group multiple promises together",
+    "A method for handling errors in promises"
+  ],
+  "answer": "A sequence of promises that are executed one after another"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.filter()` method do?",
+  "options": [
+    "It filters the elements of an array based on a condition and returns a new array",
+    "It filters the elements of an array and modifies the original array",
+    "It returns the first element in the array that satisfies the provided testing function",
+    "It returns a new array with the results of calling a provided function on every element in the calling array"
+  ],
+  "answer": "It filters the elements of an array based on a condition and returns a new array"
+},
+{
+  "category": "javascript",
+  "question": "How do you remove the last element from an array in JavaScript?",
+  "options": [
+    "Array.prototype.pop()",
+    "Array.prototype.shift()",
+    "Array.prototype.slice()",
+    "Array.prototype.splice()"
+  ],
+  "answer": "Array.prototype.pop()"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.every()` method?",
+  "options": [
+    "To test whether all elements in the array pass the test implemented by the provided function",
+    "To execute a provided function once for each array element",
+    "To filter the elements of an array based on a condition",
+    "To check if at least one element in the array passes the test implemented by the provided function"
+  ],
+  "answer": "To test whether all elements in the array pass the test implemented by the provided function"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Object.create()` method do?",
+  "options": [
+    "It creates a new object with the specified prototype object and properties",
+    "It creates a new object with the specified properties",
+    "It creates a new array with the specified elements",
+    "It assigns properties from one object to another"
+  ],
+  "answer": "It creates a new object with the specified prototype object and properties"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.some()` method?",
+  "options": [
+    "To check if at least one element in the array passes the test implemented by the provided function",
+    "To test whether all elements in the array pass the test implemented by the provided function",
+    "To filter the elements of an array based on a condition",
+    "To create a new array with the results of calling a provided function on every element in the calling array"
+  ],
+  "answer": "To check if at least one element in the array passes the test implemented by the provided function"
+},
+{
+  "category": "javascript",
+  "question": "How do you convert a JavaScript object into a JSON string?",
+  "options": [
+    "JSON.stringify()",
+    "JSON.parse()",
+    "Object.toJSON()",
+    "Object.fromJSON()"
+  ],
+  "answer": "JSON.stringify()"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.reverse()` method?",
+  "options": [
+    "To reverse the order of elements in an array",
+    "To return a new array with the elements in reverse order",
+    "To sort the elements of an array in descending order",
+    "To remove the last element from an array"
+  ],
+  "answer": "To reverse the order of elements in an array"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `Object.seal()` and `Object.freeze()`?",
+  "options": [
+    "Object.seal() prevents adding or removing properties, Object.freeze() prevents adding, removing, or modifying properties",
+    "Object.seal() prevents adding, removing, or modifying properties, Object.freeze() prevents adding or removing properties",
+    "Object.seal() and Object.freeze() have the same functionality",
+    "Object.seal() prevents adding properties, Object.freeze() prevents removing properties"
+  ],
+  "answer": "Object.seal() prevents adding or removing properties, Object.freeze() prevents adding, removing, or modifying properties"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.splice()` method do?",
+  "options": [
+    "It adds/removes items to/from an array and returns the removed items",
+    "It creates a new array with a portion of the original array",
+    "It adds new items to the beginning of an array",
+    "It removes the first item from an array"
+  ],
+  "answer": "It adds/removes items to/from an array and returns the removed items"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Object.assign()` method?",
+  "options": [
+    "To merge objects and assign properties from source objects to a target object",
+    "To create a new object with the specified prototype object and properties",
+    "To return the property names of an object as an array",
+    "To create an object with the specified properties"
+  ],
+  "answer": "To merge objects and assign properties from source objects to a target object"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `slice()` and `splice()` methods in JavaScript?",
+  "options": [
+    "slice() does not modify the original array, splice() does",
+    "splice() does not modify the original array, slice() does",
+    "slice() adds/removes items, splice() creates a new array",
+    "There is no difference"
+  ],
+  "answer": "slice() does not modify the original array, splice() does"
+},
+{
+  "category": "javascript",
+  "question": "What is a callback function?",
+  "options": [
+    "A function passed into another function as an argument to be executed later",
+    "A function that calls itself",
+    "A function that executes immediately after its definition",
+    "A function that is used to create a new object"
+  ],
+  "answer": "A function passed into another function as an argument to be executed later"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Function.prototype.call()` method?",
+  "options": [
+    "To call a function with a given this value and arguments provided individually",
+    "To bind a function to a specific this value",
+    "To define a function",
+    "To call a function with a given this value and arguments provided as an array"
+  ],
+  "answer": "To call a function with a given this value and arguments provided individually"
+},
+{
+  "category": "javascript",
+  "question": "What does the `typeof` operator return for an array?",
+  "options": [
+    "'object'",
+    "'array'",
+    "'null'",
+    "'undefined'"
+  ],
+  "answer": "'object'"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.reduceRight()` method?",
+  "options": [
+    "To apply a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value",
+    "To reverse the order of elements in an array",
+    "To filter elements in an array based on a condition",
+    "To create a new array with the results of calling a provided function on every element in the calling array"
+  ],
+  "answer": "To apply a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value"
+},
+{
+  "category": "javascript",
+  "question": "What is a rest parameter in JavaScript?",
+  "options": [
+    "A parameter that allows a function to accept an indefinite number of arguments as an array",
+    "A parameter that is used to pass default values to a function",
+    "A parameter that is used to call a function recursively",
+    "A parameter that is used to define the rest of the function body"
+  ],
+  "answer": "A parameter that allows a function to accept an indefinite number of arguments as an array"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.flat()` method?",
+  "options": [
+    "To create a new array with all sub-array elements concatenated into it recursively up to the specified depth",
+    "To filter elements in an array based on a condition",
+    "To create a new array with the results of calling a provided function on every element in the calling array",
+    "To reverse the order of elements in an array"
+  ],
+  "answer": "To create a new array with all sub-array elements concatenated into it recursively up to the specified depth"
+},
+{
+  "category": "javascript",
+  "question": "What does the `new` keyword do in JavaScript?",
+  "options": [
+    "It creates a new instance of a user-defined object type",
+    "It creates a new instance of a built-in object type",
+    "It creates a new function",
+    "It creates a new array"
+  ],
+  "answer": "It creates a new instance of a user-defined object type"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.includes()` method?",
+  "options": [
+    "To determine whether an array includes a certain element, returning true or false as appropriate",
+    "To filter elements in an array based on a condition",
+    "To create a new array with the results of calling a provided function on every element in the calling array",
+    "To reverse the order of elements in an array"
+  ],
+  "answer": "To determine whether an array includes a certain element, returning true or false as appropriate"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `let` and `const`?",
+  "options": [
+    "let allows re-assignment of a variable, const does not",
+    "const allows re-assignment of a variable, let does not",
+    "let is block-scoped, const is function-scoped",
+    "There is no difference"
+  ],
+  "answer": "let allows re-assignment of a variable, const does not"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Object.keys()` method?",
+  "options": [
+    "To return an array of a given object's own enumerable property names",
+    "To return an array of a given object's own enumerable property values",
+    "To return an array of a given object's own enumerable properties",
+    "To return an array of a given object's property descriptors"
+  ],
+  "answer": "To return an array of a given object's own enumerable property names"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `Function.prototype.call()` and `Function.prototype.apply()`?",
+  "options": [
+    "call() accepts arguments individually, apply() accepts arguments as an array",
+    "apply() accepts arguments individually, call() accepts arguments as an array",
+    "There is no difference",
+    "call() is used for synchronous calls, apply() is used for asynchronous calls"
+  ],
+  "answer": "call() accepts arguments individually, apply() accepts arguments as an array"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Object.prototype.hasOwnProperty()` method?",
+  "options": [
+    "To check if an object has a property as its own (not inherited) property",
+    "To check if an object has a property that is enumerable",
+    "To check if an object has a property that is writable",
+    "To check if an object has a property that is configurable"
+  ],
+  "answer": "To check if an object has a property as its own (not inherited) property"
+},
+{
+  "category": "javascript",
+  "question": "What is the output of `console.log(typeof NaN);`?",
+  "options": [
+    "'number'",
+    "'NaN'",
+    "'undefined'",
+    "'object'"
+  ],
+  "answer": "'number'"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.join()` method?",
+  "options": [
+    "To join all elements of an array into a string and return this string",
+    "To join two or more arrays into a new array",
+    "To filter elements in an array based on a condition",
+    "To create a new array with the results of calling a provided function on every element in the calling array"
+  ],
+  "answer": "To join all elements of an array into a string and return this string"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `Object.getOwnPropertyNames()` and `Object.keys()`?",
+  "options": [
+    "Object.getOwnPropertyNames() returns all own property names, including non-enumerable properties; Object.keys() returns only enumerable properties",
+    "Object.keys() returns all own property names, including non-enumerable properties; Object.getOwnPropertyNames() returns only enumerable properties",
+    "There is no difference",
+    "Object.getOwnPropertyNames() returns all inherited property names, Object.keys() returns only own property names"
+  ],
+  "answer": "Object.getOwnPropertyNames() returns all own property names, including non-enumerable properties; Object.keys() returns only enumerable properties"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.flatMap()` method?",
+  "options": [
+    "To first map each element using a mapping function, then flatten the result into a new array",
+    "To create a new array with all sub-array elements concatenated into it recursively up to the specified depth",
+    "To filter elements in an array based on a condition",
+    "To create a new array with the results of calling a provided function on every element in the calling array"
+  ],
+  "answer": "To first map each element using a mapping function, then flatten the result into a new array"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.findIndex()` method do?",
+  "options": [
+    "It returns the index of the first element in the array that satisfies the provided testing function",
+    "It returns the index of the last element in the array that satisfies the provided testing function",
+    "It returns a new array with all elements that match a provided test function",
+    "It returns the index of an element in an array"
+  ],
+  "answer": "It returns the index of the first element in the array that satisfies the provided testing function"
+},
+{
+  "category": "javascript",
+  "question": "What is the purpose of the `Array.prototype.concat()` method?",
+  "options": [
+    "To merge two or more arrays and return a new array",
+    "To filter elements in an array based on a condition",
+    "To create a new array with the results of calling a provided function on every element in the calling array",
+    "To reverse the order of elements in an array"
+  ],
+  "answer": "To merge two or more arrays and return a new array"
+},
+{
+  "category": "javascript",
+  "question": "What is the difference between `Object.getOwnPropertyDescriptors()` and `Object.getOwnPropertyDescriptor()`?",
+  "options": [
+    "Object.getOwnPropertyDescriptors() returns an object containing all own property descriptors, Object.getOwnPropertyDescriptor() returns the descriptor for a single property",
+    "Object.getOwnPropertyDescriptor() returns an object containing all own property descriptors, Object.getOwnPropertyDescriptors() returns the descriptor for a single property",
+    "There is no difference",
+    "Object.getOwnPropertyDescriptors() returns all own property descriptors, including inherited properties; Object.getOwnPropertyDescriptor() returns only own property descriptors"
+  ],
+  "answer": "Object.getOwnPropertyDescriptors() returns an object containing all own property descriptors, Object.getOwnPropertyDescriptor() returns the descriptor for a single property"
+},
+{
+  "category": "javascript",
+  "question": "What does the `Array.prototype.indexOf()` method do?",
+  "options": [
+    "It returns the first index at which a given element can be found in the array, or -1 if it is not present",
+    "It returns the index of the last element in the array",
+    "It returns a new array with all elements that match a provided test function",
+    "It returns the index of an element in an array"
+  ],
+  "answer": "It returns the first index at which a given element can be found in the array, or -1 if it is not present"
 }
+
 ]

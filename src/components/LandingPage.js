@@ -40,6 +40,9 @@ const LandingPage = () => {
                 <div className="card" onClick={() => handleCardClick('big_o_notation')}>
                     <h2>Big-O Notation</h2>
                 </div>
+                <div className="card" onClick={() => handleCardClick('javascript')}>
+                    <h2>Javascript</h2>
+                </div>
             </div>
         </div>
     );
