@@ -43,6 +43,9 @@ const LandingPage = () => {
                 <div className="card" onClick={() => handleCardClick('javascript')}>
                     <h2>Javascript</h2>
                 </div>
+                <div className="card" onClick={() => handleCardClick('jetpack_compose')}>
+                    <h2>Jetpack Compose</h2>
+                </div>
             </div>
         </div>
     );
