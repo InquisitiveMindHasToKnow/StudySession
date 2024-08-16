@@ -14891,6 +14891,940 @@
       "Aligns the composable to the end"
   ],
   "answer": "Makes a composable scrollable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a scaffold layout in Jetpack Compose?",
+  "options": [
+      "Scaffold",
+      "FrameLayout",
+      "ConstraintLayout",
+      "LinearLayout"
+  ],
+  "answer": "Scaffold"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.paddingFromBaseline()' do in Jetpack Compose?",
+  "options": [
+      "Adds padding from the baseline of the text",
+      "Adds padding around a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space"
+  ],
+  "answer": "Adds padding from the baseline of the text"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a bottom navigation bar in Jetpack Compose?",
+  "options": [
+      "BottomNavigation",
+      "BottomAppBar",
+      "NavigationBar",
+      "TabBar"
+  ],
+  "answer": "BottomNavigation"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a radio button group in Jetpack Compose?",
+  "options": [
+      "RadioGroup",
+      "RadioButtonGroup",
+      "RadioSet",
+      "OptionGroup"
+  ],
+  "answer": "RadioGroup"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.fillMaxHeight()' do in Jetpack Compose?",
+  "options": [
+      "Expands the composable to fill the maximum height available",
+      "Centers the composable vertically",
+      "Aligns the composable to the bottom",
+      "Wraps the composable to its content height"
+  ],
+  "answer": "Expands the composable to fill the maximum height available"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create an image button in Jetpack Compose?",
+  "options": [
+      "IconButton",
+      "ImageButton",
+      "Button",
+      "FloatingActionButton"
+  ],
+  "answer": "IconButton"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a bottom sheet in Jetpack Compose?",
+  "options": [
+      "BottomSheetScaffold",
+      "BottomSheetLayout",
+      "SheetLayout",
+      "BottomDialog"
+  ],
+  "answer": "BottomSheetScaffold"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.drawBehind()' do in Jetpack Compose?",
+  "options": [
+      "Draws a background or any custom drawing behind the content",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the start"
+  ],
+  "answer": "Draws a background or any custom drawing behind the content"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a dropdown menu in Jetpack Compose?",
+  "options": [
+      "DropdownMenu",
+      "PopupMenu",
+      "Menu",
+      "Spinner"
+  ],
+  "answer": "DropdownMenu"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a tab view in Jetpack Compose?",
+  "options": [
+      "TabRow",
+      "TabView",
+      "TabLayout",
+      "TabSet"
+  ],
+  "answer": "TabRow"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.zIndex()' do in Jetpack Compose?",
+  "options": [
+      "Sets the z-index for layering composables",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the top"
+  ],
+  "answer": "Sets the z-index for layering composables"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to display an animated icon in Jetpack Compose?",
+  "options": [
+      "AnimatedIcon",
+      "IconButton",
+      "Image",
+      "LottieIcon"
+  ],
+  "answer": "AnimatedIcon"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a snackbar in Jetpack Compose?",
+  "options": [
+      "Snackbar",
+      "Toast",
+      "AlertDialog",
+      "Notification"
+  ],
+  "answer": "Snackbar"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.aspectRatio()' do in Jetpack Compose?",
+  "options": [
+      "Sets a fixed aspect ratio for a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the end"
+  ],
+  "answer": "Sets a fixed aspect ratio for a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a linear progress indicator in Jetpack Compose?",
+  "options": [
+      "LinearProgressIndicator",
+      "ProgressBar",
+      "CircularProgressIndicator",
+      "ProgressWheel"
+  ],
+  "answer": "LinearProgressIndicator"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a vertical list that supports scrolling in Jetpack Compose?",
+  "options": [
+      "LazyColumn",
+      "ScrollView",
+      "RecyclerView",
+      "ListView"
+  ],
+  "answer": "LazyColumn"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.weight()' do in Jetpack Compose?",
+  "options": [
+      "Distributes available space among composables within a Row or Column",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the bottom"
+  ],
+  "answer": "Distributes available space among composables within a Row or Column"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a dialog in Jetpack Compose?",
+  "options": [
+      "AlertDialog",
+      "Dialog",
+      "Popup",
+      "Modal"
+  ],
+  "answer": "AlertDialog"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a spacer between composables in Jetpack Compose?",
+  "options": [
+      "Spacer",
+      "Divider",
+      "Padding",
+      "Margin"
+  ],
+  "answer": "Spacer"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.alpha()' do in Jetpack Compose?",
+  "options": [
+      "Sets the transparency level of a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the start"
+  ],
+  "answer": "Sets the transparency level of a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a swipeable layout in Jetpack Compose?",
+  "options": [
+      "Swipeable",
+      "SwipeLayout",
+      "SwipeView",
+      "SwipeGesture"
+  ],
+  "answer": "Swipeable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a box that allows stacking of composables in Jetpack Compose?",
+  "options": [
+      "Box",
+      "FrameLayout",
+      "StackLayout",
+      "OverlayLayout"
+  ],
+  "answer": "Box"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.border()' do in Jetpack Compose?",
+  "options": [
+      "Adds a border around a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the bottom"
+  ],
+  "answer": "Adds a border around a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create an expandable card in Jetpack Compose?",
+  "options": [
+      "Card",
+      "ExpandableCard",
+      "CollapsibleCard",
+      "FoldableCard"
+  ],
+  "answer": "Card"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a custom modifier in Jetpack Compose?",
+  "options": [
+      "Modifier.then()",
+      "Modifier.custom()",
+      "Modifier.compose()",
+      "Modifier.create()"
+  ],
+  "answer": "Modifier.then()"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.alignBy()' do in Jetpack Compose?",
+  "options": [
+      "Aligns a composable with others based on a specific alignment line",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the top"
+  ],
+  "answer": "Aligns a composable with others based on a specific alignment line"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a vertical list with fixed size items in Jetpack Compose?",
+  "options": [
+      "LazyColumnFor",
+      "FixedColumn",
+      "RecyclerView",
+      "ListView"
+  ],
+  "answer": "LazyColumnFor"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a circular progress indicator in Jetpack Compose?",
+  "options": [
+      "CircularProgressIndicator",
+      "ProgressBar",
+      "CircularProgressBar",
+      "ProgressWheel"
+  ],
+  "answer": "CircularProgressIndicator"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.absoluteOffset()' do in Jetpack Compose?",
+  "options": [
+      "Offsets a composable by a specific number of pixels",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the end"
+  ],
+  "answer": "Offsets a composable by a specific number of pixels"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a switch in Jetpack Compose?",
+  "options": [
+      "Switch",
+      "Toggle",
+      "Checkbox",
+      "Slider"
+  ],
+  "answer": "Switch"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a scrollable row in Jetpack Compose?",
+  "options": [
+      "LazyRow",
+      "ScrollView",
+      "RecyclerView",
+      "HorizontalScrollView"
+  ],
+  "answer": "LazyRow"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.clip()' do in Jetpack Compose?",
+  "options": [
+      "Clips a composable to a specific shape",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the top"
+  ],
+  "answer": "Clips a composable to a specific shape"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a text field in Jetpack Compose?",
+  "options": [
+      "TextField",
+      "EditText",
+      "InputField",
+      "TextInput"
+  ],
+  "answer": "TextField"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a rounded corner background in Jetpack Compose?",
+  "options": [
+      "Modifier.background(shape = RoundedCornerShape(...))",
+      "Modifier.border(shape = RoundedCornerShape(...))",
+      "Modifier.clip(shape = RoundedCornerShape(...))",
+      "Modifier.padding(RoundedCornerShape(...))"
+  ],
+  "answer": "Modifier.background(shape = RoundedCornerShape(...))"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.background()' do in Jetpack Compose?",
+  "options": [
+      "Sets a background color or shape for a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the bottom"
+  ],
+  "answer": "Sets a background color or shape for a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create an app bar in Jetpack Compose?",
+  "options": [
+      "TopAppBar",
+      "AppBarLayout",
+      "Toolbar",
+      "ActionBar"
+  ],
+  "answer": "TopAppBar"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you add padding inside a composable in Jetpack Compose?",
+  "options": [
+      "Modifier.padding()",
+      "Modifier.margin()",
+      "Modifier.insets()",
+      "Modifier.spacing()"
+  ],
+  "answer": "Modifier.padding()"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.offset()' do in Jetpack Compose?",
+  "options": [
+      "Offsets a composable by a specific number of pixels",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the start"
+  ],
+  "answer": "Offsets a composable by a specific number of pixels"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a dialog with multiple buttons in Jetpack Compose?",
+  "options": [
+      "AlertDialog",
+      "Dialog",
+      "Popup",
+      "Modal"
+  ],
+  "answer": "AlertDialog"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you set the maximum lines of text in a Text composable in Jetpack Compose?",
+  "options": [
+      "maxLines",
+      "setMaxLines",
+      "maxTextLines",
+      "limitLines"
+  ],
+  "answer": "maxLines"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.wrapContent()' do in Jetpack Compose?",
+  "options": [
+      "Wraps a composable to its content size",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the bottom"
+  ],
+  "answer": "Wraps a composable to its content size"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a slider in Jetpack Compose?",
+  "options": [
+      "Slider",
+      "SeekBar",
+      "ProgressBar",
+      "RangeSlider"
+  ],
+  "answer": "Slider"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a horizontal divider in Jetpack Compose?",
+  "options": [
+      "Divider",
+      "Line",
+      "Separator",
+      "Rule"
+  ],
+  "answer": "Divider"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.animateContentSize()' do in Jetpack Compose?",
+  "options": [
+      "Animates the change in size of a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the start"
+  ],
+  "answer": "Animates the change in size of a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a selectable list item in Jetpack Compose?",
+  "options": [
+      "ListItem",
+      "SelectableItem",
+      "CheckableItem",
+      "ToggleItem"
+  ],
+  "answer": "ListItem"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you handle click events in Jetpack Compose?",
+  "options": [
+      "Modifier.clickable()",
+      "onClick()",
+      "setOnClickListener()",
+      "clickListener()"
+  ],
+  "answer": "Modifier.clickable()"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.rotate()' do in Jetpack Compose?",
+  "options": [
+      "Rotates a composable by a specified angle",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the end"
+  ],
+  "answer": "Rotates a composable by a specified angle"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a progress indicator with an indefinite duration in Jetpack Compose?",
+  "options": [
+      "IndeterminateProgressIndicator",
+      "ProgressBar",
+      "CircularProgressIndicator",
+      "ProgressWheel"
+  ],
+  "answer": "IndeterminateProgressIndicator"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a top-level navigation drawer in Jetpack Compose?",
+  "options": [
+      "ModalDrawer",
+      "DrawerLayout",
+      "NavigationDrawer",
+      "SideMenu"
+  ],
+  "answer": "ModalDrawer"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.fillMaxWidth()' do in Jetpack Compose?",
+  "options": [
+      "Expands the composable to fill the maximum width available",
+      "Centers the composable horizontally",
+      "Aligns the composable to the start",
+      "Wraps the composable to its content width"
+  ],
+  "answer": "Expands the composable to fill the maximum width available"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a simple dialog in Jetpack Compose?",
+  "options": [
+      "AlertDialog",
+      "Dialog",
+      "Popup",
+      "Modal"
+  ],
+  "answer": "AlertDialog"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a circular avatar image in Jetpack Compose?",
+  "options": [
+      "Modifier.clip(CircleShape)",
+      "Modifier.rounded(CircleShape)",
+      "Modifier.circle(CircleShape)",
+      "Modifier.circular(CircleShape)"
+  ],
+  "answer": "Modifier.clip(CircleShape)"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.size()' do in Jetpack Compose?",
+  "options": [
+      "Sets the size of a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the end"
+  ],
+  "answer": "Sets the size of a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a progress indicator that completes in a fixed duration in Jetpack Compose?",
+  "options": [
+      "DeterminateProgressIndicator",
+      "ProgressBar",
+      "CircularProgressIndicator",
+      "ProgressWheel"
+  ],
+  "answer": "DeterminateProgressIndicator"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a fixed column layout in Jetpack Compose?",
+  "options": [
+      "Column",
+      "LinearLayout",
+      "FlexColumn",
+      "FixedColumn"
+  ],
+  "answer": "Column"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.align()' do in Jetpack Compose?",
+  "options": [
+      "Aligns a composable within its parent",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the top"
+  ],
+  "answer": "Aligns a composable within its parent"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a grid of items in Jetpack Compose?",
+  "options": [
+      "LazyVerticalGrid",
+      "RecyclerView",
+      "GridLayout",
+      "GridView"
+  ],
+  "answer": "LazyVerticalGrid"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What is the purpose of the 'remember' function in Jetpack Compose?",
+  "options": [
+      "To remember the state of a variable across recompositions",
+      "To create a new composable",
+      "To save the state in a database",
+      "To persist data through application restarts"
+  ],
+  "answer": "To remember the state of a variable across recompositions"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a floating action button in Jetpack Compose?",
+  "options": [
+      "FloatingActionButton",
+      "ActionButton",
+      "FloatingButton",
+      "CircularButton"
+  ],
+  "answer": "FloatingActionButton"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you define a clickable modifier in Jetpack Compose?",
+  "options": [
+      "Modifier.clickable",
+      "Modifier.tapable",
+      "Modifier.touchable",
+      "Modifier.pressable"
+  ],
+  "answer": "Modifier.clickable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.fillMaxSize()' do in Jetpack Compose?",
+  "options": [
+      "Expands the composable to fill the maximum size available",
+      "Centers the composable",
+      "Wraps the composable to its content size",
+      "Aligns the composable to the end"
+  ],
+  "answer": "Expands the composable to fill the maximum size available"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a scrolling column in Jetpack Compose?",
+  "options": [
+      "LazyColumn",
+      "ScrollColumn",
+      "RecyclerView",
+      "ScrollableColumn"
+  ],
+  "answer": "LazyColumn"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a scrollable grid in Jetpack Compose?",
+  "options": [
+      "LazyVerticalGrid",
+      "GridView",
+      "ScrollGrid",
+      "RecyclerView"
+  ],
+  "answer": "LazyVerticalGrid"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.padding()' do in Jetpack Compose?",
+  "options": [
+      "Adds space around a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the start"
+  ],
+  "answer": "Adds space around a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a bottom navigation bar in Jetpack Compose?",
+  "options": [
+      "BottomNavigation",
+      "BottomAppBar",
+      "BottomBar",
+      "NavigationBar"
+  ],
+  "answer": "BottomNavigation"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create an image with rounded corners in Jetpack Compose?",
+  "options": [
+      "Modifier.clip(RoundedCornerShape(...))",
+      "Modifier.rounded(RoundedCornerShape(...))",
+      "Modifier.circle(RoundedCornerShape(...))",
+      "Modifier.corner(RoundedCornerShape(...))"
+  ],
+  "answer": "Modifier.clip(RoundedCornerShape(...))"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.zIndex()' do in Jetpack Compose?",
+  "options": [
+      "Sets the Z-order of a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the top"
+  ],
+  "answer": "Sets the Z-order of a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a radio button in Jetpack Compose?",
+  "options": [
+      "RadioButton",
+      "OptionButton",
+      "RadioOption",
+      "ChoiceButton"
+  ],
+  "answer": "RadioButton"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a gradient background in Jetpack Compose?",
+  "options": [
+      "Modifier.background(brush = Brush.linearGradient(...))",
+      "Modifier.gradient(Brush.linearGradient(...))",
+      "Modifier.fillGradient(Brush.linearGradient(...))",
+      "Modifier.linearGradient(Brush.linearGradient(...))"
+  ],
+  "answer": "Modifier.background(brush = Brush.linearGradient(...))"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.alpha()' do in Jetpack Compose?",
+  "options": [
+      "Sets the transparency level of a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the end"
+  ],
+  "answer": "Sets the transparency level of a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a snackbar in Jetpack Compose?",
+  "options": [
+      "Snackbar",
+      "Toast",
+      "Popup",
+      "Modal"
+  ],
+  "answer": "Snackbar"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a rounded corner box in Jetpack Compose?",
+  "options": [
+      "Modifier.clip(RoundedCornerShape(...))",
+      "Modifier.roundedBox(RoundedCornerShape(...))",
+      "Modifier.roundedCorner(RoundedCornerShape(...))",
+      "Modifier.boxShape(RoundedCornerShape(...))"
+  ],
+  "answer": "Modifier.clip(RoundedCornerShape(...))"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.weight()' do in Jetpack Compose?",
+  "options": [
+      "Distributes space among children in a flex container",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the top"
+  ],
+  "answer": "Distributes space among children in a flex container"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a vertical list of items in Jetpack Compose?",
+  "options": [
+      "LazyColumn",
+      "ListView",
+      "RecyclerView",
+      "ColumnList"
+  ],
+  "answer": "LazyColumn"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you set the elevation of a composable in Jetpack Compose?",
+  "options": [
+      "Modifier.elevation()",
+      "Modifier.shadow()",
+      "Modifier.height()",
+      "Modifier.zIndex()"
+  ],
+  "answer": "Modifier.elevation()"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.shadow()' do in Jetpack Compose?",
+  "options": [
+      "Adds a shadow to a composable",
+      "Centers the composable",
+      "Expands the composable to fill available space",
+      "Aligns the composable to the bottom"
+  ],
+  "answer": "Adds a shadow to a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a card in Jetpack Compose?",
+  "options": [
+      "Card",
+      "Box",
+      "Container",
+      "Panel"
+  ],
+  "answer": "Card"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a selectable text in Jetpack Compose?",
+  "options": [
+      "Modifier.selectable()",
+      "Modifier.clickable()",
+      "Modifier.tappable()",
+      "Modifier.touchable()"
+  ],
+  "answer": "Modifier.selectable()"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.fillParentMaxSize()' do in Jetpack Compose?",
+  "options": [
+      "Expands the composable to fill the maximum size of its parent",
+      "Centers the composable",
+      "Wraps the composable to its content size",
+      "Aligns the composable to the start"
+  ],
+  "answer": "Expands the composable to fill the maximum size of its parent"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to create a top app bar with a title and actions in Jetpack Compose?",
+  "options": [
+      "TopAppBar",
+      "AppBar",
+      "Toolbar",
+      "ActionBar"
+  ],
+  "answer": "TopAppBar"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a horizontal scrolling list in Jetpack Compose?",
+  "options": [
+      "LazyRow",
+      "ScrollView",
+      "HorizontalScrollView",
+      "RecyclerView"
+  ],
+  "answer": "LazyRow"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.height()' do in Jetpack Compose?",
+  "options": [
+      "Sets the height of a composable",
+      "Centers the composable vertically",
+      "Expands the composable to fill available height",
+      "Aligns the composable to the top"
+  ],
+  "answer": "Sets the height of a composable"
+},
+{
+  "category": "jetpack_compose",
+  "question": "Which composable is used to display a text input field in Jetpack Compose?",
+  "options": [
+      "TextField",
+      "EditText",
+      "InputField",
+      "TextInput"
+  ],
+  "answer": "TextField"
+},
+{
+  "category": "jetpack_compose",
+  "question": "How do you create a clickable icon in Jetpack Compose?",
+  "options": [
+      "IconButton",
+      "ClickIcon",
+      "IconView",
+      "ImageButton"
+  ],
+  "answer": "IconButton"
+},
+{
+  "category": "jetpack_compose",
+  "question": "What does 'Modifier.fillMaxWidth()' do in Jetpack Compose?",
+  "options": [
+      "Expands the composable to fill the maximum width available",
+      "Centers the composable horizontally",
+      "Wraps the composable to its content width",
+      "Aligns the composable to the start"
+  ],
+  "answer": "Expands the composable to fill the maximum width available"
 }
-
 ]
